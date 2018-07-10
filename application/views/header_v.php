@@ -9,5 +9,7 @@
 		<meta property="og:url" content="http://www.allencarr.co.kr" />
 		<meta property="og:image" content="http://www.allencarr.co.kr/images/img_allencarr_sns.jpg"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/include/animate.css">
+		<script src="/include/jquery.min.js"></script>
 	</head>
 	<body>
