@@ -12,4 +12,4 @@
 		<link rel="stylesheet" type="text/css" href="/include/animate.css">
 		<script src="/include/jquery.min.js"></script>
 	</head>
-	<body>
+	<body style="padding:15px;">
