@@ -1,0 +1,42 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+* { 
+	font-family: 'Spoqa Han Sans';
+	line-height: 1.0;
+	letter-spacing: -0.05em;	
+}
+
+.ln10 { line-height: 1.0; }
+.ln15 { line-height: 1.5; }
+.ln18 { line-height: 1.8; }
+.ln20 { line-height: 2.0; }
+
+.lt000 { letter-spacing: -0.00em; }
+.lt003 { letter-spacing: -0.03em; }
+.lt005 { letter-spacing: -0.05em; }
+.lt007 { letter-spacing: -0.07em; }
+.lt009 { letter-spacing: -0.09em; }
+
+.we200 { font-weight: 200; }
+.we300 { font-weight: 300; }
+.we500 { font-weight: 500; }
+.we700 { font-weight: 700; }
+
+.tt1 { font-size: 70px; }
+.tt2 { font-size: 60px; }
+.tt3 { font-size: 50px; }
+.sb1 { font-size: 45px; }
+.sb2 { font-size: 40px; }
+.sb3 { font-size: 35px; }
+.dp1 { font-size: 30px; }
+.dp2 { font-size: 25px; }
+.dp3 { font-size: 20px; }
+.cp1 { font-size: 16px; }
+.cp2 { font-size: 14px; }
+.cp3 { font-size: 12px; }
+
+.pdg15 { padding: 15px; }
+.pdg30 { padding: 30px; }
+.pdglr15 { padding-left: 15px; padding-right: 15px; }
+.pdglr30 { padding-left: 30px; padding-right: 30px; }
+.pdgud15 { padding-top: 15px; padding-bottom: 15px; }
+.pdgud30 { padding-top: 30px; padding-bottom: 30px; }

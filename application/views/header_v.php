@@ -10,6 +10,7 @@
 		<meta property="og:image" content="http://www.allencarr.co.kr/images/img_allencarr_sns.jpg"/>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/include/animate.css">
+		<link rel="stylesheet" type="text/css" href="/include/ac-font-line.css">
 		<script src="/include/jquery.min.js"></script>
 	</head>
-	<body style="padding:15px;">
+	<body style="padding:15px; background-color:#e7e7e7">
