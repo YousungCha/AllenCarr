@@ -11,6 +11,7 @@
 .ln18 { line-height: 1.8; }
 .ln20 { line-height: 2.0; }
 
+.lt100 { letter-spacing:  1.00em; }
 .lt000 { letter-spacing: -0.00em; }
 .lt003 { letter-spacing: -0.03em; }
 .lt005 { letter-spacing: -0.05em; }
@@ -34,3 +35,7 @@
 .cp1 { font-size: 16px; }
 .cp2 { font-size: 14px; }
 .cp3 { font-size: 12px; }
+
+.tace { text-align: center; }
+.tale { text-align: left; }
+.tari { text-align: right; }

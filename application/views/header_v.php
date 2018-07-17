@@ -16,4 +16,4 @@
 
 		<script src="/include/jquery.min.js"></script>
 	</head>
-	<body style="padding:15px; background-color:#e7e7e7">
+	<body>
