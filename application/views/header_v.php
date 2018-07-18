@@ -13,7 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="/include/bootstrap.min.css">		
 		<link rel="stylesheet" type="text/css" href="/include/ac-font-line.css">
 		<link rel="stylesheet" type="text/css" href="/include/ac-blank.css">
+		<link rel="stylesheet" type="text/css" href="/include/ac-color.css">
+		<link rel="stylesheet" type="text/css" href="/include/ac-div.css">
 
 		<script src="/include/jquery.min.js"></script>
 	</head>
-	<body style="padding:15px; background-color:#e7e7e7">
+	<body class="pdg15 bwhite1">

@@ -1,0 +1,8 @@
+.def-width-1200 { width: 1200px;}
+.def-width-800 { width: 800px; }
+
+@media(max-width: 1200px)
+{
+	.def-width-1200 { width: 100%;}
+	.def-width-800 { width: 100%; }
+}
