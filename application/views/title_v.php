@@ -3,7 +3,7 @@
 		* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 		* { letter-spacing: -0.07em; }
 	</style>
-	<div class="container-fluid" style="background-color: #541414; background: linear-gradient(#541414,#341414);
+	<div class="container-fluid" style="background-color: #541414; background: #141414;
 	 color:white; text-align: center; ">
 		<div class="container">
 			<br><br><br><br><br><br>
@@ -27,7 +27,7 @@
 			<p style="font-size:20px; color:#8C98A9; letter-spacing: 0.0em; ">News Letter</p>
 			<br><br><br>
 		</div>
-	</div>
+	</div>	
 
 	<script type="text/javascript">
 		$("#_mainTitle").css('visibility','visible');
