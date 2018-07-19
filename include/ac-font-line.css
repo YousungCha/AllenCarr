@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 * { 
 	font-family: 'Spoqa Han Sans';
@@ -10,6 +11,7 @@
 .ln18 { line-height: 1.8; }
 .ln20 { line-height: 2.0; }
 
+.lt100 { letter-spacing:  1.00em; }
 .lt000 { letter-spacing: -0.00em; }
 .lt003 { letter-spacing: -0.03em; }
 .lt005 { letter-spacing: -0.05em; }
@@ -28,15 +30,12 @@
 .sb2 { font-size: 40px; }
 .sb3 { font-size: 35px; }
 .dp1 { font-size: 30px; }
-.dp2 { font-size: 25px; }
-.dp3 { font-size: 20px; }
+.dp2 { font-size: 26px; }
+.dp3 { font-size: 18px; }
 .cp1 { font-size: 16px; }
 .cp2 { font-size: 14px; }
 .cp3 { font-size: 12px; }
 
-.pdg15 { padding: 15px; }
-.pdg30 { padding: 30px; }
-.pdglr15 { padding-left: 15px; padding-right: 15px; }
-.pdglr30 { padding-left: 30px; padding-right: 30px; }
-.pdgud15 { padding-top: 15px; padding-bottom: 15px; }
-.pdgud30 { padding-top: 30px; padding-bottom: 30px; }
+.tace { text-align: center; }
+.tale { text-align: left; }
+.tari { text-align: right; }
