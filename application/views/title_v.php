@@ -19,7 +19,7 @@
 			<br><br>
 			<p class="dp1 we200" style="color:white;">알렌카, 참여하기</p>
 			<p class="dp3 we700 lt000" style="color:#8C98A9;">News Letter</p>
-			<br><br><br>
+			<br><br><br>			
 		</div>
 	</div>	
 

@@ -1,11 +1,16 @@
 .twhite { color: white; }
+.white1 { color: #e7e7e7; }
+.twhite2 { color: #cccdcd; }
+
 .tblack { color: black; }
 .tsilver { color: silver; }
 
 .bwhite { background-color: white; }
 .bwhite1 { background-color: #e7e7e7; }
 
+
 .bblack { background-color: black; }
 .bblack1 { background-color: #141414; }
 
+.bwhiteop002 { background-color: rgba(255,255,255,0.02); }
 .bwhiteop005 { background-color: rgba(255,255,255,0.05); }
