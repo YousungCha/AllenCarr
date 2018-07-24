@@ -45,3 +45,18 @@
 		<div class="h100"></div>
 		<div class="h020"></div>
 	</div>	
+
+	<!-- Global Reputation -->
+	<div class="container-fluid bwhite1">
+		<div class="h100"></div>
+		<p class="sb1 we700 tace ln15">
+			세상에서 가장 효율적인 금연방법
+		</p>
+		<p class="dp3 we300 tace ln18">
+			흡연으로 낭비하기에는 당신의 인생이 너무나 짧다.<br>
+			지금 바로 알렌카!
+		</p>
+		<div class="h100"></div>		
+	</div>
+	<div class="h100"></div>
+	<div class="h100"></div>
