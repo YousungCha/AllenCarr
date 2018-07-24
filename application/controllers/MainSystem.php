@@ -6,7 +6,7 @@ class MainSystem extends CI_Controller
 	public function index()
 	{
 		$this->load->view('header_v');
-		$this->load->view('test_v');
+		$this->load->view('value_v');
 		$this->load->view('footer_v');
 	}
 	public function vFonts()
