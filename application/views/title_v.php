@@ -1,18 +1,38 @@
 	<div class="swiper-container" style="height: 880px;">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide bblack1 twhite" style="background-image:radial-gradient(circle at 47% 9%,#414141,#000);">
-
-				<div class="container">
+			<div class="swiper-slide" style="background-image:radial-gradient(circle at 45% 9%,#641633,#000);">
+				<div class="container twhite">
+					<div class="h100"></div>
+					<div class="h100"></div>
+					<p class="tt2 we200 ln18 lt007">알렌카 온라인 프로그램</p>
+					<p class="dp2 we500 ln18 lt007">
+						전국 어디서나 , 장소의 제약없이 , 현장의 생생함으로 알렌카 만나세요.
+					</p>
+					<div class="h030"></div>
+					<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway Online Program</p>
+					<div class="h030"></div>
+					<p class="dp3 we200 ln18 lt000">						
+						알렌카는 현재 시스템 개편 중으로 정규 테라피를 진행하고 있지 않습니다.<br>
+						온/오프라인 통합으로 10월 중 서비스 재개를 준비하고 있습니다.<br>
+						메일링 리스트를 가입하는 분들을 우선적으로 등록할 수 있게 해드립니다.
+					</p>
+					<div class="h050"></div>
+					<button class="twhite pdg20 pdglr30 cp3 lt000" style="background-color: rgba(0,0,0,0.05); border:1px solid #542424;">Join the Mailing List</button>
+				</div>
+			</div>			
+			<div class="swiper-slide" style="background-image:radial-gradient(circle at 45% 9%,#414141,#000);">
+				<div class="container twhite">
 					<div class="h100"></div>
 					<div class="h100"></div>
 					<div class="h050"></div>
 					<p id="_mainTitle" class="tt2 we200 ln18 lt007">흡연 욕구를 벗어던지다.</p>
 					<p id='texts' class="dp2 we200 lt005 ln15">알렌카 = 담배를 피워본 적 없는 삶으로 돌아가다.</p>
 					<div class="h030"></div>
-					<p id="sml-2" class="cp3 lt100 ln15" style="letter-spacing: 1.0em;">Allen Carr's Easyway</p>
+					<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway</p>
+					<div class="h050"></div>
+					<button class="twhite pdg20 pdglr30 cp3 lt000" style="background-color: #262626; border:1px solid #545454;">SHOW VIDEO</button>
 				</div>
-			</div>
-			<div class="swiper-slide" style="background-color: purple;">sfdsfd</div>		
+			</div>			
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination swiper-pagination-white" style="margin-bottom: 30px;"></div>
