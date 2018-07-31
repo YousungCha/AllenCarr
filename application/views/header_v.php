@@ -9,32 +9,22 @@
 		<meta property="og:url" content="http://www.allencarr.co.kr" />
 		<meta property="og:image" content="http://www.allencarr.co.kr/images/img_allencarr_sns.jpg"/>
 
+		<!-- external css -->
 		<link rel="stylesheet" type="text/css" href="/include/css/animate.css">
-		<link rel="stylesheet" type="text/css" href="/include/css/bootstrap.min.css">		
+		<link rel="stylesheet" type="text/css" href="/include/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+
+
+		<!-- ac private css -->
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-font-line.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-blank.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-color.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-div.css">
-		<script type="text/javascript" src="/include/js/jquery.min.js"></script>
-		
+		<script type="text/javascript" src="/include/js/jquery.min.js"></script>		
 	</head>
-	<body class="pdg15 bwhitez1">
+	<body class="bwhitez1">	
 
-	
-	<div style="background-color: white; height: 30px; width: calc(100% - 30px); position: fixed;  z-index: 255; top:-15px;"></div>
-	<div style="background-color: #741414; height: 65px; width: calc(100% - 30px); position: fixed;  z-index: 255;">
-		<div class="h025"></div>
-		<div class="container-fluid pdglr30">		
-			<p class="tari cp2 twhite lt000">
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em;">SCHEDULE</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">VALUES</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">METHOD</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">TEAM</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">TESTIMONIAL</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">PARTNERS</b>
-				<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">FAQ</b>
-			</p>
-		</div>
-	</div>
-	<div class="h065"></div>	
 	

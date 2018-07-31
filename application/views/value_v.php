@@ -1,3 +1,4 @@
+
 	<!-- Allen Carr's Value -->
 	<div class="container-fluid bwhite">
 		<div class="h100"></div>
@@ -19,7 +20,7 @@
 		<div class="h060"></div>
 
 		<div class="row def-width-800">
-			<div class="col-md-6 pdglr20">
+			<div class="col-md-6 pdglr20 hdn" id="tbox1-value">
 				<p class="dp1 we400 tace ln20">
 						흡연자의 근본적인 사고변화
 				</p>	
@@ -30,7 +31,7 @@
 				</p>
 				<div class="h020"></div>
 			</div>			
-			<div class="col-md-6 pdglr20">
+			<div class="col-md-6 pdglr20 hdn" id="tbox2-value">
 				<p class="dp1 we400 tace ln20">
 					담배를 머릿속에서 제거하다
 				</p>	
@@ -48,13 +49,12 @@
 
 	<!-- Global Reputation -->
 	<div class="container-fluid bwhite1">
-		<div class="h100"></div>
-		<p class="sb1 we700 tace ln15">
+		<div class="h080"></div>
+		<p class="sb2 we600 tace ln15 lt007">
 			세상에서 가장 효율적인 금연방법
 		</p>
 		<p class="dp3 we300 tace ln18">
-			흡연으로 낭비하기에는 당신의 인생이 너무나 짧다.<br>
-			지금 바로 알렌카!
+			흡연으로 낭비하기에는 당신의 인생이 너무나 짧다. 지금 바로 알렌카!
 		</p>
 		<div class="h100"></div>		
 	</div>
