@@ -5,11 +5,13 @@ $(window).scroll(function() {
 	doAnimation(scrPos,'#mt-value','fadeInDown');
 	doAnimation(scrPos,'#st-value','fadeInUp');
 	doAnimation(scrPos,'#img1-value','jackInTheBox');
-
 	doAnimation(scrPos,'#tbox1-value','flipInY');
-	doAnimation(scrPos,'#tbox2-value','flipInX');
+	doAnimation(scrPos,'#tbox2-value','flipInX');	
 
-	// Just Menu
+	$('.ani-circle-par').css("visibility","visible");
+	$('.ani-circle-chd').css("visibility","visible");
+	
+	// Menu Bar
 	var height = $('.swiper-container').height();
 	if (scrPos >= height) {
 		$("#desk_menu").css({

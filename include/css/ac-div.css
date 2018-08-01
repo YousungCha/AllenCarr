@@ -12,10 +12,12 @@
 }
 
 .ani-circle-par {
+	visibility: hidden;
 	position: relative;
 	width: 150px;
 }
 .ani-circle-chd {
+	visibility: hidden;
 	position: absolute;
 	width: 150px; height: 150px;
 	border-radius: 50%;

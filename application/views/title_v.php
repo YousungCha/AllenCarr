@@ -1,22 +1,24 @@
 	<div class="swiper-container" style="height: 825px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide" style="
-				background-image: url('/images/elen.jpg');
+				background-image: url('/images/ellen_2.jpg');
 				background-repeat: no-repeat;
 			">
 				<div class="container tari">
 					<div class="h100"></div>
 					<div class="h100"></div>
-					<p class="tt2 we200 ln18 lt007">흡연 욕구를 벗어던지다.</p>
-					<p class="dp2 we500 lt005 ln15">알렌카. 담배를 피워본 적 없는 삶으로 돌아가다.</p>
+					<p class="tt2 we200 ln18 lt007" style="font-family: 'arial';">Ellen DeGeneres</p>
+					<p class="dp2 we500 lt005 ln15">누구나 알렌카로 쉽게 담배를 끊을 수 있어요!</p>
 					<div class="h030"></div>
 					<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway</p>
 					<div class="h030"></div>
 					<p class="dp3 we200 ln18 lt000">						
-						당신을 평생 쫓아다니는 흡연 욕구.<br>
-						해결하지 않으면 결코 금연에 성공할 수 없습니다.<br>
-						알렌카와 함께. 완벽했던 흡연 이전의 삶으로 돌아갈 수 있습니다. 
-					</p>						
+						당신이 담배를 끊을 생각만 있다면 말이지요.<br>
+						알렌카라고 불리는 금연 방법이 있습니다.<br>
+						이렇게 쉽게 끊을 수 있어서 너무나도 기쁩니다.
+					</p>
+					<div class="h050"></div>
+					<button class="twhite pdg20 pdglr30 cp3 lt000" style="background-color: rgba(246,56,138,0.95); border: 1px solid #F6388A">Show Ellen's Testimonial</button>
 				</div>
 			</div>
 			<div class="swiper-slide" style="background-image:radial-gradient(circle at 45% 9%,#641633,#000);">

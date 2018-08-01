@@ -51,9 +51,20 @@
 	<div class="container-fluid">
 		<div class="container-fluid bwhite1">
 			<div class="h100"></div>
-			<div class="h100"></div>
-			<div class="h100"></div>
-			<div class="h100"></div>
+			<p class="sb1 we200 tace">
+				의지력을 쓰지 않는 금연, <font class="we500"> 실제로 가능할까?</font>
+			</p>
+			<div class="h035"></div>
+			<div style="border-top: 1px solid #F6388A; width: 100px; margin: 0px auto;">
+			</div>
+			<div class="h035"></div>
+			<p class="dp3 we300 ln18 tace lt000">
+				흡연자는 담배가 분명히 나쁘다는 것을 알고 있음에도 지속적으로 피웁니다.<br>
+				우리는 바로 여기에 초점을 맞추고 있습니다. <b>끊어야 하는 이유가 아니라 왜 피울 수밖에 없는지</b>를 말이지요.<br>
+				우리는 담배에 대한 당신의 느낌, 인식을 철저하게 변화시킵니다.<br>
+				결과적으로 금연이 쉽고 즐거운, 아무것도 손해볼 것이 없다는 느낌을 선물합니다.
+
+			</p>
 			<div class="h100"></div>
 		</div>
 	</div>
