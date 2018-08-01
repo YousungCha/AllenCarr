@@ -12,8 +12,10 @@ $(window).scroll(function() {
 	// Just Menu
 	var height = $('.swiper-container').height();
 	if (scrPos >= height) {
-		$("#desk_menu").css("top","0px");
-		$("#desk_menu").css("position","fixed");
+		$("#desk_menu").css({
+			"top":"0px",
+			"position":"fixed"
+		});
 	}
 	else {		
 		$("#desk_menu").css("position","relative");	
