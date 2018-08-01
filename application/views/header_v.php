@@ -25,5 +25,5 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-div.css">
 		<script type="text/javascript" src="/include/js/jquery.min.js"></script>		
 	</head>
-	<body class="bwhitez1">
+	<body class="bwhitez1 pdg15">
 	

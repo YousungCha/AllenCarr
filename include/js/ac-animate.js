@@ -11,14 +11,22 @@ $(window).scroll(function() {
 	$('.ani-circle-par').css("visibility","visible");
 	$('.ani-circle-chd').css("visibility","visible");
 	
-	// Menu Bar
+	// Menu Bar	
 	var height = $('.swiper-container').height();
+
 	if (scrPos >= height) {
+		console.log(scrPos +"," + height);
 		$("#desk_menu").css({
 			"top":"0px",
-			"position":"fixed"
+			"position":"fixed",
 		});
-	}
+		$("#desk_menu").animate({
+			"height":"75px",
+			"padding-top":"20px"
+		},500);
+		$("#desk_logo").animate({"width":"120px"},500);
+	}	
+
 	else {		
 		$("#desk_menu").css("position","relative");	
 	}

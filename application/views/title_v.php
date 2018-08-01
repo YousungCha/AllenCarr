@@ -1,24 +1,30 @@
-	<div class="swiper-container" style="height: 825px;">
+	<div class="swiper-container" style="height: 820px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide" style="
 				background-image: url('/images/ellen_2.jpg');
 				background-repeat: no-repeat;
+				background-size: cover;
 			">
-				<div class="container tari">
+				<div class="container">
+
+					<div class="tace" style="float:right; background-color: rgba(200,200,200,0.1); padding:30px;">
 					<div class="h100"></div>
+					<div class="h050"></div>						
+						<p class="tt2 we200 ln18 lt007" style="font-family: 'arial';">Ellen DeGeneres</p>
+						<p class="dp2 we500 lt005 ln15">누구나 알렌카로 쉽게 담배를 끊을 수 있어요!</p>
+						<div class="h030"></div>
+						<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway</p>
+						<div class="h030"></div>
+						<p class="dp3 we200 ln18 lt000">						
+							당신이 담배를 끊을 생각만 있다면 말이지요.<br>
+							알렌카라고 불리는 금연 방법이 있습니다.<br>
+							이렇게 쉽게 끊을 수 있어서 너무나도 기쁩니다.
+						</p>
+						<div class="h050"></div>
+						<button class="twhite pdg20 pdglr30 cp3 lt000" style="background-color: #D41147; border: 0px">Show Ellen's Testimonial</button>
+											<div class="h100"></div>
 					<div class="h100"></div>
-					<p class="tt2 we200 ln18 lt007" style="font-family: 'arial';">Ellen DeGeneres</p>
-					<p class="dp2 we500 lt005 ln15">누구나 알렌카로 쉽게 담배를 끊을 수 있어요!</p>
-					<div class="h030"></div>
-					<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway</p>
-					<div class="h030"></div>
-					<p class="dp3 we200 ln18 lt000">						
-						당신이 담배를 끊을 생각만 있다면 말이지요.<br>
-						알렌카라고 불리는 금연 방법이 있습니다.<br>
-						이렇게 쉽게 끊을 수 있어서 너무나도 기쁩니다.
-					</p>
-					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr30 cp3 lt000" style="background-color: rgba(246,56,138,0.95); border: 1px solid #F6388A">Show Ellen's Testimonial</button>
+					</div>
 				</div>
 			</div>
 			<div class="swiper-slide" style="background-image:radial-gradient(circle at 45% 9%,#641633,#000);">
@@ -61,10 +67,10 @@
 			</div>
 		</div>
 		<!-- Add Pagination -->
-		<div class="swiper-pagination swiper-pagination-white" style="margin-bottom: 30px;"></div>
+		<div class="swiper-pagination swiper-pagination-black" style="margin-bottom: 30px;"></div>
 		<!-- Add Arrows -->
-		<div class="swiper-button-next swiper-button-white"></div>
-		<div class="swiper-button-prev swiper-button-white"></div>
+		<div class="swiper-button-next swiper-button-black"></div>
+		<div class="swiper-button-prev swiper-button-black"></div>
 	</div>
 
 	<!--
