@@ -11,7 +11,7 @@
 
 		<center>
 		<div class="ani-circle-par">
-			<img class="hdn" src="/images/fix_icon.png" id="img1-value" style="width: 150px;">
+			<img class="hdn" src="/images/fix_icon_purple.png" id="img1-value" style="width: 150px;">
 			<div class="ani-circle-chd" id="aniCircle_1">
 			</div>
 			<div class="ani-circle-chd" id="aniCircle_2">
@@ -52,7 +52,7 @@
 		</p>
 		<div class="h060"></div>
 		<center>
-		<table id="prg-table" class="tace" style="width:25%;">
+		<table id="prg-table" class="tace" style="width:30%;">
 			<tr id="tbox2-prog" class="hdn">
 				<td>
 					<p class="dp4 we700">Understand</p>

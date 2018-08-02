@@ -27,7 +27,14 @@
 	width: 150px; height: 150px;
 	border-radius: 50%;
 	top: 0px; 
-	border: 2px solid orange;
+	border: 2px solid rgba(212,17,71,0.5);
+}
+.ani-circle-after {
+	width: '220px';
+	height: '220px';
+	top: '-35px';
+	left: '-35px';
+	opacity: '0.0';
 }
 
 /* Progress Line ***/
