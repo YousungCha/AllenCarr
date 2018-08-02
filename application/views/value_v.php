@@ -46,7 +46,7 @@
 	</div>
 
 	<div class="container-fluid bwhite1">		
-		<div class="h100"></div>
+		<div class="h080"></div>
 		<p class="sb3 we300 tace ln15 lt009 hdn" id="tbox1-prog">
 			<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>
 		</p>
@@ -91,21 +91,21 @@
 			<tr>
 				<td>
 					<div class="h050"></div>
-					<p class="dp4 we200 ln18">
+					<p class="dp4 we300 ln18">
 						금연의 첫걸음은 <b>중독의 제대로된 이해</b>입니다.<br>
 						얼마나 많은 오해를 하고 있었는지 정확히 알게 됩니다.
 					</p>
 				</td>
 				<td>
 					<div class="h050"></div>
-					<p class="dp4 we200 ln18">
+					<p class="dp4 we300 ln18">
 						이해와 수용을 통해 담배에 대한 인식이 바뀝니다.<br>
 						흡연자 특유의 <b>허상을 없애고 진리를 정립</b>합니다.
 					</p>
 				</td>
 				<td>
 					<div class="h050"></div>
-					<p class="dp4 we200 ln18">
+					<p class="dp4 we300 ln18">
 						담배없는 인생은 완벽하지 않다는 두려움이 사라집니다.<br>
 						<b>진정한 의미의 비흡연자로서 첫걸음</b>을 시작합니다.
 					</p>

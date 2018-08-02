@@ -17,7 +17,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
 
-
 		<!-- ac private css -->
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-font-line.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-blank.css">
@@ -25,5 +24,5 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-div.css">
 		<script type="text/javascript" src="/include/js/jquery.min.js"></script>		
 	</head>
-	<body class="bwhitez1 pdg15">
+	<body class="bwhitez1 pdg10">
 	

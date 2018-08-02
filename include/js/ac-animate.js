@@ -2,7 +2,7 @@
 // Animation Name and Order
 $(window).scroll(function() {
 	var scrPos = $(document).scrollTop();
-	menuBar();
+	menuBar(scrPos);
 	doAnimation(scrPos,'#mt-value','fadeInDown');
 	doAnimation(scrPos,'#st-value','fadeInUp');
 	doAnimation(scrPos,'#img1-value','jackInTheBox');
@@ -36,11 +36,11 @@ function menuBar(scr)
 		console.log(scr +"," + height);
 		$("#desk_menu").css({
 			"top":"0px",
-			"position":"fixed",
+			"position":"fixed"
 		});
 		$("#desk_menu").animate({
 			"height":"75px",
-			"padding-top":"20px"
+			"padding-top":"20px",
 		},500);
 		$("#desk_logo").animate({"width":"120px"},500);
 	}	
