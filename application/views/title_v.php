@@ -1,4 +1,4 @@
-	<div class="swiper-container" style="height: 820px;">
+	<div class="swiper-container" style="height: 825px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide" style="
 				background-image: url('/images/ellen_2.jpg');
