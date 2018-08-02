@@ -45,67 +45,73 @@
 		<div class="h100"></div>
 	</div>
 
-	<div class="container-fluid bwhite1">
-		
-			<div class="h050"></div>
-			<p class="sb3 we300 tace ln15 lt009">
-				<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>
-			</p>
-			<div class="h050"></div>
-			<center>
-			<table class="tace" width="100%">
-				<tr>
-					<td>
-						<p class="dp3"><b>Understand</b></p>
-						<p class="cp1 we500 tgray1">중독의 이해</p>
-						<div class="h030"></div>
-					</td>
-					<td>
-						<p class="dp3"><b>Transform</b></p>
-						<p class="cp1 we500 tgray1">인식의 전환</p>
-						<div class="h030"></div>
-					</td>
-					<td>
-						<p class="dp3"><b>Remove Fear</b></p>
-						<p class="cp1 we500 tgray1">두려움의 제거</p>
-						<div class="h030"></div>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="h30"></div>
-                        <div style="width: 50%; border-top:2px dashed #EE3287; float: right; position: relative;">
-                            <div style="width:20px; height: 20px;
-                                 background-color: white; border-radius: 50%; border: 3px solid #EE3287;
-                                 z-index: 20; margin:0px auto; position: absolute; top:-11px;"></div>
-                        </div>
-                        <div class="h35"></div>
-					</td>
-					<td>
-						<div class="h30"></div>
-                        <div style="width: 100%; border-top:2px dashed #EE3287; position: relative;">
-                            <div style="width:20px; height: 20px;
-                                 background-color: white; border-radius: 50%; border: 3px solid #EE3287;
-                                 z-index: 20; margin:0px auto; position: absolute; left:50%; top:-11px;"></div>
-                        </div>
-                        <div class="h35"></div>						
-					</td>
-					<td>
-						<div class="h30"></div>
-                        <div style="width: 50%; border-top:2px dashed #EE3287; float: left; position: relative;">
-                            <div style="width:20px; height: 20px;
-                                 background-color: white; border-radius: 50%; border: 3px solid #EE3287;
-                                 z-index: 20; margin:0px auto; position: absolute; left:100%;  top:-11px;"></div>
-                        </div>
-                        <div class="h35"></div>						
-					</td>
-				</tr>
-			</table>
-			</center>
-			<div class="h100"></div>
-			<div class="h100"></div>
-			<div class="h100"></div>
-			<div class="h100"></div>
-			<div class="h050"></div>
-		
+	<div class="container-fluid bwhite1">		
+		<div class="h100"></div>
+		<p class="sb3 we300 tace ln15 lt009 hdn" id="tbox1-prog">
+			<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>
+		</p>
+		<div class="h060"></div>
+		<center>
+		<table id="prg-table" class="tace" style="width:25%;">
+			<tr id="tbox2-prog" class="hdn">
+				<td>
+					<p class="dp4 we700">Understand</p>
+					<p class="cp1 we500 tacred">중독의 이해</p>
+					<div class="h050"></div>
+				</td>
+				<td>
+					<p class="dp4 we700">Transform</p>
+					<p class="cp1 we500 tacred">인식의 전환</p>
+					<div class="h050"></div>
+				</td>
+				<td>
+					<p class="dp4 we700">Remove Fear</p>
+					<p class="cp1 we500 tacred">두려움의 제거</p>
+					<div class="h050"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="h30"></div>
+                    <div class="prg-line" style="width:50%; float: right;"><div class="prg-circle"></div></div>
+                    <div class="h35"></div>
+				</td>
+				<td>
+					<div class="h30"></div>
+                    <div class="prg-line" style="width:100%"><div class="prg-circle" style="left:50%"></div><div class="h35"></div>						
+				</td>
+				<td>
+					<div class="h30"></div>
+                    <div class="prg-line" style="width:50%"><div class="prg-circle" style="left:100%"></div></div>
+                    <div class="h35"></div>						
+				</td>
+			</tr>
+		</table>
+		<table class="tace hdn" width="100%" id="tbox3-prog">
+			<tr>
+				<td>
+					<div class="h050"></div>
+					<p class="dp4 we200 ln18">
+						금연의 첫걸음은 <b>중독의 제대로된 이해</b>입니다.<br>
+						얼마나 많은 오해를 하고 있었는지 정확히 알게 됩니다.
+					</p>
+				</td>
+				<td>
+					<div class="h050"></div>
+					<p class="dp4 we200 ln18">
+						이해와 수용을 통해 담배에 대한 인식이 바뀝니다.<br>
+						흡연자 특유의 <b>허상을 없애고 진리를 정립</b>합니다.
+					</p>
+				</td>
+				<td>
+					<div class="h050"></div>
+					<p class="dp4 we200 ln18">
+						담배없는 인생은 완벽하지 않다는 두려움이 사라집니다.<br>
+						<b>진정한 의미의 비흡연자로서 첫걸음</b>을 시작합니다.
+					</p>
+				</td>
+			</tr>
+		</table>
+		</center>
+		<div class="h100"></div>
 	</div>
