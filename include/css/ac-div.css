@@ -1,9 +1,13 @@
 .def-width-1200 { width: 1200px;}
+.def-width-1000 { width: 1000px;}
+.def-width-900 { width: 900px;}
 .def-width-800 { width: 800px; }
 
 @media(max-width: 1200px)
 {
 	.def-width-1200 { width: 100%;}
+	.def-width-1000 { width: 100%;}
+	.def-width-900 { width: 100%;}
 	.def-width-800 { width: 100%; }
 }
 

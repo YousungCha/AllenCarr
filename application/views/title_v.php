@@ -15,7 +15,7 @@
 						<div class="h030"></div>
 						<p id="sml-2" class="cp3 lt100 ln15">Allen Carr's Easyway</p>
 						<div class="h030"></div>
-						<p class="dp3 we200 ln18 lt000">						
+						<p class="dp3 we300 ln18 lt007">
 							당신이 담배를 끊을 생각만 있다면 말이지요.<br>
 							알렌카라고 불리는 금연 방법이 있습니다.<br>
 							이렇게 쉽게 끊을 수 있어서 너무나도 기쁩니다.
