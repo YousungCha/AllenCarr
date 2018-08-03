@@ -12,7 +12,7 @@
 		<div class="row def-width-1200">
 			<div class="col-md-4">
 				<div id="tbox1-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
-					<div class="h050"></div>
+					<div class="h030"></div>
 					<p class="dp2 ln15"><b>금연테라피 안내</b></p>
 					<p class="cp2 we500 ln10 twhite1">EASYWAY METHOD</p>
 					<div class="h020"></div>
@@ -29,7 +29,7 @@
 			</div>
 			<div class="col-md-4">
 				<div id="tbox2-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
-					<div class="h050"></div>
+					<div class="h030"></div>
 					<p class="dp2 ln15"><b>기업 금연 프로그램</b></p>
 					<p class="cp2 we500 ln10 twhite1">CORPORATE PROGRAM</p>
 					<div class="h020"></div>
@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-md-4">
 				<div id="tbox3-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
-					<div class="h050"></div>
+					<div class="h030"></div>
 					<p class="dp2 ln15"><b>알렌카 코리아, 회사소개</b></p>
 					<p class="cp2 we500 ln10 twhite1">KOREA BRANCH</p>
 					<div class="h020"></div>
