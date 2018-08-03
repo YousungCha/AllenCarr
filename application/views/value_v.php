@@ -2,8 +2,8 @@
 	<!-- Allen Carr's Value -->
 	<div class="container-fluid">
 		<div class="h100"></div>
-		<p class="tt3 we300 tace ln15 lt009 hdn" id="mt-value">
-			<b>알렌카의 진정한 가치</b>
+		<p class="tt3 we700 tace ln15 lt009 hdn" id="mt-value">
+			알렌카의 진정한 가치
 		</p>
 		<div class="h030"></div>
 		<p class="cp4 we200 tace lt100 hdn tsilver" id="st-value">Allen Carr's Value</p>
