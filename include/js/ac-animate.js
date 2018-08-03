@@ -36,18 +36,16 @@ function menuBar(scr)
 	// Menu Bar	
 	var height = $('.swiper-container').height();
 	if (scr >= height) {
-		console.log(scr +"," + height);
 		$("#desk_menu").css({
 			"top":"0px",
-			"position":"fixed"
+			"position":"fixed",
 		});
 		$("#desk_menu").animate({
-			"height":"75px",
+			"height":"70px",
 			"padding-top":"20px",
 		},500);
-		$("#desk_logo").animate({"width":"120px"},500);
+		$("#desk_logo").animate({"width":"115px"},500);
 	}	
-
 	else {		
 		$("#desk_menu").css("position","relative");	
 	}	

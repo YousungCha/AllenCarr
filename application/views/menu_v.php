@@ -1,4 +1,4 @@
-	<div id="desk_menu" style="background-color: #14142a; height: 70px; padding-top: 20px; width: 100%; z-index: 255;">
+	<div id="desk_menu" style="background-color: #14142a; height: 70px; padding-top: 20px; width: calc(100% - 20px); z-index: 255;">
 		<div class="container">		
 			<table width="100%">
 				<tr>

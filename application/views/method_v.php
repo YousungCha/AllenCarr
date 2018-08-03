@@ -22,7 +22,7 @@
 						본 PDF 문서에는 금연테라피의 특징, 작동 방식, 참여하는 방법, 금연 성공의 기준 및 실패 가이드라인 등이 정리되어 있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #7A0B72, #ED3287); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #ED3287, #D41147); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -38,7 +38,7 @@
 						대한민국에서는 정부를 포함한 유수의 기업들이 알렌카에 금연 파트너로서 참여하고 있습니다. 본 PDF 문서에는 사내 금연의 진행 방식, 절차, 참여 기업들 및 성공률에 대한 내용이 담겨 있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #7A0B72, #ED3287); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #ED3287, #D41147); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -54,7 +54,7 @@
 						알렌카 한국팀은 마케팅을 비롯한 다양한 전략적 제휴에 대해서도 긍정적인 마음으로 참여할 준비가 되어있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #7A0B72, #ED3287); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000" style="background-image: linear-gradient(to right, #ED3287, #D41147); border:0px; border-radius: 5px; font-family: 'arial';"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -97,7 +97,7 @@
 							<img src="/images/email-white.14b4e9c3.svg">
 						</td>
 						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500" type="email" name="" style="width:100%; background-color: transparent; padding-left:10px; border:0px; height:42px;" placeholder="your@email.com"></td>
-						<td style="border:1px solid #EB3186;"><button class="twhite pdg15 pdglr20 cp3 lt000 bacred" style="border:0px; background-color: #EB3186; width: 100%;">SUBSCRIBE</button></td>
+						<td style="border:1px solid #D41147;"><button class="twhite pdg15 pdglr20 cp3 lt000 bacred" style="border:0px; background-color: #D41147; width: 100%;">SUBSCRIBE</button></td>
 					</tr>
 				</table>
 				
