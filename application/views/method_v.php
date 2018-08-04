@@ -96,7 +96,7 @@
 						<td style="border:1px solid #EB3186; border-right: 0px; padding-left:10px; padding-right: 10px;">
 							<img src="/images/email-white.14b4e9c3.svg">
 						</td>
-						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500" type="email" name="" style="width:100%; background-color: transparent; padding-left:10px; border:0px; height:42px;" placeholder="your@email.com"></td>
+						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500 twhite" type="email" name="" style="width:100%; background-color: transparent; padding-left:10px; border:0px; height:42px;" placeholder="your@email.com"></td>
 						<td style="border:1px solid #D41147;"><button class="twhite pdg15 pdglr20 cp3 lt000 bacred" style="border:0px; background-color: #D41147; width: 100%;">SUBSCRIBE</button></td>
 					</tr>
 				</table>

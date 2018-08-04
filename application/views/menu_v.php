@@ -4,7 +4,6 @@
 				<tr>
 					<td><img id="desk_logo" src="/images/logo.png" style="width: 130px;"></td>
 					<td class="tari cp2 twhite2 lt000">
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em;">SCHEDULE</b>
 						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">VALUES</b>
 						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">METHOD</b>
 						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">TEAM</b>
