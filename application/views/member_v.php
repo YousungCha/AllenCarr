@@ -12,33 +12,27 @@
 				알렌카의 테라피스트는 <b class="twhite lt003">London HQ의 철저한 검증을 거친 최고의 전문가</b>로서, 최소 흡연 경력이 10년 이상이었던 이들로 구성되어 있습니다. 모든 테라피스트는 흡연자의 심리에 정확한 통찰력을 갖추고 있으며, 막중한 사명감으로 여러분의 금연을 인도합니다.
 			</p>	
 			<div class="h050"></div>
-			<div style="height: 1px; width: 100%; background-color: #4F4F4F;"></div>
+			<div style="height: 0px; width: 100%; background-color: #4F4F4F;"></div>
 			<div class="h050"></div>
 			<table width="100%">
 				<tr>
 					<td class="tace">
-						<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
+						<img src="/images/members/robin-haylay.png" style="width: 150px; border-radius: 50%;">
 						<div class="h020"></div>
-						<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr HQ</p>
-						<p class="cp1 twhite we700 tace">John C. Dicey</p>						
-					</td>
+						<p class="cp3 twhite1 we300 tace lt000">Chairman of Allen Carr</p>
+						<p class="cp1 twhite we700 tace">Robin Haylay</p>						
+					</td>					
 					<td class="tace">
 						<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
 						<div class="h020"></div>
-						<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr HQ</p>
+						<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr London</p>
 						<p class="cp1 twhite we700 tace">John C. Dicey</p>						
 					</td>
 					<td class="tace">
-						<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
+						<img src="/images/members/yousung-cha.png" style="width: 150px; border-radius: 50%;">
 						<div class="h020"></div>
-						<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr HQ</p>
-						<p class="cp1 twhite we700 tace">John C. Dicey</p>						
-					</td>
-					<td class="tace">
-						<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
-						<div class="h020"></div>
-						<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr HQ</p>
-						<p class="cp1 twhite we700 tace">John C. Dicey</p>						
+						<p class="cp3 twhite1 we300 tace lt000">대표 테라피스트</p>
+						<p class="cp1 twhite we700 tace">차유성</p>						
 					</td>
 				</tr>				
 			</table>

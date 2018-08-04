@@ -2,24 +2,24 @@
 	<!-- Allen Carr's Value -->
 	<div class="container-fluid">
 		<div class="h100"></div>
-		<p class="tt3 we700 tace ln15 lt009 hdn" id="mt-value">
+		<p class="tt3 we700 tace ln15 lt009">
 			알렌카의 진정한 가치
 		</p>
 		<div class="h030"></div>
-		<p class="cp4 we200 tace lt100 hdn tsilver" id="st-value">Allen Carr's Value</p>
+		<p class="cp4 we200 tace lt100 tsilver">Allen Carr's Value</p>
 		<div class="h035"></div>
 
 		<center>
-		<div class="ani-circle-par">
-			<img class="hdn" src="/images/fix_icon_purple.png" id="img1-value" style="width: 150px;">
-			<div class="ani-circle-chd" id="aniCircle_1">
+		<div>
+			<img src="/images/fix_icon_purple.png" style="width: 150px;">
+			<div class="ani-circle-chd" >
 			</div>
-			<div class="ani-circle-chd" id="aniCircle_2">
+			<div class="ani-circle-chd">
 			</div>
 		</div>
 		<div class="h060"></div>
 		<div class="row def-width-900">
-			<div class="col-md-6 pdglr20 hdn" id="tbox1-value">
+			<div class="col-md-6 pdglr20">
 				<p class="dp2 we500 tace ln20">
 					흡연자의 근본적인 사고변화
 				</p>	
@@ -30,7 +30,7 @@
 				</p>
 				<div class="h020"></div>
 			</div>			
-			<div class="col-md-6 pdglr20 hdn" id="tbox2-value">
+			<div class="col-md-6 pdglr20">
 				<p class="dp2 we500 tace ln20">
 					담배를 머릿속에서 제거하다
 				</p>	
@@ -47,13 +47,13 @@
 
 	<div class="container-fluid bwhite1">		
 		<div class="h080"></div>
-		<p class="sb3 we300 tace ln15 lt009 hdn" id="tbox1-prog">
+		<p class="sb3 we300 tace ln15 lt009">
 			<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>
 		</p>
 		<div class="h060"></div>
 		<center>
-		<table id="prg-table" class="tace" style="width:30%;">
-			<tr id="tbox2-prog" class="hdn">
+		<table class="tace" style="width:100%;">
+			<tr>
 				<td>
 					<p class="dp4 we700">Understand</p>
 					<p class="cp1 we500 tacred">중독의 이해</p>
@@ -87,7 +87,7 @@
 				</td>
 			</tr>
 		</table>
-		<table class="tace hdn" width="100%" id="tbox3-prog">
+		<table class="tace" width="100%">
 			<tr>
 				<td>
 					<div class="h050"></div>

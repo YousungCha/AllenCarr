@@ -23,7 +23,7 @@
 				</p>
 				<table width="100%">
 					<tr>
-						<td>
+						<td style="width: 25px;">
 							<font class="dp2 we700 tacred">+</font>
 						</td>
 						<td class="dp4 we700 ln15 tale">
@@ -77,7 +77,7 @@
 				</p>
 				<table width="100%">
 					<tr>
-						<td>
+						<td style="width: 25px;">
 							<font class="dp2 we700 tacred">+</font>
 						</td>
 						<td class="dp4 we700 ln15 tale">

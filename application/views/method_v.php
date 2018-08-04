@@ -2,16 +2,16 @@
 	<div class="h015"></div>
 	<div class="container-fluid bblack1">
 		<div class="h100"></div>
-		<p id="title-method" class="tt3 we500 tace ln15 lt000 twhite hdn">
+		<p class="tt3 we500 tace ln15 lt000 twhite">
 			금연테라피의 작동 방식
 		</p>
 		<div class="h025"></div>
-		<p id="sub-method" class="cp3 tace lt100 tsilver ln18 hdn">Learn How Easyway Works</p>
+		<p class="cp3 tace lt100 tsilver ln18">Learn How Easyway Works</p>
 		<div class="h050"></div>
 		<center>
 		<div class="row def-width-1200">
 			<div class="col-md-4">
-				<div id="tbox1-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
+				<div class="container-fluid bwhite" style="border-radius: 5px;">
 					<div class="h030"></div>
 					<p class="dp2 ln15"><b>금연테라피 안내</b></p>
 					<p class="cp2 we500 ln10 twhite1">EASYWAY METHOD</p>
@@ -28,7 +28,7 @@
 				<div class="h030"></div>
 			</div>
 			<div class="col-md-4">
-				<div id="tbox2-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
+				<div class="container-fluid bwhite" style="border-radius: 5px;">
 					<div class="h030"></div>
 					<p class="dp2 ln15"><b>기업 금연 프로그램</b></p>
 					<p class="cp2 we500 ln10 twhite1">CORPORATE PROGRAM</p>
@@ -44,7 +44,7 @@
 				<div class="h030"></div>
 			</div>
 			<div class="col-md-4">
-				<div id="tbox3-method" class="container-fluid bwhite hdn" style="border-radius: 5px;">
+				<div class="container-fluid bwhite" style="border-radius: 5px;">
 					<div class="h030"></div>
 					<p class="dp2 ln15"><b>알렌카 코리아, 회사소개</b></p>
 					<p class="cp2 we500 ln10 twhite1">KOREA BRANCH</p>

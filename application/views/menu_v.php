@@ -1,8 +1,8 @@
-	<div class="bblack1" id="desk_menu" style="height: 75px; padding-top: 21px; width: calc(100% - 20px); z-index: 255;">
-		<div class="container">		
+	<div class="bblack1" id="desk_menu" style="height: 100px; padding-top: 32px; width: 100%; z-index: 255;">
+		<div class="container-fluid pdglr50">		
 			<table width="100%">
 				<tr>
-					<td><img id="desk_logo" src="/images/logo.png" style="width: 115px;"></td>
+					<td><img id="desk_logo" src="/images/logo.png" style="width: 130px;"></td>
 					<td class="tari cp2 twhite2 lt000">
 						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em;">SCHEDULE</b>
 						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">VALUES</b>
@@ -15,4 +15,14 @@
 				</tr>
 			</table>
 		</div>
-	</div>	
+	</div>
+
+	<script type="text/javascript">		
+		$(window).scroll(function(event) {
+			var st = $(this).scrollTop();
+			if (st >= window.innerHeight)
+			{
+				console.log("hello");
+			}
+		});
+	</script>
