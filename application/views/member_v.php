@@ -1,6 +1,6 @@
 	<!-- Members -->
 	<div class="h015"></div>
-	<div class="container-fluid bblack1" style="background-color: #141414;">
+	<div class="container-fluid bblack1">
 		<div class="container def-width-900">
 			<div class="h080"></div>
 			<p class="tt3 we700 tace ln15 lt009 twhite">

@@ -1,23 +1,21 @@
- 	<div class="title-box container-fluid bblack1 tace" style="height: 680px">	 		
- 		<div class="h100"></div>
+ 	<div class="title-box container-fluid bblack1 tace" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%">	 	
+ 		<div class="h080"></div>
+ 		<p class="tt3 we700 twhite ln15 lt007"> 		
+ 			알렌카, 금연 역사를 다시 써드립니다.<br>
+ 			담배를 피워본 적 없던 삶으로
+ 		</p>
  		<div class="h050"></div>
- 		<p class="tt3 we700 twhite1 ln15 lt007"> 		
- 			알렌카, 당신의 금연 역사를 다시 써드립니다.
- 		</p>
- 		<p class="tt3 we700 twhite1 ln15 lt007">
- 			담배를 피워본 적 없는 삶으로
- 		</p>
- 		<div class="h030"></div>
-		<p class="cp3 lt100 ln15 twhite">Allen Carr's Easyway</p>
-		<div class="h030"></div>	
-	</div>
-	<div class="container-fluid pdg00 bacred" style="height: 50px; background-color: #95CFD3">
-		<table width="100%" height="100%">
-			<td class="cp1 twhite we500 bacred" style="width: 30%; padding: 15px;">
-				알렌카 새로운 소식
-			</td>
-			<td class="cp2 tblack we300" style="padding:15px;">
-				***** 금연테라피는 온라인과 함께 10월 중 재개할 예정입니다. *****
-			</td>
-		</table>
+		<p class="cp4 lt100 ln15 twhite1">Allen Carr's Easyway</p>
+		<div class="h050"></div>	
+		<img src="/images/trailer.jpg" style="width:300px; border:10px solid #E7E7E7;">
+		<div class="h060"></div>
+
+		<p class="cp2 we700 twhite2 lt000 ln18">
+			<img src="/images/icon-kakao.png" style="padding-right: 7px; margin-top:-2px;"> 카카오톡 공식 채널
+			<img src="/images/icon-kakao.png" style="padding-left: 20px; padding-right: 7px; margin-top:-2px;"> 네이버 카페
+			<img src="/images/icon-blog.png" style="width:50px; padding-left: 20px; padding-right: 7px; margin-top:-2px;"> 네이버 블로그
+			<img src="/images/icon-facebook.png" style="width:50px; padding-left: 20px; padding-right: 7px; margin-top:-2px;"> Facebook
+		</p>
+		<div class="h100"></div>
+		<div class="h080"></div>
 	</div>
