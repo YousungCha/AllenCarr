@@ -23,7 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-color.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-div.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-input.css">
-		<script type="text/javascript" src="/include/js/jquery.min.js"></script>		
+		<script type="text/javascript" src="/include/js/jquery.min.js"></script>
 	</head>
 	<body class="bwhitez1 pdg10">
 	

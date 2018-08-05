@@ -14,12 +14,6 @@ class MainSystem extends CI_Controller
 		$this->load->view('member_v');
 		$this->load->view('footer_v');
 	}
-	public function vFonts()
-	{
-		$this->load->view('header_v');
-		$this->load->view('fonts_v');
-		$this->load->view('footer_v');	
-	}
 	public function vTest()
 	{
 		$this->load->view('header_v');
