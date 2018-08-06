@@ -46,7 +46,7 @@
 								<p class="cp1 twhite we700 tace">정원준</p>						
 							</td>
 							<td class="tace">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/sungwoong-ko.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Outside Director</p>
 								<p class="cp1 twhite we700 tace">고성웅</p>						
@@ -103,13 +103,13 @@
 					<table width="100%">
 						<tr>
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/jieun-eum.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Accountant Manager</p>
 								<p class="cp1 twhite we700 tace">엄지은</p>
 							</td>
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/youngmoon-bae.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Developer</p>
 								<p class="cp1 twhite we700 tace">배영문</p>

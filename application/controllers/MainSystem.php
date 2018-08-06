@@ -8,6 +8,7 @@ class MainSystem extends CI_Controller
 		$this->load->view('header_v');		
 		$this->load->view('menu_v');
 		$this->load->view('hero_v');
+		$this->load->view('notice_v');
 		$this->load->view('value_v');
 		$this->load->view('method_v');
 		$this->load->view('easyway_v');
@@ -17,7 +18,7 @@ class MainSystem extends CI_Controller
 	public function vTest()
 	{
 		$this->load->view('header_v');
-		$this->load->view('title_v');
+		$this->load->view('notice_v');
 		$this->load->view('footer_v');		
 	}
 }
