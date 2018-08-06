@@ -13,7 +13,7 @@
 			</p>				
 			<div class="row">
 				<div class="h050"></div>
-				<p class="dp4 twhite we700">Advisors and Therapists</p>
+				<p class="dp4 twhite we700">Our advisors and members</p>
 				<div class="h060"></div>
 
 				<!-- Adivsors -->
@@ -86,12 +86,38 @@
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">양승용</p>						
 							</td>
-							<td class="tace">
-												
+							<td class="tace" style="width:50%;">
+								<img src="/images/members/changhwan-kim.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Communication</p>
+								<p class="cp1 twhite we700 tace">김창환</p>
 							</td>							
 						</tr>
 					</table>
+					<div class="h030"></div>
 				</div>
+
+				<div class="h030"></div>
+
+				<div class="col-md-6 pdg00">
+					<table width="100%">
+						<tr>
+							<td class="tace" style="width:50%;">
+								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Accountant Manager</p>
+								<p class="cp1 twhite we700 tace">엄지은</p>
+							</td>
+							<td class="tace" style="width:50%;">
+								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Developer</p>
+								<p class="cp1 twhite we700 tace">배영문</p>
+							</td>							
+						</tr>
+					</table>
+					<div class="h030"></div>
+				</div>				
 			</div>
 
 			</center>
