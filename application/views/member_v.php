@@ -62,17 +62,17 @@
 					<table width="100%">
 						<tr>
 							<td class="tace">
+								<img src="/images/members/colleen-dwyer.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
+								<p class="cp1 twhite we700 tace">Colleen Dwyer</p>						
+							</td>												
+							<td class="tace">
 								<img src="/images/members/yousung-cha.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">차유성</p>						
 							</td>					
-							<td class="tace">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
-								<div class="h020"></div>
-								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
-								<p class="cp1 twhite we700 tace">권순홍</p>						
-							</td>
 						</tr>				
 					</table>
 					<div class="h030"></div>
@@ -80,18 +80,19 @@
 				<div class="col-md-6 pdg00">
 					<table width="100%">
 						<tr>
+							<td class="tace">
+								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
+								<p class="cp1 twhite we700 tace">권순홍</p>						
+							</td>							
 							<td class="tace" style="width:50%;">
 								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">양승용</p>						
 							</td>
-							<td class="tace" style="width:50%;">
-								<img src="/images/members/changhwan-kim.png" style="width: 150px; border-radius: 50%;">
-								<div class="h020"></div>
-								<p class="cp3 twhite1 we300 tace lt000">Communication</p>
-								<p class="cp1 twhite we700 tace">김창환</p>
-							</td>							
+						
 						</tr>
 					</table>
 					<div class="h030"></div>
@@ -103,23 +104,36 @@
 					<table width="100%">
 						<tr>
 							<td class="tace" style="width:50%;">
+								<img src="/images/members/changhwan-kim.png" style="width: 150px; border-radius: 50%;">
+								<div class="h020"></div>
+								<p class="cp3 twhite1 we300 tace lt000">Communication</p>
+								<p class="cp1 twhite we700 tace">김창환</p>
+							</td>								
+							<td class="tace" style="width:50%;">
 								<img src="/images/members/jieun-eum.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Accountant Manager</p>
 								<p class="cp1 twhite we700 tace">엄지은</p>
-							</td>
+							</td>						
+						</tr>
+					</table>
+					<div class="h030"></div>
+				</div>
+				<div class="col-md-6 pdg00">
+					<table width="100%">
+						<tr>
 							<td class="tace" style="width:50%;">
 								<img src="/images/members/youngmoon-bae.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Developer</p>
 								<p class="cp1 twhite we700 tace">배영문</p>
-							</td>							
+							</td>	
+							<td></td>					
 						</tr>
 					</table>
 					<div class="h030"></div>
-				</div>				
+				</div>		
 			</div>
-
 			</center>
 			<div class="h100"></div>
 		</div>
