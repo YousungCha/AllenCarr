@@ -13,7 +13,7 @@ class MainSystem extends CI_Controller
 		$this->load->view('method_v');
 		$this->load->view('easyway_v');
 		$this->load->view('member_v');
-		$this->load->view('corp_v');
+		$this->load->view('partner_v');
 		$this->load->view('footer_v');
 	}
 }

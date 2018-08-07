@@ -49,6 +49,9 @@
 						<div class="swiper-slide"><img src="/images/partners/wait/gov-gray.jpg" width="100%"></div>
 						<div class="swiper-slide"><img src="/images/partners/wait/pa-gray.jpg" width="100%"></div>
 						<div class="swiper-slide"><img src="/images/partners/wait/bnk-gray.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/nera-color.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/chong-gray.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/lg-gray.jpg" width="100%"></div>
 
 					</div>
 					<!-- Add Arrows -->
@@ -60,12 +63,16 @@
 						<div class="swiper-slide"><img src="/images/partners/wait/gov-small.jpg" width="100%"></div>
 						<div class="swiper-slide"><img src="/images/partners/wait/pa-small.jpg" width="100%"></div>
 						<div class="swiper-slide"><img src="/images/partners/wait/bnk-small.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/nera-small.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/chong-small.jpg" width="100%"></div>
+						<div class="swiper-slide"><img src="/images/partners/wait/lg-small.jpg" width="100%"></div>
 					</div>
 				</div>
 			</div>			
 		</div>
 		</center>
 		<div class="h100"></div>
+		<div class="h050"></div>
 	</div>
 
 	<!-- Swiper JS -->
@@ -81,7 +88,7 @@
 		},
 		autoplay: {
 	        delay: 3500,
-	        disableOnInteraction: false,
+	        disableOnInteraction: true,
       	},
 	});
 	var galleryThumbs = new Swiper('.gallery-thumbs', {		
