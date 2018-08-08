@@ -25,4 +25,3 @@
 		<script type="text/javascript" src="/include/js/jquery.min.js"></script>
 	</head>
 	<body class="bwhite">
-	

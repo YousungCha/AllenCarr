@@ -11,7 +11,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="h060"></div>
-				<p class="dp4 we300 ln18 tale">
+				<p class="cp1 we300 ln18 tale tblack">
 					매년 금연 행사를 개최해도 사내 흡연률이 제자리라면?<br>
 					전시행정으로서의 금연을 원치 않는다면, <b class="tacred">실질적인 성과를 드리는 알렌카</b>가 답이 될 것입니다.
 				</p>

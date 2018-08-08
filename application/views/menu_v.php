@@ -1,16 +1,21 @@
-	<div class="bblack1 set-mgn" id="desk_menu" style="height: 100px; padding-top: 35px; width: calc(100%-20px); z-index: 255;">
-		<div class="container-fluid pdglr50">		
+	<div class="bblack1 set-mgn" id="desk_menu" style="width: calc(100% - 20px); z-index: 255; margin-top:0px;">
+		<div class="container-fluid pdg00">
 			<table width="100%">
-				<tr>
-					<td><img id="desk_logo" src="/images/logo.png" style="width: 130px;"></td>
-					<td class="tari cp2 twhite2 lt000">
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">VALUES</b>
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">METHOD</b>
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">TEAM</b>
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">TESTIMONIAL</b>
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">PARTNERS</b>
-						<b style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.0em">FAQ</b>		
+				<tr>	
+					<td class="cp2 we700 twhite bacred pdg20" style="width: 350px; padding-left: 30px;">
+						무엇을 도와드릴까요?
+					</td>	
+					<td class="bacred tace" style="width:50px;">
+						<img src="/images/icon-arrowdown.png">
 					</td>
+					<td class="cp4 tblack1 pdglr30" style="background-color: #F5F5F5;">
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">VALUES</font>
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">METHOD</font>
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">TEAM</font>
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">TESTIMONIAL</font>
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">PARTNERS</font>
+						<font style="padding-right: 25px; font-family: 'Arial'; letter-spacing: 0.1em">FAQ</font>		
+					</td>					
 				</tr>
 			</table>
 		</div>
@@ -21,7 +26,12 @@
 			var st = $(this).scrollTop();
 			if (st >= window.innerHeight)
 			{
-				console.log("hello");
+				$('#desk_menu').css('position','fixed');
+				$('#desk_menu').addClass('animated fadeInDown');
+			}
+			else {
+				$('#desk_menu').css('position','relative');	
+				$('#desk_menu').removeClass('animated fadeInDown');
 			}
 		});
 	</script>
