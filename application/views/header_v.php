@@ -4,11 +4,11 @@
 	<head>
 		<title>알렌카 - 세계 최고 효율의 금연법</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">		
-		<meta property="og:title" content="알렌카 - 세상에서 가장 효율적인 금연법" />
+		<meta property="og:title" content="알렌카 - 금연 역사를 다시쓰다." />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="http://www.allencarr.co.kr" />
 		<meta property="og:image" content="http://www.allencarr.co.kr/images/allencarr_sns.png"/>
-		<meta property="og:description" content="당신의 금연 역사를 다시 써드립니다. 담배를 피워본 적 없던 삶으로.">
+		<meta property="og:description" content="한 번도 피워본 적 없던 삶으로">
 
 		<!-- external css -->
 		<link rel="stylesheet" type="text/css" href="/include/css/animate.css">
