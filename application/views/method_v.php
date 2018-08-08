@@ -1,5 +1,5 @@
 	<!-- How Method Works -->
-	<div class="container-fluid bblack1 set-mgn">
+	<div class="container-fluid bacnavy set-mgn">
 		<div class="h100"></div>
 		<p class="tt3 we500 tace ln15 lt000 twhite">
 			금연테라피의 작동 방식

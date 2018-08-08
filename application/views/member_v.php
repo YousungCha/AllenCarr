@@ -39,7 +39,7 @@
 					<table width="100%">
 						<tr>
 							<td class="tace">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/wonjun-jung.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Marketing Director</p>
 								<p class="cp1 twhite we700 tace">정원준</p>						
