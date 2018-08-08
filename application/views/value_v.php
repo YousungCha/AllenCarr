@@ -1,6 +1,6 @@
 
 	<!-- Allen Carr's Value -->
-	<div class="container-fluid">
+	<div class="container-fluid set-mgn">
 		<div class="h100"></div>
 		<p class="tt3 we700 tace ln15 lt009">
 			알렌카의 진정한 가치
@@ -45,7 +45,7 @@
 		<div class="h100"></div>
 	</div>
 
-	<div class="container-fluid bwhite1">		
+	<div class="container-fluid bwhite1 set-mgn">
 		<div class="h080"></div>
 		<p class="sb3 we300 tace ln15 lt009">
 			<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>

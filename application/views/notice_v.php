@@ -1,7 +1,6 @@
 
 	<!-- Swiper -->
-	<div class="h010"></div>	
-	<div class="swiper-container">
+	<div class="swiper-container set-mgn">
 		<div class="swiper-wrapper">
 			<!-- Slide 1 -->
 			<div class="swiper-slide bacred2">

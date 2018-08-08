@@ -1,4 +1,4 @@
- 	<div class="title-box container-fluid bblack1 tace" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%">	 	
+ 	<div class="title-box container-fluid bblack1 tace set-mgn" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%; margin-top:0px;">	 	
  		<div class="h080"></div>
  		<p class="tt3 we700 twhite ln15 lt007"> 		
  			당신의 금연 역사를 다시 써드립니다.<br>

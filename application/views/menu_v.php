@@ -1,4 +1,4 @@
-	<div class="bblack1" id="desk_menu" style="height: 100px; padding-top: 35px; width: 100%; z-index: 255;">
+	<div class="bblack1 set-mgn" id="desk_menu" style="height: 100px; padding-top: 35px; width: calc(100%-20px); z-index: 255;">
 		<div class="container-fluid pdglr50">		
 			<table width="100%">
 				<tr>

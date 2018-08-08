@@ -14,6 +14,7 @@ class MainSystem extends CI_Controller
 		$this->load->view('easyway_v');
 		$this->load->view('member_v');
 		$this->load->view('partner_v');
+		$this->load->view('testi_v');
 		$this->load->view('footer_v');
 	}
 }
