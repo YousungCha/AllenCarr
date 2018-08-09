@@ -2,7 +2,7 @@
 		<div class="container-fluid pdg00">
 			<table width="100%">
 				<tr>	
-					<td class="cp2 we700 twhite bacred pdg20" style="width: 350px; padding-left: 30px;">
+					<td class="cp2 we700 twhite bacred pdg20" style="width: 350px;">
 						무엇을 도와드릴까요?
 					</td>	
 					<td class="bacred tace" style="width:50px;">
