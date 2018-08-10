@@ -89,7 +89,7 @@
 								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
-								<p class="cp1 twhite we700 tace">권순홍</p>						
+								<p class="cp1 twhite we700 tace">권민철</p>						
 							</td>							
 							<td class="tace" style="width:50%;">
 								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
