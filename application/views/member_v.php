@@ -29,7 +29,9 @@
 								<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr London</p>
-								<p class="cp1 twhite we700 tace">John C. Dicey</p>						
+								<p class="cp1 twhite we700 tace">John C. Dicey</p>
+								<div class="h005"></div>
+								<img src="/images/icon-linkedin.png">
 							</td>
 						</tr>				
 					</table>
@@ -64,13 +66,17 @@
 								<img src="/images/members/colleen-dwyer.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
-								<p class="cp1 twhite we700 tace">Colleen Dwyer</p>						
+								<p class="cp1 twhite we700 tace">Colleen Dwyer</p>
+								<div class="h005"></div>
+								<img src="/images/icon-linkedin.png">
 							</td>												
 							<td class="tace">
 								<img src="/images/members/yousung-cha.png" style="width: 150px; border-radius: 50%;">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
-								<p class="cp1 twhite we700 tace">차유성</p>						
+								<p class="cp1 twhite we700 tace">차유성</p>
+								<div class="h005"></div>
+								<a href="https://www.linkedin.com/in/yousung-cha-08577216a/" target="_blank"><img src="/images/icon-linkedin.png"></a>
 							</td>					
 						</tr>				
 					</table>

@@ -1,0 +1,21 @@
+.gallery-top {
+  height: 80%;
+  width: 100%;
+}
+.gallery-thumbs {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
+.gallery-thumbs .swiper-slide-active {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+}	

@@ -3,7 +3,7 @@
 	<div class="container-fluid set-mgn">
 		<div class="h100"></div>
 		<p class="tt3 we700 tace ln15 lt009">
-			알렌카의 진정한 가치
+			진짜 금연은 목표가 다르다.
 		</p>
 		<div class="h030"></div>
 		<p class="cp4 we200 tace lt100 tsilver">Allen Carr's Value</p>
@@ -25,7 +25,7 @@
 				</p>	
 				<div class="h010"></div>
 				<p class="dp4 we300 ln18 tale">
-					금연은 담배에 대한 인식이 바뀌지 않고는 평생 괴로울 수밖에 없습니다. 알렌카는 흡연의 교묘한 메카니즘을 철저히 분석하여 근본적인 사고의 변화를 유도</span>합니다.<br><br>
+					금연은 담배에 대한 인식이 바뀌지 않고는 평생 괴로울 수밖에 없습니다. 알렌카는 흡연의 교묘한 메카니즘을 철저히 분석하여 근본적인 사고의 변화를 유도합니다.<br><br>
 					니코틴의 신체적 중독 자체는 1% 정도의 이슈에 불과합니다. 당신이 금연에 실패하는 진짜 이유는 나머지 99%에 있으며, 알렌카는 바로 이 부분을 철저하게 다루고 있습니다.
 				</p>
 				<div class="h020"></div>

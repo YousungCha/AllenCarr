@@ -1,5 +1,5 @@
 	<div class="continer-fluid bacred2 set-mgn">
-		<div class="h060"></div>
+		<div class="h080"></div>
 		<center>
 		<div class="row def-width-1200">
 			<div class="col-md-6 tale">
@@ -20,8 +20,34 @@
 		<center>
 		<div class="h070"></div>
 	</div>
-	<script type="text/javascript">
+		
+	<script>
+		// Move Top Page
 		function moveTop() { $('html, body').animate({'scrollTop' : 0}, 750); }
-	</script>
+
+		// Script for Partner Section
+		var swiper = new Swiper('.swiper-container-partner', {
+			effect: 'fade',
+			loop: true,
+			autoplay: {
+		        delay: 3500,
+		        disableOnInteraction: false,
+	      	},
+		});
+
+		// Script for Thumbnail Gallery Section
+		var galleryTop = new Swiper('.gallery-top', {
+			spaceBetween: 10,
+		});
+		var galleryThumbs = new Swiper('.gallery-thumbs', {		
+			spaceBetween: 10,
+			centeredSlides: true,
+			slidesPerView: 'auto',
+			touchRatio: 0.2,
+			slideToClickedSlide: true,
+		});
+		galleryTop.controller.control = galleryThumbs;
+		galleryThumbs.controller.control = galleryTop;	
+	</script>	
 	</body>
 </html>

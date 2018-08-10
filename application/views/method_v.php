@@ -2,7 +2,7 @@
 	<div class="container-fluid bacnavy set-mgn">
 		<div class="h100"></div>
 		<p class="tt3 we700 tace ln15 twhite">
-			금연테라피의 작동 방식
+			금연테라피란?
 		</p>
 		<div class="h025"></div>
 		<p class="cp3 tace lt100 tsilver ln18">Learn How Easyway Works</p>
