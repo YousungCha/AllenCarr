@@ -87,7 +87,7 @@
 		</div>
 
 		<div class="h030"></div>
-		<button class="cp3 lt000 tgray" style="border:1px solid silver; padding:15px; background-color: transparent;">YOUTUBE CHANNEL</button>
+		<button class="cp3 lt000 tgray btn-trans">YOUTUBE CHANNEL</button>
 		</center>
 		<div class="h080"></div>
 	</div>	

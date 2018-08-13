@@ -20,7 +20,7 @@
 			
 			<div class="swiper-container gallery-top">
 				<div class="swiper-wrapper" style="background-color: rgba(0,0,0,0.0);">
-					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun_lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
+					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun-lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div class="container-fluid wh-window">
 							<div class="h080"></div>
 							<p class="dp2 we700 ln15 tblack" style="max-width: 700px">
@@ -28,7 +28,7 @@
 								- 알렌카와 다른 금연법의 차이는?
 							</p>
 							<div class="h030"></div>
-							<p class="dp4 we300 ln18 tblack" style="max-width: 700px">
+							<p class="cp1 we300 ln18 tblack" style="max-width: 700px">
 								알렌카에 참여하기 전까지의 제 인생은 제대로 된 삶이 아니었습니다. 애초에 담배를 끊어야겠다는 생각을 진지하게 해본 적이 전혀 없었어요. 이번 것도 뭐 비슷한 금연 아니겠는가하는 마음으로 참여했지요.<br><br>
 								알렌카에 참여하기 전까지의 제 인생은 제대로 된 삶이 아니었습니다. 애초에 담배를 끊어야겠다는 생각을 진지하게 해본 적이 전혀 없었어요. 이번 것도 뭐 비슷한 금연 아니겠는가하는 마음으로 참여했지요.
 							</p>
@@ -37,7 +37,7 @@
 							<div class="h070"></div>
 						</div>
 					</div>				
-					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun_lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
+					<div class="swiper-slide top-set" style="background-image: url('/images/people/dongchae-lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div class="container-fluid wh-window">
 							<div class="h080"></div>
 							<p class="dp2 we700 ln15 tblack" style="max-width: 700px">
@@ -54,7 +54,7 @@
 							<div class="h070"></div>
 						</div>
 					</div>
-					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun_lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
+					<div class="swiper-slide top-set" style="background-image: url('/images/people/daesoo-kim.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div class="container-fluid wh-window">
 							<div class="h080"></div>
 							<p class="dp2 we700 ln15 tblack" style="max-width: 700px">
@@ -71,7 +71,7 @@
 							<div class="h070"></div>
 						</div>
 					</div>
-					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun_lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
+					<div class="swiper-slide top-set" style="background-image: url('/images/people/jisung-kim.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div class="container-fluid wh-window">
 							<div class="h080"></div>
 							<p class="dp2 we700 ln15 tblack" style="max-width: 700px">
@@ -88,7 +88,7 @@
 							<div class="h070"></div>
 						</div>
 					</div>
-					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun_lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
+					<div class="swiper-slide top-set" style="background-image: url('/images/people/taesoo-kim.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div class="container-fluid wh-window">
 							<div class="h080"></div>
 							<p class="dp2 we700 ln15 tblack" style="max-width: 700px">
@@ -107,29 +107,48 @@
 					</div>
 				</div>					
 			</div>
-			<div class="h015"></div>
 			<div class="swiper-container gallery-thumbs">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide" style="border:5px solid white;">
-						<img src="/images/people/donghun_lee.jpg" width="100%">
+					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+						<img src="/images/people/donghun-lee.jpg" width="100%">
+						<div class="h015"></div>
+						<p class="cp3 we300 tblack ln15 pdglr15">
+							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
+						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white;">
-						<img src="/images/people/donghun_lee.jpg" width="100%">
+					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+						<img src="/images/people/dongchae-lee.jpg" width="100%">
+						<div class="h015"></div>
+						<p class="cp3 we300 tblack ln15 pdglr15">
+							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
+						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white;">
-						<img src="/images/people/donghun_lee.jpg" width="100%">
+					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+						<img src="/images/people/daesoo-kim.jpg" width="100%">
+						<div class="h015"></div>
+						<p class="cp3 we300 tblack ln15 pdglr15">
+							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
+						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white;">
-						<img src="/images/people/donghun_lee.jpg" width="100%">
+					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+						<img src="/images/people/jisung-kim.jpg" width="100%">
+						<div class="h015"></div>
+						<p class="cp3 we300 tblack ln15 pdglr15">
+							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
+						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white;">
-						<img src="/images/people/donghun_lee.jpg" width="100%">
+					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+						<img src="/images/people/taesoo-kim.jpg" width="100%">
+						<div class="h015"></div>
+						<p class="cp3 we300 tblack ln15 pdglr15">
+							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
+						</p>						
 					</div>															
 				</div>
 			</div>			
 			</center>
 			<div class="h080"></div>
-			<button class="cp3 we700 lt000 tgray1" style="border:1px solid gray; padding:15px; background-color: transparent;">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>
+			<button class="cp3 we700 lt000 tgray1 btn-trans">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>
 			</center>
 
 			<div class="h100"></div>

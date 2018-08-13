@@ -1,3 +1,26 @@
 input, button:focus {
 	outline : none;	
 }
+
+.btn-trans {
+	border:1px solid silver; 
+	padding:15px; background-color: transparent; 
+	font-family: 'arial';
+}
+.btn-trans:hover {
+	border:1px solid gray;
+	color:orange;
+	margin-top:-2px;
+	margin-bottom: 2px;
+}
+
+.btn-download {
+	border:0px; 
+	background-image: linear-gradient(to right, #ED3287, #D41147); 	
+	border-radius: 5px; 
+	font-family: 'arial';
+}
+.btn-download:hover {
+	margin-top:-2px;
+	margin-bottom: 2px;
+}

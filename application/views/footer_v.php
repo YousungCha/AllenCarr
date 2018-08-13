@@ -22,32 +22,32 @@
 	</div>
 		
 	<script>
-		// Move Top Page
-		function moveTop() { $('html, body').animate({'scrollTop' : 0}, 750); }
+	// Move Top Page
+	function moveTop() { $('html, body').animate({'scrollTop' : 0}, 750); }
 
-		// Script for Partner Section
-		var swiper = new Swiper('.swiper-container-partner', {
-			effect: 'fade',
-			loop: true,
-			autoplay: {
-		        delay: 3500,
-		        disableOnInteraction: false,
-	      	},
-		});
+	// Script for Partner Section
+	var swiper = new Swiper('.swiper-container-partner', {
+		effect: 'fade',
+		loop: true,
+		autoplay: {
+	        delay: 3500,
+	        disableOnInteraction: false,
+      	},
+	});
 
-		// Script for Thumbnail Gallery Section
-		var galleryTop = new Swiper('.gallery-top', {
-			spaceBetween: 10,
-		});
-		var galleryThumbs = new Swiper('.gallery-thumbs', {		
-			spaceBetween: 10,
-			centeredSlides: true,
-			slidesPerView: 'auto',
-			touchRatio: 0.2,
-			slideToClickedSlide: true,
-		});
-		galleryTop.controller.control = galleryThumbs;
-		galleryThumbs.controller.control = galleryTop;	
+	// Script for Thumbnail Gallery Section
+	var galleryTop = new Swiper('.gallery-top', {
+		spaceBetween: 10,
+	});
+	var galleryThumbs = new Swiper('.gallery-thumbs', {		
+		spaceBetween: 10,
+		centeredSlides: true,
+		slidesPerView: 'auto',
+		touchRatio: 0.2,
+		slideToClickedSlide: true,
+	});
+	galleryTop.controller.control = galleryThumbs;
+	galleryThumbs.controller.control = galleryTop;
 	</script>	
 	</body>
 </html>
