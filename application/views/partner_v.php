@@ -1,5 +1,5 @@
 	<!-- Partners -->
-	<div class="container-fluid bwhite1 set-mgn">
+	<div class="container-fluid set-mgn">
 		<div class="h080"></div>
 		<center>
 		<div class="row def-width-1000">
@@ -29,15 +29,26 @@
 				</div>
 			</div>			
 		</div>
+		<div class="h080"></div>
+		<!-- 로고 모음 -->
+		<div class="def-width-1000">
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/busan_bank_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/food_gov_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/pearl_abyss_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/kukmin_news_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/newera_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/nitmus_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/soosan_industry_sq.jpg" width="70%"></div>
+			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/chonggak_sq.jpg" width="70%"></div>
+		</div>
+		<!-- 로고 모음 -->
 		</center>
-		<div class="h100"></div>
-		<div class="h050"></div>
 	</div>
 
 	<div class="container-fluid set-mgn">
 		<div class="h080"></div>
-		<p class="sb1 we700 tace ln15 lt009">
-			미디어에 소개된 알렌카와 테라피스트
+		<p class="sb2 we700 tace ln15 lt009">
+			미디어에 소개된 <font class="tacred">알렌카와 테라피스트</font>
 		</p>
 		<div class="h060"></div>
 		<center>
@@ -92,3 +103,27 @@
 		<div class="h080"></div>
 	</div>	
 
+	<style type="text/css">
+		.gray {
+			opacity: 0.7;
+			-webkit-filter: grayscale(100%);
+			filter: gray;
+		}		 
+	</style>
+
+	<script type="text/javascript">
+		$('.gray').mouseenter(function() {
+			$(this).animate({
+				opacity: 1.0,
+				width: '80%',
+				filter: 'alpha'				
+			},500);
+		});
+
+		$('.gray').mouseleave(function() {
+			$(this).animate({
+				opacity: 0.7,
+				width: '70%',
+			},500);
+		});
+	</script>
