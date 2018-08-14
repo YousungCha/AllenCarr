@@ -17,7 +17,7 @@
 			 		<div class="h005"></div>
 			 		<img src="/images/logo.png" style="width: 120px;">
 					<div class="h060"></div>	
-					<img src="/images/trailer.jpg" style="width:300px; border:10px solid #E7E7E7;">
+					<img src="/images/trailer.jpg" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" style="width:300px; border:10px solid #E7E7E7; cursor: pointer;">
 					<div class="h080"></div>
 
 					<p class="sns-menu-desk cp2 we700 tgray1 lt000 ln20">
@@ -31,11 +31,31 @@
 				</div>				
 			</div>
 			<div class="swiper-slide"></div>
-		</div>
-		<!-- Add Pagination -->
+		</div>		
     	<div class="swiper-pagination" style="margin-bottom:50px;"></div>    	
 	</div>
+
+	<!-- movie -->
+	<div class="modal fade" id="modal-for-trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="container-fluid" style="width:100%; background: rgba(0,0,0,0.5);" onclick="modalClose('#modal-for-trailer');">
+			<div class="h100"></div>
+			<p class="tari" style="padding-right: 30px;"><a href="#" data-dismiss="modal" onclick="modalClose('#modal-for-trailer');"><img src="/images/icon-close.png" style="width: 19px; height: 18px;"></a></p>
+			<div class="h030"></div>
+			<div class="container">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MmQAXVHLCTU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>			 
+				</div>
+			</div>
+			<div class="h100"></div>
+		</div>
+	</div>
+
 	<script type="text/javascript">
+	function modalClose(modalName)
+	{
+		$(modalName).modal('hide');
+		window.location.reload();	// for stopping the movie play
+	}
 	// Hero Section
 	var swiperHero = new Swiper('.swiper-container', {		
 		slidesPerView: 1,

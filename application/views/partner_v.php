@@ -1,5 +1,5 @@
 	<!-- Partners -->
-	<div class="container-fluid set-mgn ">
+	<div class="container-fluid set-mgn" id="tag-partner">
 		<div class="h080"></div>
 		<center>
 		<div class="row def-width-1000">

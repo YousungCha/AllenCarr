@@ -1,5 +1,5 @@
 	<!-- How Method Works -->
-	<div class="container-fluid bacnavy set-mgn">
+	<div class="container-fluid bacnavy set-mgn" id="tag-method">
 		<div class="h100"></div>
 		<p class="tt3 we700 tace ln15 twhite">
 			금연테라피란?

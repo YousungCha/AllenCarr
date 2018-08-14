@@ -1,6 +1,6 @@
 
 	<!-- Allen Carr's Value -->
-	<div class="container-fluid set-mgn">
+	<div class="container-fluid set-mgn" id="tag-value">
 		<div class="h100"></div>
 		<p class="tt3 we700 tace ln15 lt009">
 			진짜 금연은 목표가 다르다.

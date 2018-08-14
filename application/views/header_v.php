@@ -25,5 +25,6 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-input.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-swiper.css">	
 		<script type="text/javascript" src="/include/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/include/js/bootstrap.min.js"></script>
 	</head>
 	<body class="bwhite">

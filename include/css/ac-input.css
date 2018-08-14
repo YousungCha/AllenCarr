@@ -24,3 +24,13 @@ input, button:focus {
 	margin-top:-2px;
 	margin-bottom: 2px;
 }
+
+.txt-menu {
+	padding-right: 25px; 
+	letter-spacing: 0.1em; 
+	cursor: pointer;
+	font-family: 'arial';
+}
+.txt-menu:hover {
+	font-weight: 700;
+}

@@ -1,6 +1,6 @@
 	
 	<!-- FAQ -->
-	<div class="container-fluid set-mgn">
+	<div class="container-fluid set-mgn" id="tag-faq">
 		<div class="h080"></div>
 		<p class="tt3 we700 tace ln15 lt000">
 			FAQ
