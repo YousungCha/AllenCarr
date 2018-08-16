@@ -1,12 +1,44 @@
 @charset "utf-8";
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Light-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Light-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Bold-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Bold-Hestia.woff) format('woff');
+}
 
 * { 
 	font-family: 'Noto Sans KR';
 	line-height: 1.0;
 	letter-spacing: -0.05em;	
 }
+
 
 .ln10 { line-height: 1.0; }
 .ln15 { line-height: 1.5; }
@@ -20,7 +52,7 @@
 .lt007 { letter-spacing: -0.07em; }
 .lt009 { letter-spacing: -0.09em; }
 
-.we200 { font-weight: 200; }
+.we200 { font-weight: 100; }
 .we300 { font-weight: 300; }
 .we500 { font-weight: 500; }
 .we700 { font-weight: 700; }
