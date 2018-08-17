@@ -18,5 +18,11 @@ class MainSystem extends CI_Controller
 		$this->load->view('faq_v');
 		$this->load->view('footer_v');
 	}
+	public function Book()
+	{
+		$this->load->view('header_v');		
+		$this->load->view('menu_v');
+		$this->load->view('footer_v');
+	}
 }
 

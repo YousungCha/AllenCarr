@@ -11,11 +11,19 @@
   width: 25%;
   height: 100%;
   opacity: 0.4;
+  background-color: black;
+  border: 1px solid gray;
+  color: silver;
+  padding: 7px;
   -webkit-filter: grayscale(100%);
   filter: gray;
 }
 .gallery-thumbs .swiper-slide-active {
   opacity: 1;
-  -webkit-filter: grayscale(0%);
+  background-color: white;
+  border:7px solid white;
+  padding: 0px;
+  color:black;
+  -webkit-filter: grayscale(0%);  
   filter: none;
 }	

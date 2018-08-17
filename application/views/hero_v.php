@@ -1,6 +1,29 @@
 	<div class="swiper-container set-mgn" style="margin-top:0px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
+				<div class="container-fluid" style="background-image: url('/images/richard-branson-background.jpg'); background-size: cover; height: 879px;">
+					<div class="h100"></div> 
+			 		<center>
+			 		<div class="row def-width-1200">
+				 		<p class="sb1 we700 tblack ln15 lt007 tale"> 		
+				 			실제로 흡연의 의존성을 완벽히 제거하는<br>
+				 			알렌카의 금연법은 독보적입니다.
+				 		</p>
+				 		<div class="h015"></div>
+				 		<p class="dp2 we500 tgray ln15 lt000 tale">
+				 			Richard Branson <font class="dp4 we300 lt000">CEO of Virgin Group</font>
+				 		</p>
+						<div class="h030"></div>
+						<p class="tale">
+						<img src="/images/trailer-ani.gif" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer" style="border:5px solid darkgray">
+						</p>
+								 		
+			 		</div>
+			 		</center>
+				</div>
+			</div>
+
+			<div class="swiper-slide">
 			 	<div class="title-box container-fluid bblack1 tace" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%; margin-top:0px;">	 	
 			 		<div class="h100"></div> 
 			 		<div class="h010"></div> 		
@@ -17,20 +40,20 @@
 			 		<div class="h005"></div>
 			 		<img src="/images/logo.png" style="width: 120px;">
 					<div class="h060"></div>	
-					<img src="/images/trailer.jpg" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" style="width:300px; border:10px solid #E7E7E7; cursor: pointer;">
+					<img src="/images/trailer-ani.gif" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer">
 					<div class="h080"></div>
 
 					<p class="sns-menu-desk cp2 we700 tgray1 lt000 ln20">
-						<img src="/images/icon-kakao.png" style="margin-right: 7px; margin-top:-2px;"> 카카오톡 공식 채널
-						<img src="/images/icon-kakao.png" style="margin-left: 20px; margin-right: 7px; margin-top:-2px;"> 네이버 카페
-						<img src="/images/icon-blog.png" style="width:25px; margin-left: 20px; margin-right: 7px;"> 네이버 블로그
-						<img src="/images/icon-facebook.png" style="width:25px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> Facebook
+						<img src="/images/icon-kakao.png" style="margin-right: 7px; margin-top:-2px;"> <a href="https://open.kakao.com/o/gaAXTDV" target="_blank" class="tgray1">카카오톡 공식 채널</a>
+						<img src="/images/icon-cafe.png" style="margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <a href="https://cafe.naver.com/allencarr" target="_blank" class="tgray1">네이버 카페</a>
+						<img src="/images/icon-blog.png" style="width:25px; margin-left: 20px; margin-right: 7px;"> <a href="https://blog.naver.com/allencarr" target="_blank" class="tgray1">네이버 블로그</a>
+						<img src="/images/icon-facebook.png" style="width:25px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <font class="tgray"> Facebook</font>
 					</p>
 					<div class="h100"></div>
 					<div class="h040"></div>
 				</div>				
 			</div>
-			<div class="swiper-slide"></div>
+
 		</div>		
     	<div class="swiper-pagination" style="margin-bottom:50px;"></div>    	
 	</div>
@@ -59,6 +82,11 @@
 	// Hero Section
 	var swiperHero = new Swiper('.swiper-container', {		
 		slidesPerView: 1,
+		effect: 'fade',
+		speed: 1500,
+		autoplay: {
+			delay: 3000,
+		},
 		loop: true,      
 		pagination: {
 			el: '.swiper-pagination',

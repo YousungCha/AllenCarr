@@ -34,3 +34,18 @@ input, button:focus {
 .txt-menu:hover {
 	font-weight: 700;
 }
+
+.img-trailer {
+	width:300px; border:7px solid #f7f7f7; cursor: pointer;
+}
+.img-trailer:hover {
+	border: 7px solid white;
+	margin-top:-2px;
+	margin-bottom: 2px;
+}
+
+a { text-decoration: none;}
+a:hover {
+	color:orange;	
+	text-decoration: none;
+}

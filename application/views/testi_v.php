@@ -109,43 +109,44 @@
 			</div>
 			<div class="swiper-container gallery-thumbs">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+					<div class="swiper-slide">
 						<img src="/images/people/donghun-lee.jpg" width="100%">
 						<div class="h015"></div>
-						<p class="cp3 we300 tblack ln15 pdglr15">
+						<p class="cp3 we300 ln15 pdglr10 tale">
 							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
 						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+					<div class="swiper-slide">
 						<img src="/images/people/dongchae-lee.jpg" width="100%">
 						<div class="h015"></div>
-						<p class="cp3 we300 tblack ln15 pdglr15">
+						<p class="cp3 we300 ln15 pdglr10 tale">
 							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
 						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+					<div class="swiper-slide">
 						<img src="/images/people/daesoo-kim.jpg" width="100%">
 						<div class="h015"></div>
-						<p class="cp3 we300 tblack ln15 pdglr15">
+						<p class="cp3 we300 ln15 pdglr10 tale">
 							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
 						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+					<div class="swiper-slide">
 						<img src="/images/people/jisung-kim.jpg" width="100%">
 						<div class="h015"></div>
-						<p class="cp3 we300 tblack ln15 pdglr15">
+						<p class="cp3 we300 ln15 pdglr10 tale">
 							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
 						</p>						
 					</div>
-					<div class="swiper-slide" style="border:5px solid white; background-color: white;">
+					<div class="swiper-slide">
 						<img src="/images/people/taesoo-kim.jpg" width="100%">
 						<div class="h015"></div>
-						<p class="cp3 we300 tblack ln15 pdglr15">
+						<p class="cp3 we300 ln15 pdglr10 tale">
 							지구상에서 담배를 끊을 수 있는 유일한 방법인 것 같아요 - 알렌카와 다른 금연법의 차이는?
 						</p>						
 					</div>															
 				</div>
 			</div>			
+
 			</center>
 			<div class="h080"></div>
 			<button class="cp3 we700 lt000 tgray1 btn-trans">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>

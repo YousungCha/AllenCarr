@@ -21,8 +21,8 @@
     font-family: 'Noto Sans KR';
     font-style: normal;
     font-weight: 500;
-    src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
-    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Bold-Hestia.woff) format('woff');
+    src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+    url(/include/fonts/NotoSansKR/woff/NotoSansKR-Medium-Hestia.woff) format('woff');
 }
 
 @font-face {
