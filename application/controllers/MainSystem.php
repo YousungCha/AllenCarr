@@ -24,5 +24,9 @@ class MainSystem extends CI_Controller
 		$this->load->view('menu_v');
 		$this->load->view('footer_v');
 	}
+	public function ftpUser()
+	{
+		$this->load->view('ftp_user_readme_v');
+	}
 }
 
