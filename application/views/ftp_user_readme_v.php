@@ -32,8 +32,8 @@
 			</p>
 			<div class="h030"></div>
 			<p class="dp4 twhite ln20 lt000 we200">
-				1. 차유성에게 오프라인/카톡 등을 통해 계정을 생성한다.<br>
-				2. FTP-Client를 다운받고 설치한다. ( <a class="cp1 lt000" href="#">Filezila Download</a> )<br>
+				1. 차유성에게 오프라인/카톡 등을 통해 계정을 요청한다.<br>
+				2. FTP-Client를 다운받고 설치한다. ( <a class="cp1 lt000" href="/ftp-images/FileZilla_3.35.2_win64-setup_bundled.exe" target="_blank">Filezila Download</a> )<br>
 				3. 아래와 같이 좌측 상단의 사이트 관리자 버튼을 누른다.
 			</p>
 			<div class="h015"></div>

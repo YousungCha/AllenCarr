@@ -20,8 +20,8 @@
 		<center>
 		<div class="h070"></div>
 	</div>
-		
-	<script>
+
+	<script type="text/javascript">
 	// Move Top Page
 	function moveTop() { $('html, body').animate({'scrollTop' : 0}, 750); }
 
@@ -61,10 +61,10 @@
 				var z = 0;
 				var x = 0;
 
-				if(this.activeIndex > slidesPerView/2)
+				if(this.activeIndex > slidesPerView / 2)
 				{
 					console.log(this.activeIndex);
-					translate = this.activeIndex == this.slides.length -1 ? -this.snapGrid[this.snapGrid.length - 2] : this.translate;
+					translate = this.activeIndex == this.slides.length - 1 ? - this.snapGrid[this.snapGrid.length - 2] : this.translate;
 
 					if (this.isHorizontal()) {
 						x = this.params.rtl ? -translate : translate;

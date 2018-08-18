@@ -2,7 +2,7 @@
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
 				<div class="container-fluid" style="background-image: url('/images/richard-branson-background.jpg'); background-size: cover; height: 879px;">
-					<div class="h100"></div> 
+					<div class="h100"></div>
 			 		<center>
 			 		<div class="row def-width-1200">
 				 		<p class="sb1 we700 tblack ln15 lt007 tale"> 		
@@ -16,8 +16,7 @@
 						<div class="h030"></div>
 						<p class="tale">
 						<img src="/images/trailer-ani.gif" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer" style="border:5px solid darkgray">
-						</p>
-								 		
+						</p> 		
 			 		</div>
 			 		</center>
 				</div>
@@ -26,7 +25,6 @@
 			<div class="swiper-slide">
 			 	<div class="title-box container-fluid bblack1 tace" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%; margin-top:0px;">	 	
 			 		<div class="h100"></div> 
-			 		<div class="h010"></div> 		
 			 		<p class="tt3 we700 twhite ln15 lt007"> 		
 			 			<!--
 			 			당신의 금연 역사를 다시 써드립니다.<br>
@@ -50,7 +48,7 @@
 						<img src="/images/icon-facebook.png" style="width:25px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <font class="tgray"> Facebook</font>
 					</p>
 					<div class="h100"></div>
-					<div class="h040"></div>
+					<div class="h050"></div>
 				</div>				
 			</div>
 
@@ -84,9 +82,11 @@
 		slidesPerView: 1,
 		effect: 'fade',
 		speed: 1500,
+		/*
 		autoplay: {
 			delay: 3000,
 		},
+		*/
 		loop: true,      
 		pagination: {
 			el: '.swiper-pagination',
