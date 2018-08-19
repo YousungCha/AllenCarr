@@ -6,16 +6,16 @@
 			 		<center>
 			 		<div class="row def-width-1200">
 				 		<p class="sb1 we700 tblack ln15 lt007 tale"> 		
-				 			실제로 흡연의 의존성을 완벽히 제거하는<br>
+				 			실제로 <font class="tacred">흡연의 의존성을 완벽히 제거</font>하는<br>
 				 			알렌카의 금연법은 독보적입니다.
 				 		</p>
 				 		<div class="h015"></div>
-				 		<p class="dp2 we500 tgray ln15 lt000 tale">
+				 		<p class="dp2 we500  ln15 lt003 tale">
 				 			Richard Branson <font class="dp4 we300 lt000">CEO of Virgin Group</font>
 				 		</p>
 						<div class="h030"></div>
 						<p class="tale">
-						<img src="/images/trailer-ani.gif" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer" style="border:5px solid darkgray">
+						<img src="/images/richard_branson.jpg" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer" style="border:5px solid silver">
 						</p> 		
 			 		</div>
 			 		</center>
@@ -75,7 +75,7 @@
 	function modalClose(modalName)
 	{
 		$(modalName).modal('hide');
-		window.location.reload();	// for stopping the movie play
+		//window.location.reload();	// for stopping the movie play
 	}
 	// Hero Section
 	var swiperHero = new Swiper('.swiper-container', {		
