@@ -53,18 +53,3 @@
 		<div class="h030"></div>
 		</center>	
 	</div>
-
-	<script type="text/javascript">
-	function openSection(id)
-	{		
-		data = "div#" + id;	
-		if ($(data).css('display') == 'none') {			
-			$(data).slideDown(300);
-			$(".plus_" + id).html("-");
-		}	
-		else {
-			$(data).slideUp(300);
-			$(".plus_" + id).html("+");
-		}		
-	}		
-	</script>

@@ -22,6 +22,23 @@
 	</div>
 
 	<script type="text/javascript">
+
+	// Open Section
+	function openSection(id)
+	{		
+		data = "div#" + id;	
+		if ($(data).css('display') == 'none') {			
+			$(data).slideDown(300);
+			$(".plus_" + id).html("-");
+		}	
+		else {
+			$(data).slideUp(300);
+			$(".plus_" + id).html("+");
+		}		
+	}		
+
+	
+
 	// Move Top Page
 	function moveTop() { $('html, body').animate({'scrollTop' : 0}, 750); }
 
