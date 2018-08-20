@@ -8,12 +8,12 @@
 		</p>
 		<div class="h030"></div>
 		<button class="cp4 lt000 twhite btn-trans" onclick="openSection('contents-1')">READ MORE <font class="plus_contents-1">+</font></button>		
-		<div class="h030"></div>
+		<div class="h050"></div>
 		<center>
 		<div class="row def-width-1200 bwhite" id="contents-1" style="display: none;">
 			<div class="col-md-6 pdg30">
-				<p class="dp4 we700 ln18 tale tacred2">
-					장소의 제약으로 알렌카에 참여하지 못했던 분들에게 희소식입니다.
+				<p class="dp3 we700 ln18 tale tacred2">
+					장소의 제약으로 참여하지 못했던 분들에게 희소식!
 				</p>
 				<p class="cp1 we200 ln18 tale">
 					알렌카는 온라인 금연테라피를 준비 중입니다. <b>온라인 금연테라피는 화상 회의 시스템으로 6 ~ 8 명 정도의 인원으로 진행</b>되며, Google Meet를 이용하여 누구나 쉽고 간단하게 참여할 수 있습니다.<br><br>
@@ -24,7 +24,7 @@
 				<p class="cp3 tace tgray1 we200">* Google Meet 화상회의 장면</p>
 			</div>
 			<div class="col-md-6 pdg30">
-				<p class="dp4 we700 ln18 tale tacred2">
+				<p class="dp3 we700 ln18 tale tacred2">
 					테스트 테라피, 1차 정규테라피를 무료로 만날 수 있는 기회!
 				</p>
 				<p class="cp1 we200 ln18 tale">
@@ -37,8 +37,15 @@
 						<td class="bacred tace" style="border:1px solid #EB3186; border-right: 0px; width: 35px">
 							<img src="/images/email-white.14b4e9c3.svg">
 						</td>
-						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500 tblack" type="email" name="" style="background-color: transparent; padding-left:10px; border:0px; height:42px;" placeholder="your@email.com"></td>
+						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500 tblack" type="email" name="" style="background-color: transparent; padding-left:10px; border:0px; height:42px; width:100%;" placeholder="your@email.com"></td>
 						<td class="bacred2" style="border:1px solid #D41147; width: 30%;"><button class="twhite pdg15 pdglr20 cp2 bacred lt000" style="width: 100%; border:0px;">신청하기</button></td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<div class="h020"></div>
+							<div class="g-recaptcha" data-sitekey="6Ld7yWoUAAAAAFU0M8cw0q06cdAkDN043LzM3Tzi" style="float:left; padding-right: 15px; padding-bottom: 15px;"></div>
+							<p class="cp4 tacred we200">* reCAPTCHA를 체크해야 신청할 수 있습니다.</p>
+						</td>
 					</tr>
 				</table>
 				<div class="h030"></div>
@@ -47,9 +54,10 @@
 					* 참여하시는 테라피는 1차 정규테라피로 Google Meet를 통해 온라인 테라피로 진행됩니다.<br>
 					* 진행은 차유성 테라피스트가 담당하며, 상황에 따라 변경될 수 있습니다.
 				</p>
-				<div class="h030"></div>	
-			</div>						
+				<div class="h030"></div>				
+			</div>
+			<div class="h060 bacred2"></div>
 		</div>
-		<div class="h030"></div>
 		</center>	
 	</div>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
