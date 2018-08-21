@@ -117,11 +117,11 @@
 						<td colspan="2">
 							<div id="faq-6" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
 								<div class="h015"></div>
-								알렌카 대한민국 브랜치는 2014년 2월 첫 테라피를 시작으로 현재까지 꾸준히 성장해왔습니다. 약 2875명의 흡연자가 테라피에 참여했고, 그 중 환불자를 기준으로 2472명(약 86%)이 금연에 성공했습니다.<br><br>실패한 모든 흡연자는 절차에 따라 명확하게 모든 비용을 환불처리해드렸습니다.
+								알렌카 대한민국 브랜치는 2014년 2월 첫 테라피를 시작으로 현재까지 꾸준히 성장해왔습니다. 약 2875명의 흡연자가 테라피에 참여했고, 그 중 환불자를 기준으로 2472명(2018년 08월 기준 약 86%)이 금연에 성공했습니다.<br><br>실패한 모든 흡연자는 절차에 따라 명확하게 모든 비용을 환불처리해드렸습니다.
 								<div class="h015"></div>
 							</div>
 						</td>
-					</tr>					
+					</tr>
 					<tr style="height: 20px;"></tr>
 				</table>				
 			</div>
@@ -132,15 +132,39 @@
 			<div class="h020"></div>
 			<div class="col-md-6 pdg00">
 				<table width="100%">
-					<tr>
-						<td style="width: 25px;"><font class="dp2 we700 tacred">+</font></td>
+					<tr style="cursor: pointer;" onclick="openSection('faq-7');">
+						<td style="width: 25px;"><font class="dp2 we700 tacred plus_faq-7">+</font></td>
 						<td class="cp1 we700 ln15 tale">1차, 2차, 3차 테라피가 있는 이유가 무엇인가요?</td>
 					</tr>
-					<tr style="height: 20px;"></tr>
 					<tr>
-						<td style="width: 25px;"><font class="dp2 we700 tacred">+</font></td>
+						<td colspan="2">
+							<div id="faq-7" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+								<div class="h015"></div>
+								금연테라피의 핵심은 1차이며, 2차와 3차는 실패자를 대상으로한 심화테라피입니다.<br><br>
+								1차만으로도 충분한 사람들이 있는 반면, 실패하는 분들도 있습니다. 알렌카는 금연테라피에 참여하고도 실패하는 사람들의 심리까지 면밀히 조사/분석했습니다. 그리고 그들에게는 반드시 심화테라피가 필요하다는 것을 확인했습니다.<br><br>
+								사람에 따라서는 1차, 2차, 3차가 모두 필요한 분들이 분명히 있습니다. 그런 흡연자 개개인의 문제가 아니라 그들의 사고 방식, 상황, 생각들이 모두 다양하기 때문입니다. 환불률 기준 90%의 성공률 또한 1차, 2차, 3차를 모두 포함했을 때의 성공률입니다.
+								<div class="h015"></div>
+							</div>
+						</td>
+					</tr>					
+					<tr style="height: 20px;"></tr>
+					<tr style="cursor: pointer;" onclick="openSection('faq-8');">
+						<td style="width: 25px;"><font class="dp2 we700 tacred plus_faq-8">+</font></td>
 						<td class="cp1 we700 ln15 tale">각각 차수별 성공률이 어떻게 되나요?</td>
 					</tr>
+					<tr>
+						<td colspan="2">
+							<div id="faq-8" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+								<div class="h015"></div>
+								알렌카 한국 브랜치는 수많은 분들이 참여하므로 성공률에 약간씩의 변동이 있습니다. 참여한 분들을 대상으로한 통계는 다음과 같습니다.<br><br>
+								1차 : <b class="tacred">45 ~ 55%</b><br>
+								2차 : <b class="tacred">70 ~ 75%</b><br>
+								3차 : <b class="tacred">80 ~ 86%</b><br><br>
+								또한, 해당 통계는 세계 지역별로 있는 알렌카의 브랜치들이 거의 유사합니다. 모든 프로그램은 알렌카 국제 표준에 의하여 엄격하게 통제되고 관리되기 때문입니다.
+								<div class="h015"></div>
+							</div>
+						</td>
+					</tr>					
 					<tr style="height: 20px;"></tr>
 					<tr>
 						<td style="width: 25px;"><font class="dp2 we700 tacred">+</font></td>
