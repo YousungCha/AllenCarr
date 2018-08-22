@@ -130,5 +130,5 @@
 .set-mgn { margin: 10px; margin-bottom: 0px; }
 @media(max-width: 800px) {
     .set-mgn { margin: 0px; }
-    #desk_menu { display: none; }
+    #desk_menu { display: none; }    
 }
