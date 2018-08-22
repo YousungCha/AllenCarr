@@ -43,6 +43,11 @@
 	position: relative;
 }
 
+.prg-line-v {
+	border-left: 1px dashed #EE3287;
+	position: relative;
+}
+
 .prg-circle {
 	width:20px; height: 20px;
 	background-color: white; 

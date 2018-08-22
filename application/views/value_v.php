@@ -48,70 +48,125 @@
 	<div class="container-fluid bwhite1 set-mgn">
 		<div class="h080"></div>
 		<p class="sb3 we300 tace ln15 lt009">
-			<b>의지력을 쓰지 않는 금연, <font color="#D41147">실제로 가능할까?</font></b>
+			<b>의지력을 쓰지 않는 금연, <br class="mobile"><font color="#D41147">실제로 가능할까?</font></b>
 		</p>
 		<div class="h060"></div>
 		<center>
-		<table class="tace" style="width:100%;">
-			<tr>
-				<td>
-					<p class="dp4 we700">Understand</p>
-					<p class="cp1 we500 tacred">중독의 이해</p>
-					<div class="h050"></div>
-				</td>
-				<td>
-					<p class="dp4 we700">Transform</p>
-					<p class="cp1 we500 tacred">인식의 전환</p>
-					<div class="h050"></div>
-				</td>
-				<td>
-					<p class="dp4 we700">Remove Fear</p>
-					<p class="cp1 we500 tacred">두려움의 제거</p>
-					<div class="h050"></div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div class="h30"></div>
-                    <div class="prg-line" style="width:50%; float: right;"><div class="prg-circle"></div></div>
-                    <div class="h35"></div>
-				</td>
-				<td>
-					<div class="h30"></div>
-                    <div class="prg-line" style="width:100%"><div class="prg-circle" style="left:50%"></div><div class="h35"></div>						
-				</td>
-				<td>
-					<div class="h30"></div>
-                    <div class="prg-line" style="width:50%"><div class="prg-circle" style="left:100%"></div></div>
-                    <div class="h35"></div>						
-				</td>
-			</tr>
-		</table>
-		<table class="tace" width="100%">
-			<tr>
-				<td>
-					<div class="h050"></div>
-					<p class="dp4 we300 ln18">
-						금연의 첫걸음은 <b>중독의 제대로된 이해</b>입니다.<br>
-						얼마나 많은 오해를 하고 있었는지 정확히 알게 됩니다.
-					</p>
-				</td>
-				<td>
-					<div class="h050"></div>
-					<p class="dp4 we300 ln18">
-						이해와 수용을 통해 담배에 대한 인식이 바뀝니다.<br>
-						흡연자 특유의 <b>허상을 없애고 진리를 정립</b>합니다.
-					</p>
-				</td>
-				<td>
-					<div class="h050"></div>
-					<p class="dp4 we300 ln18">
-						담배없는 인생은 완벽하지 않다는 두려움이 사라집니다.<br>
-						<b>진정한 의미의 비흡연자로서 첫걸음</b>을 시작합니다.
-					</p>
-				</td>
-			</tr>
-		</table>
+		<div class="desk">
+			<table class="tace" width="100%">
+				<tr>
+					<td>
+						<p class="dp4 we700">Understand</p>
+						<p class="cp1 we500 tacred">중독의 이해</p>
+						<div class="h050"></div>
+					</td>
+					<td>
+						<p class="dp4 we700">Transform</p>
+						<p class="cp1 we500 tacred">인식의 전환</p>
+						<div class="h050"></div>
+					</td>
+					<td>
+						<p class="dp4 we700">Remove Fear</p>
+						<p class="cp1 we500 tacred">두려움의 제거</p>
+						<div class="h050"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="h30"></div>
+	                    <div class="prg-line" style="width:50%; float: right;"><div class="prg-circle"></div></div>
+	                    <div class="h35"></div>
+					</td>
+					<td>
+						<div class="h30"></div>
+	                    <div class="prg-line" style="width:100%"><div class="prg-circle" style="left:50%"></div><div class="h35"></div>						
+					</td>
+					<td>
+						<div class="h30"></div>
+	                    <div class="prg-line" style="width:50%"><div class="prg-circle" style="left:100%"></div></div>
+	                    <div class="h35"></div>						
+					</td>
+				</tr>
+			</table> 
+			<table class="tace" width="100%">
+				<tr>
+					<td>
+						<div class="h050"></div>
+						<p class="dp4 we300 ln18">
+							금연의 첫걸음은 <b>중독의 제대로된 이해</b>입니다.<br>
+							얼마나 많은 오해를 하고 있었는지 정확히 알게 됩니다.
+						</p>
+					</td>
+					<td>
+						<div class="h050"></div>
+						<p class="dp4 we300 ln18">
+							이해와 수용을 통해 담배에 대한 인식이 바뀝니다.<br>
+							흡연자 특유의 <b>허상을 없애고 진리를 정립</b>합니다.
+						</p>
+					</td>
+					<td>
+						<div class="h050"></div>
+						<p class="dp4 we300 ln18">
+							담배없는 인생은 완벽하지 않다는 두려움이 사라집니다.<br>
+							<b>진정한 의미의 비흡연자로서 첫걸음</b>을 시작합니다.
+						</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="mobile pdglr30">
+			<table class="tace" width="100%">
+				<tr>
+					<td width="50" height="100">
+						<div class="h030"></div>
+						<div class="prg-line-v" style="height: 100%;">
+						<div class="prg-circle" style="left:-9px;"></div></div>
+					</td>
+					<td align="left" valign="top">
+						<p class="dp4 we700">Understand</p>
+						<p class="cp1 we500 tacred">중독의 이해</p>
+						<div class="h015"></div>
+						<p class="dp4 we300 ln18">
+							금연의 첫걸음은 <b>중독의 제대로된 이해</b>입니다.<br>
+							얼마나 많은 오해를 하고 있었는지 정확히 알게 됩니다.<br><br>
+						</p>						
+					</td>
+				</tr>
+				<tr>
+					<td width="50" height="100">
+						<div class="h030"></div>
+						<div class="prg-line-v" style="height: 100%;">
+						<div class="prg-circle" style="left:-9px;"></div></div>
+					</td>
+					<td align="left" valign="top">
+						<p class="dp4 we700">Transform</p>
+						<p class="cp1 we500 tacred">인식의 전환</p>
+						<div class="h015"></div>
+						<p class="dp4 we300 ln18">
+							이해와 수용을 통해 담배에 대한 인식이 바뀝니다.<br>
+							흡연자 특유의 <b>허상을 없애고 진리를 정립</b>합니다.
+						</p>						
+					</td>
+				</tr>
+				<tr>
+					<td width="50" height="100">
+						<div class="h030"></div>
+						<div style="height: 100%; position: relative;">
+						<div class="prg-circle" style="left:-9px;"></div></div>
+					</td>
+					<td align="left" valign="top">
+						<p class="dp4 we700">Remove Fear</p>
+						<p class="cp1 we500 tacred">두려움의 제거</p>
+						<div class="h015"></div>
+						<p class="dp4 we300 ln18">
+							담배없는 인생은 완벽하지 않다는 두려움이 사라집니다.<br>
+							<b>진정한 의미의 비흡연자로서 첫걸음</b>을 시작합니다.
+						</p>						
+					</td>
+				</tr>				
+			</table> 
+		</div>
 		</center>
 		<div class="h100"></div>
 	</div>

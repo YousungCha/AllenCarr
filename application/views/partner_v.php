@@ -32,14 +32,26 @@
 		<div class="h080"></div>
 		<!-- 로고 모음 -->
 		<div class="def-width-1000">
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/busan_bank_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/food_gov_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/pearl_abyss_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/kukmin_news_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/newera_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/nitmus_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/soosan_industry_sq.jpg" width="70%"></div>
-			<div class="col-md-3" style="height: 200px;"><img class="gray" src="/images/co_logo/chonggak_sq.jpg" width="70%"></div>
+			<div class="col-md-6 pdg00">
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/busan_bank_sq.jpg" width="70%"></div>
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/food_gov_sq.jpg" width="70%"></div>
+			</div>
+			<div class="col-md-6 pdg00">
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/pearl_abyss_sq.jpg" width="70%"></div>
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/kukmin_news_sq.jpg" width="70%"></div>
+			</div>
+			<div class="col-md-6 pdg00">
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/newera_sq.jpg" width="70%"></div>
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/nitmus_sq.jpg" width="70%"></div>
+			</div>
+			<div class="col-md-6 pdg00">
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/soosan_industry_sq.jpg" width="70%"></div>
+				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/chonggak_sq.jpg" width="70%"></div>				
+			</div>
+			
+			
+			
+
 		</div>
 		<!-- 로고 모음 -->
 		</center>

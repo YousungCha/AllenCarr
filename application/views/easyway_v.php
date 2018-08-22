@@ -1,14 +1,15 @@
 	<!-- Allen Carr's Easyway -->
 	<div class="h015"></div>
 	<div class="container-fluid">
-		<div class="h080"></div>
+		<div class="h080 desk"></div>
+		<div class="h050 mobile"></div>
 		<p class="sb3 we700 tace ln18 lt009">
 			<font class="tacred">97%의 흡연자가 금연에 실패</font>합니다.<br>		
-			이 참담한 현실을 알렌카가 바꾸고자 합니다.<br>
+			이 참담한 현실을 알렌카가 바꾸려 합니다.<br>
 			당신도 성공할 수 있습니다.
 		</p>
-		<div class="h100"></div>
-
+		<div class="h100 desk"></div>
+		<div class="h050 mobile"></div>
 		<center>
 		<div class="row def-width-900">
 			<div class="col-md-7">
@@ -16,6 +17,33 @@
 					세계 최고의 금연 성공률 90%
 				</p>
 				<div class="h020"></div>
+				<div class="mobile">
+	                <table style="max-width: 360px; width: 100%">
+	                    <tr>
+	                        <td colspan="2">
+	                            <div class="h010"></div>
+	                            <div style="width: 100%; height: 8px; background-image: linear-gradient(to right, #ED3287, #D41147);"></div>
+	                            <div class="h010"></div>
+	                        </td>
+	                    </tr>
+	                    <tr>
+	                        <td class="cp3 we300 tgray1 lt000" valign="top">Allen Carr's Success Rates</td>
+	                        <td class="tari tacred dp3">54 ~ 90%</td>
+	                    </tr>
+	                    <tr>
+	                        <td colspan="2">
+	                            <div class="h030"></div>
+	                            <div style="width: 30px; height: 8px; background-image: linear-gradient(98deg, #ED3287, #D41147);"></div>
+	                            <div class="h010"></div>
+	                        </td>
+	                    </tr>
+	                    <tr>
+	                        <td colspan="2" class="cp3 we300 tgray1 lt000" >Other Stop Smoking Method</td>
+	                    </tr>
+	                </table>
+	                <div class="h030"></div>
+            	</div>                
+
 				<p class="cp1 we300 ln18 tale">
 					흡연자 대부분은 알렌카의 성공률을 의심하고 불신합니다. 심지어 비난하고 공격하는 사람도 있습니다만, 어디까지나 알렌카를 처음 접한 분들입니다. 일단 알렌카에 참여한 분들은 이 성공률에 대하여 대부분 수긍합니다.<br><br>
 
@@ -32,7 +60,7 @@
 					</tr>
 				</table>
 			</div>			
-			<div class="col-md-5">
+			<div class="col-md-5 desk">
                 <table style="max-width: 360px; width: 100%">
                     <tr>
                         <td colspan="2">
@@ -58,7 +86,8 @@
                 </table>
 			</div>								
 		</div>		
-		<div class="h100"></div>
+		<div class="h100 desk"></div>
+		<div class="h030 mobile"></div>
 
 		<div class="row def-width-900">
 			<div class="col-md-3">

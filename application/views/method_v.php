@@ -59,7 +59,7 @@
 				<div class="h030"></div>
 			</div>	
 		</div>		
-		<div class="h060"></div>
+		<div class="h030"></div>
 		<p class="dp3 we700 tgray1 ln18 tace">
 			알렌카는 열린 마음으로 여러분의 목소리에 귀기울입니다.<br>
 		 	흡연 문제를 겪고 계시다면 바로 문의주세요!
