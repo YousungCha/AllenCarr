@@ -32,9 +32,17 @@
 }
 
 * { 
-	font-family: default;
+	font-family: 'Noto Sans KR';
 	line-height: 1.0;
 	letter-spacing: -0.05em;
+}
+
+@media(max-width: 800px) {
+    * { 
+        font-family: 'default';
+        line-height: 1.0;
+        letter-spacing: -0.05em;
+    }
 }
 
 .ln10 { line-height: 1.0; }

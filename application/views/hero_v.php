@@ -1,7 +1,7 @@
 	<div class="swiper-container set-mgn" style="margin-top:0px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
-			 	<div class="title-box container-fluid bblack1 tace" style="background-image: url('/images/background.png'); background-repeat: no-repeat; background-position: -5% 95%; background-size: 45%; margin-top:0px;">	 	
+			 	<div class="title-box container-fluid bblack1 tace">	 	
 			 		<div class="h100"></div> 
 			 		<p class="tt3 we700 twhite ln15 lt007"> 		
 			 			<!--
@@ -26,11 +26,11 @@
 						<img src="/images/icon-facebook.png" style="width:25px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <font class="tgray"> Facebook</font>
 					</p>
 					<div class="h100"></div>
-					<div class="h050"></div>
+					<div class="h050 desk"></div>
 				</div>				
 			</div>
-			<div class="swiper-slide">
-			 	<div class="title-box container-fluid bacnavy tace">	 	
+			<div class="swiper-slide desk">
+			 	<div class="container-fluid bacnavy tace">	 	
 			 		<div class="h100"></div> 
 			 		<p class="tt3 we700 twhite ln15 lt007"> 		
 			 			금연의 패러다임을 바꾼 구원자<br> 
@@ -54,7 +54,7 @@
 					<div class="h050"></div>
 				</div>				
 			</div>			
-			<div class="swiper-slide">
+			<div class="swiper-slide desk">
 				<div class="container-fluid" style="background-image: url('/images/richard-branson-background.jpg'); background-size: cover; height: 879px;">
 					<div class="h100"></div>
 			 		<center>
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 		</div>		
-    	<div class="swiper-pagination" style="margin-bottom:50px;"></div>    	
+    	<div class="swiper-pagination desk" style="margin-bottom:50px;"></div>    	
 	</div>
 
 	<!-- movie -->

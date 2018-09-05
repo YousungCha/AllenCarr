@@ -11,6 +11,18 @@
 	.def-width-800 { width: 100%; }
 }
 
+.title-box {
+	background-image: url('/images/background.png'); 
+	background-repeat: no-repeat; 
+	background-position: -5% 95%; 
+	background-size: 45%; 
+	margin-top:0px;"
+}
+@media(max-width: 800px)
+{
+	.title-box { background-image: none; }
+}
+
 .purple-border-box {
 	border:1px solid #F6388A; 
 }
