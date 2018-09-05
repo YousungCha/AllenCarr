@@ -149,7 +149,7 @@
 
 			</center>
 			<div class="h080"></div>
-			<button class="cp3 we700 lt000 tgray1 btn-trans">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>
+			<button class="cp3 we700 lt000 tgray1 btn-trans" onclick="window.open('https://www.youtube.com/channel/UCWuMNQbxpltFjwvghbPfygg?view_as=subscriber')">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>
 			</center>
 
 			<div class="h100"></div>

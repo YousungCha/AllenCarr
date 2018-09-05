@@ -1,13 +1,13 @@
 
 	<!-- Swiper -->
-	<div class="container-fluid set-mgn bacred2 tace">
+	<div class="container-fluid set-mgn bacblue tace">
 		<div class="h050"></div>
 		<p class="dp3 we700 twhite ln15">온라인 테스트 테라피, 알렌카를 무료로 만날 마지막 기회!</p>
 		<p class="cp1 we300 twhite ln15">
 			알렌카는 장소의 제약을 없애고 더 많은 흡연자의 참여를 독려하기 위해 온라인 라이브 금연테라피를 준비하고 있습니다.
 		</p>
 		<div class="h030"></div>
-		<button class="cp4 lt000 twhite btn-trans" onclick="openSection('contents-1')">READ MORE <font class="plus_contents-1">+</font></button>		
+		<button class="cp4 lt000 twhite btn-more" onclick="openSection('contents-1')">READ MORE <font class="plus_contents-1">+</font></button>		
 		<div class="h050"></div>
 		<center>
 		<div class="row def-width-1200 bwhite" id="contents-1" style="display: none;">
@@ -49,7 +49,7 @@
 				</p>
 				<div class="h030"></div>				
 			</div>
-			<div class="h060 bacred2"></div>
+			<div class="h060 bacblue"></div>
 		</div>
 		</center>	
 	</div>

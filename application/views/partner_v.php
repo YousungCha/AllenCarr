@@ -106,7 +106,7 @@
 		</div>
 
 		<div class="h030"></div>
-		<button class="cp3 lt000 tgray btn-trans">YOUTUBE CHANNEL</button>
+		<button class="cp3 lt000 tgray btn-trans" onclick="window.open('https://www.youtube.com/channel/UCWuMNQbxpltFjwvghbPfygg?view_as=subscriber')">YOUTUBE CHANNEL</button>
 		</center>
 		<div class="h080"></div>
 	</div>	

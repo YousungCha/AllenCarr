@@ -50,16 +50,16 @@
 					성공률을 믿기 어렵다면 알렌카에 와서 경험하십시오. 우리가 어떻게 진행하는지, 얼마나 놀라운 방법으로 흡연 욕구를 제거하는지 직접 보십시오. 또한, 알렌카는 실패한 흡연자에게 100% 환불을 보증합니다. 실패하더라도 당신은 아무것도 잃지 않습니다.<br><br>
 				</p>
 				<table width="100%">
-					<tr>
+					<tr style="cursor: pointer;" onclick="openSection('easyway-1');">
 						<td style="width: 25px;">
-							<font class="dp2 we700 tacred">+</font>
+							<font class="dp2 we700 tacred plus_easyway-1">+</font>
 						</td>
 						<td class="dp4 we700 ln15 tale">
 							알렌카의 90% 성공률은 어떤 기준으로 나왔을까?
 						</td>
 					</tr>
 				</table>
-			</div>			
+			</div>
 			<div class="col-md-5 desk">
                 <table style="max-width: 360px; width: 100%">
                     <tr>
@@ -84,7 +84,20 @@
                         <td colspan="2" class="cp3 we300 tgray1 lt000" >Other Stop Smoking Method</td>
                     </tr>
                 </table>
-			</div>								
+			</div>
+			<div class="h001"></div>
+			<div id="easyway-1" class="cp1 we300 ln18 tale pdglr15 tblack" style="padding-left: 40px; display: none;">
+				<div class="h015"></div>
+				알렌카는 1983년부터 국제 표준으로 100% 환불보증제도를 운영하고 있습니다.<br>
+				이는 금연에 실패할 경우 모든 비용을 환불 처리하는 제도로서 세계 60개국에서 완벽히 동일한 시스템으로 운영 중입니다.<br>
+				환불 조건은 다음과 같습니다.<br><br>
+				<font class="tacred pdglr15"><b>1.</b>  보증기한은 1차 참가일로부터 3개월</font><br>
+				<font class="tacred pdglr15"><b>2.</b> 1, 2, 3차를 3개월 이내에 참여할 것.</font><br>
+				<font class="tacred pdglr15"><b>3.</b> 15분 이상 지각, 무담불참을 하지 않을 것.</font><br><br>
+				위의 조건을 지켰음에도 불구하고 실패한 분들에게는 그 어떤 질문, 검증도 없이 100% 전액 환불해드리고 있습니다. 또한, 알렌카의 <b>90% 성공률은 바로 이 환불보증제도를 근거</b>로 하고 있는 것입니다.<br><br>
+				물론, 실패했음에도 불구하고 환불받지 않는 분들도 있습니다. 그러나 그 반대 급부로서 분명히 금연에 성공했음에도 불구하고 환불을 요청하는 분들도 있습니다. 알렌카는 담배를 피웠는지 여부를 검증하지 않습니다. 흡연자의 말을 겸허한 마음으로 받아들이고 있습니다.
+				<div class="h015"></div>
+			</div>			
 		</div>		
 		<div class="h100 desk"></div>
 		<div class="h030 mobile"></div>
@@ -94,7 +107,7 @@
 				<div class="h050"></div>
 				<img src="/images/earth.png" style="width:150px;">
 				<div class="h050"></div>
-			</div>						
+			</div>
 			<div class="col-md-9">
 				<p class="dp3 we700 ln15 tale">
 					매년 10만 명이 참여하는 세계적인 금연테라피
@@ -105,18 +118,35 @@
 					세계 60개국, 150개 도시에서 매년 10만 명의 흡연자가 알렌카의 금연테라피를 찾고 행복한 비흡연자가 되고 있습니다. 대한민국에서도 이미 2,300명의 흡연자가 참여하여 성공적으로 흡연 인생에 종지부를 찍었습니다.<br><br>
 				</p>
 				<table width="100%">
-					<tr>
+					<tr style="cursor: pointer;" onclick="openSection('easyway-2');">
 						<td style="width: 25px;">
-							<font class="dp2 we700 tacred">+</font>
+							<font class="dp2 we700 tacred plus_easyway-2">+</font>
 						</td>
 						<td class="dp4 we700 ln15 tale fold">
 							알렌카가 운영되고 있는 국가들
 						</td>
 					</tr>
 				</table>
-			</div>		
+				<div class="h001"></div>
+				<div id="easyway-2" class="cp1 we300 ln18 tale pdglr15 tblack" style="padding-left: 25px; display: none;">
+					<div class="h015"></div>
+					알렌카는 1983년 런던에서 첫 테라피를 시작한 이후 진정한 가치를 아는 수많은 사람들에 의해 전파되었습니다. 세계 각국에 하나씩 그의 클리닉들이 설립되기 시작했고, 현시점에는 <b>약 60개국, 150개 도시</b> 이상에서 알렌카의 금연테라피가 운영되고 있습니다. 다음의 링크에서 알렌카의 주요 사이트를 방문해보실 수 있습니다.<br><br>
+					<p class="cp2 we300 ln18 lt000">
+						London HQ : <a href="#">www.allencarr.com</a><br><br>
+						<b class="tacred">아시아 및 오세아니아</b><br>
+						<a href="http://www.allencarr.co.kr/" target="_blank">대한민국</a>, <a href="http://www.allen-carr.jp/" target="_blank">일본</a>,  <a href="http://allencarr.com.sg/" target="_blank">싱가폴</a>,  <a href="http://www.allencarrhongkong.com/" target="_blank">홍콩</a>,  <a href="http://www.easywaytostopsmoking.in/" target="_blank">인도</a>, <a href="http://www.allencarr.com.au/" target="_blank">호주</a>, 뉴질랜드<br><br>
+
+						<b class="tacred">유럽 및 중동</b><br>
+						독일, 스위스, 벨기에, 불가리아, 덴마크, 에스토니아, 핀란드, 프랑스, 그리스, 헝가리, 아이슬란드, 이스라엘, 이탈리아, 레바논, 라트비아, 포르투갈<br><br>
+
+						<b class="tacred">미주</b><br>
+						미국, 브라질, 페루, 칠레, 콜럼비아
+					</p>
+					<div class="h015"></div>
+				</div>	
+			</div>					
 		</div>
-		<div class="h050"></div>
+		<div class="h030"></div>
 
 
 		</center>		

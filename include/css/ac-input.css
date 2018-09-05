@@ -2,6 +2,18 @@ input, button:focus {
 	outline : none;	
 }
 
+.btn-more {
+	border:1px solid white; 
+	padding:15px; background-color: transparent; 
+	font-family: 'arial';
+}
+.btn-more:hover {
+	border:1px solid yellow;
+	color:yellow;
+	margin-top:-2px;
+	margin-bottom: 2px;
+}
+
 .btn-trans {
 	border:1px solid silver; 
 	padding:15px; background-color: transparent; 
