@@ -1,6 +1,4 @@
 @charset "utf-8";
-/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
-
 @font-face {
     font-family: 'Noto Sans KR';
     font-style: normal;
@@ -34,11 +32,10 @@
 }
 
 * { 
-	font-family: 'Noto Sans KR';
+	font-family: default;
 	line-height: 1.0;
-	letter-spacing: -0.05em;	
+	letter-spacing: -0.05em;
 }
-
 
 .ln10 { line-height: 1.0; }
 .ln15 { line-height: 1.5; }

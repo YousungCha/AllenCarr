@@ -40,13 +40,6 @@
 						<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500 tblack" type="email" name="" style="background-color: transparent; padding-left:10px; border:0px; height:42px; width:100%;" placeholder="your@email.com"></td>
 						<td class="bacred2" style="border:1px solid #D41147; width: 30%;"><button class="twhite pdg15 pdglr20 cp2 bacred lt000" style="width: 100%; border:0px;">신청하기</button></td>
 					</tr>
-					<tr>
-						<td colspan="3">
-							<div class="h020"></div>
-							<div class="g-recaptcha" data-sitekey="6Ld7yWoUAAAAAFU0M8cw0q06cdAkDN043LzM3Tzi" style="float:left; padding-right: 15px; padding-bottom: 15px;"></div>
-							<p class="cp4 tacred we200">* reCAPTCHA를 체크해야 신청할 수 있습니다.</p>
-						</td>
-					</tr>
 				</table>
 				<div class="h030"></div>
 				<p class="cp2 we200 tgray ln18 tale">
