@@ -19,14 +19,14 @@
 				<div class="col-md-6 pdg00">
 					<table width="100%">
 						<tr>
-							<td class="tace">
-								<img src="/images/members/robin-haylay.png" style="width: 150px; border-radius: 50%;">
+							<td valign="top" class="tace">
+								<img src="/images/members/robin-haylay.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Chairman of Allen Carr</p>
 								<p class="cp1 twhite we700 tace">Robin Haylay</p>						
 							</td>					
 							<td class="tace">
-								<img src="/images/members/john-dicey.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/john-dicey.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr London</p>
 								<p class="cp1 twhite we700 tace">John C. Dicey</p>
@@ -41,13 +41,13 @@
 					<table width="100%">
 						<tr>
 							<td class="tace">
-								<img src="/images/members/wonjun-jung.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/wonjun-jung.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">General Director</p>
 								<p class="cp1 twhite we700 tace">정원준</p>						
 							</td>
 							<td class="tace">
-								<img src="/images/members/sungwoong-ko.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/sungwoong-ko.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Outside Director</p>
 								<p class="cp1 twhite we700 tace">고성웅</p>						
@@ -63,7 +63,7 @@
 					<table width="100%">
 						<tr>
 							<td class="tace">
-								<img src="/images/members/colleen-dwyer.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/colleen-dwyer.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">Colleen Dwyer</p>
@@ -71,7 +71,7 @@
 								<img src="/images/icon-linkedin.png">
 							</td>												
 							<td class="tace">
-								<img src="/images/members/yousung-cha.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/yousung-cha.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">차유성</p>
@@ -86,13 +86,13 @@
 					<table width="100%">
 						<tr>
 							<td class="tace">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/blank.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">권민철</p>						
 							</td>							
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/blank.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/blank.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">양승용</p>						
@@ -109,13 +109,13 @@
 					<table width="100%">
 						<tr>
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/changhwan-kim.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/changhwan-kim.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Communication</p>
 								<p class="cp1 twhite we700 tace">김창환</p>
 							</td>								
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/jieun-eum.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/jieun-eum.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Accountant Manager</p>
 								<p class="cp1 twhite we700 tace">엄지은</p>
@@ -128,7 +128,7 @@
 					<table width="100%">
 						<tr>
 							<td class="tace" style="width:50%;">
-								<img src="/images/members/youngmoon-bae.png" style="width: 150px; border-radius: 50%;">
+								<img src="/images/members/youngmoon-bae.png" class="img-member">
 								<div class="h020"></div>
 								<p class="cp3 twhite1 we300 tace lt000">Developer</p>
 								<p class="cp1 twhite we700 tace">배영문</p>
@@ -141,6 +141,6 @@
 			</div>
 			</center>
 			<div class="h100"></div>
-			<div class="h050"></div>
+			<div class="h050 desk"></div>
 		</div>
 	</div>

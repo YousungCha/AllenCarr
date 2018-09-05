@@ -47,20 +47,16 @@
 			<div class="col-md-6 pdg00">
 				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/soosan_industry_sq.jpg" width="70%"></div>
 				<div class="col-xs-6" style="height: 200px;"><img class="gray" src="/images/co_logo/chonggak_sq.jpg" width="70%"></div>				
-			</div>
-			
-			
-			
-
+			</div>		
 		</div>
 		<!-- 로고 모음 -->
 		</center>
 	</div>
 
 	<div class="container-fluid set-mgn">
-		<div class="h080"></div>
-		<p class="sb2 we700 tace ln15 lt009">
-			미디어에 소개된 <font class="tacred">알렌카와 테라피스트</font>
+		<div class="h080 desk"></div>
+		<p class="sb3 we700 tace ln15 lt009">
+			미디어에 소개된 <br class="mobile"><font class="tacred">알렌카와 테라피스트</font>
 		</p>
 		<div class="h060"></div>
 		<center>

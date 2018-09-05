@@ -18,9 +18,11 @@
 	background-size: 45%; 
 	margin-top:0px;"
 }
+.img-member { width: 150px; border-radius: 50%;}
 @media(max-width: 800px)
 {
 	.title-box { background-image: none; }
+	.img-member {width: 120px; border-radius: 50%;}
 }
 
 .purple-border-box {

@@ -1,4 +1,4 @@
-	<div class="continer-fluid bacnavy set-mgn">
+	<div class="continer-fluid bacred2 set-mgn">
 		<div class="h080"></div>
 		<center>
 		<div class="row def-width-1200">
