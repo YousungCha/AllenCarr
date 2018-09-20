@@ -132,15 +132,15 @@
 					<div class="h015"></div>
 					알렌카는 1983년 런던에서 첫 테라피를 시작한 이후 진정한 가치를 아는 수많은 사람들에 의해 전파되었습니다. 세계 각국에 하나씩 그의 클리닉들이 설립되기 시작했고, 현시점에는 <b>약 60개국, 150개 도시</b> 이상에서 알렌카의 금연테라피가 운영되고 있습니다. 다음의 링크에서 알렌카의 주요 사이트를 방문해보실 수 있습니다.<br><br>
 					<p class="cp2 we300 ln18 lt000">
-						London HQ : <a href="#">www.allencarr.com</a><br><br>
+						London HQ : <a href="https://www.allencarr.com" target="_blank">www.allencarr.com</a><br><br>
 						<b class="tacred">아시아 및 오세아니아</b><br>
-						<a href="http://www.allencarr.co.kr/" target="_blank">대한민국</a>, <a href="http://www.allen-carr.jp/" target="_blank">일본</a>,  <a href="http://allencarr.com.sg/" target="_blank">싱가폴</a>,  <a href="http://www.allencarrhongkong.com/" target="_blank">홍콩</a>,  <a href="http://www.easywaytostopsmoking.in/" target="_blank">인도</a>, <a href="http://www.allencarr.com.au/" target="_blank">호주</a>, 뉴질랜드<br><br>
+						<a href="http://www.allencarr.co.kr/" target="_blank">대한민국</a>, <a href="http://www.allen-carr.jp/" target="_blank">일본</a>,  <a href="http://allencarr.com.sg/" target="_blank">싱가폴</a>,  <a href="http://www.allencarrhongkong.com/" target="_blank">홍콩</a>,  <a href="http://www.easywaytostopsmoking.in/" target="_blank">인도</a>, <a href="http://www.allencarr.com.au/" target="_blank">호주</a>, <a href="https://www.easywaynz.co.nz/about-us/" target="_blank">뉴질랜드</a><br><br>
 
 						<b class="tacred">유럽 및 중동</b><br>
-						독일, 스위스, 벨기에, 불가리아, 덴마크, 에스토니아, 핀란드, 프랑스, 그리스, 헝가리, 아이슬란드, 이스라엘, 이탈리아, 레바논, 라트비아, 포르투갈<br><br>
+						<a href="http://www.allen-carr.de/" target="_blank">독일</a>, <a href="http://www.easyway.ch/" target="_blank">스위스</a>, <a href="https://www.allencarr.be" target="_blank">벨기에</a>, <a href="http://www.nepushaveche.com/" target="_blank">불가리아</a>, <a href="http://www.easyway.dk/" target="_blank">덴마크</a>, <a href="http://www.allencarr.ee/" target="_blank">에스토니아</a>, <a href="https://www.allencarr.fi/" target="_blank">핀란드</a>, <a href="http://www.allencarr.fr/" target="_blank">프랑스</a>, <a href="http://www.allencarr.gr/" target="_blank">그리스</a>, <a href="http://allencarr.hu/" target="_blank">헝가리</a>, <a href="http://www.allencarr.co.il/" target="_blank">이스라엘</a>, <a href="http://www.easywayitalia.com/" target="_blank">이탈리아</a>, <a href="http://www.comodeixardefumar.com/" target="_blank">포르투갈</a>, <a href="http://www.allencarreasyway.me/" target="_blank">아랍에미리트</a><br><br>
 
 						<b class="tacred">미주</b><br>
-						미국, 브라질, 페루, 칠레, 콜럼비아
+						<a href="https://www.theeasywaytostopsmoking.com/" target="_blank">미국/캐나다</a>, <a href="http://www.easywaysp.com.br" target="_blank">브라질</a>, <a href="http://www.allencarrperu.com/" target="_blank">페루</a>, <a href="http://www.easyway.cl/" target="_blank">칠레</a>
 					</p>
 					<div class="h015"></div>
 				</div>	
