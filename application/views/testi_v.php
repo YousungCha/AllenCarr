@@ -171,8 +171,10 @@
 	<script type="text/javascript">
 		function moviePlay(id)
 		{
-			//$("#mv_1, #mv_2, #mv_3, #mv_4, #mv_5").css("display","inline");
-			//$("#mv_1_if, #mv_2_if, #mv_3_if, #mv_4_if, #mv_5_if").css("display","none");
+			$("#mv_1, #mv_2, #mv_3, #mv_4, #mv_5").css("display","block");
+			
+			$("#mv_1_if, #mv_2_if, #mv_3_if, #mv_4_if, #mv_5_if").css("display","none");
+
 			$("#" + id).css("display","none");
 			$("#" + id + "_if").css("display","inline");
 		}

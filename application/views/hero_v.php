@@ -4,12 +4,13 @@
 			 	<div class="title-box container-fluid bblack1 tace">	 	
 			 		<div class="h100"></div> 
 			 		<p class="tt3 we700 twhite ln15 lt007"> 		
-			 			<!--
+			 			
 			 			당신의 금연 역사를 다시 써드립니다.<br>
 			 			담배를 피워본 적 없던 삶으로
-			 			-->
+			 			<!--
 			 			알렌카, 10월에 새롭고 강해진 모습으로<br>
 			 			다시 찾아뵙겠습니다.
+			 			-->
 			 		</p>
 			 		<div class="h050"></div>
 			 		<p class="cp4 ln18 twhite2 lt000">Official Trademark</p>

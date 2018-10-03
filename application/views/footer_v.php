@@ -46,19 +46,74 @@ All rights reserved</p>
 	});
 
 	// Script for Thumbnail Gallery Section
-	var galleryTop = new Swiper('.gallery-top', {
-		spaceBetween: 10,
-	});
-	var galleryThumbs = new Swiper('.gallery-thumbs', {		
-		spaceBetween: 10,
-		centeredSlides: true,
-		slidesPerView: '4',
-		touchRatio: 0.2,
-		slideToClickedSlide: true,
+function slideOtherGalleryTo(sGalleryName, nSlideIndex)
+{
+    sGalleryName.slideTo(nSlideIndex);
+}
+var galleryTop = new Swiper('.gallery-top', {
+      spaceBetween: 0,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 1,
+      on:{
+          transitionStart:function()
+          {
+                // Move thumbnails Gallery to the selected image
+                slideOtherGalleryTo(galleryThumbs, this.activeIndex);
+          }
+      }
+    });
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      touchRatio: 0.2,
+      slideToClickedSlide: true,
+      centeredSlides: true,
+      virtualTranslate: false,
+      on:{
+            transitionStart: function(){
+                translate = this.getTranslate();
+                slidesPerView = this.params.slidesPerView == 'auto ' ?this.slidesPerViewDynamic() : this.params.slidesPerView;                
+                if(this.slides.length<=slidesPerView){
+                    return;
+                }
 
-	});
-	galleryTop.controller.control = galleryThumbs;
-	galleryThumbs.controller.control = galleryTop;
+                var y = 0;
+                var z = 0;
+                var x = 0;
+
+                if(this.activeIndex>1 && this.activeIndex > slidesPerView/2)
+                {
+                    translate = this.activeIndex == this.slides.length -1 ? -this.snapGrid[this.snapGrid.length - 2] : this.translate;
+
+                    if (this.isHorizontal()) {
+                        x = this.params.rtl ? -translate : translate;
+                    } else {
+                        y = translate;
+                    }
+
+                    if (this.roundLengths) {
+                        x = Math.floor(x);
+                        y = Math.floor(y);
+                    }
+                }else
+                {
+                    y = 0;
+                    z = 0;
+                    x = 0;
+
+                }                
+                if (this.support.transforms3d) { this.$wrapperEl.transform(("translate3d(" + x + "px, " + y + "px, " + z + "px)")); }
+                else { this.$wrapperEl.transform(("translate(" + x + "px, " + y + "px)")); }
+             	 // Move main Gallery to the selected image
+                slideOtherGalleryTo(galleryTop, this.activeIndex);
+            }
+        },
+    });
+	//galleryTop.controller.control = galleryThumbs;
+	//galleryThumbs.controller.control = galleryTop;
 	</script>	
 	</body>
 </html>
