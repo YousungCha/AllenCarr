@@ -10,6 +10,10 @@
 
 		<center>
 		<div class="row def-width-1200">
+			<p class="dp2 we700 twhite ln18 tace">
+				현재 확정된 일정이 없습니다. 조금만 기다려주세요.
+			</p>
+			<!--
 			<div class="col-md-6">
 				<div class="container-fluid bwhite pdg25 tale" style="
 					background-color: white; 
@@ -64,8 +68,9 @@
 				</div>
 				<div class="h025"></div>
 			</div>
+			-->
 		</div>
-		<div class="h040"></div>
+		<div class="h040"></div>		
 		<p class="dp3 we700 tgray1 ln18 tace">
 			지불하신 비용에는 알렌카의 <font class="twhite2">1차, 2차, 3차 테라피</font>와<br>
 			<font class="twhite2">100% 환불보증제도</font>가 포함되어 있습니다.
