@@ -59,26 +59,47 @@
 			</table>
 		</div>
 		<div class="menu-contents bacnavy">
-			<table width="100%">
+						
+			<?php if (!$this->uri->segment(2)) : ?>						
+			<table width="100%">								
 				<tr onclick="MoveScroll_m('tag-value')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Values</td>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Values</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-method')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Method</td>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Method</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-team')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Team</td>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Team</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-partner')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Partners</td>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Partners</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-testi')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">TESTIMONIAL</td>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">TESTIMONIAL</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-faq')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">FAQ</td>
-				</tr>
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">FAQ</td>
+				</tr>				
+				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;"><b>예약페이지 바로가기</b></td>
+				</tr>				
 			</table>
+			<?php else : ?>
+			<table width="100%">		
+				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">예약페이지</td>
+				</tr>				
+				<?php if ($this->session->userdata('email')) : ?>						
+					<tr onclick="location.href='<?=site_url('MainSystem/btnLogout')?>'">
+						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">로그아웃</td>
+					</tr>
+				<?php else : ?>					
+					<tr onclick="location.href='<?=site_url('MainSystem/Login')?>'">
+						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">로그인</td>
+					</tr>
+				<?php endif ?>				
+			</table>				
+			<?php endif ?>			
 		</div>		
 		<div style="height: 1px; background-color: #555555;"></div>
 	</div>
