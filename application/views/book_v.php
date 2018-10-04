@@ -75,7 +75,7 @@
 			지불하신 비용에는 알렌카의 <font class="twhite2">1차, 2차, 3차 테라피</font>와<br>
 			<font class="twhite2">100% 환불보증제도</font>가 포함되어 있습니다.
 		</p>
-		<div class="h060"></div>		
+		<div class="h100"></div>		
 		</center>		
 	</div>
 

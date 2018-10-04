@@ -2,6 +2,16 @@
 <!DOCTYPE html>
 <html lang="ko">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126984786-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-126984786-1');
+		</script>
+		
 		<title>알렌카 - 세계 최고 효율의 금연법</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">		
 		<meta property="og:title" content="당신의 금연을 다시 쓰다." />
@@ -25,6 +35,6 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-color.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-div.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/ac-input.css">
-		<link rel="stylesheet" type="text/css" href="/include/css/ac-swiper.css">			
+		<link rel="stylesheet" type="text/css" href="/include/css/ac-swiper.css">
 	</head>
 	<body class="bwhite">
