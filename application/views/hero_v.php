@@ -30,6 +30,7 @@
 					<div class="h050 desk"></div>
 				</div>				
 			</div>
+			<!--
 			<div class="swiper-slide desk">
 			 	<div class="container-fluid bacnavy tace">	 	
 			 		<div class="h100"></div> 
@@ -83,6 +84,7 @@
 			 		</center>
 				</div>
 			</div>
+			-->
 		</div>		
     	<div class="swiper-pagination desk" style="margin-bottom:50px;"></div>    	
 	</div>

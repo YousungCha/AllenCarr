@@ -2,6 +2,7 @@
 .def-width-1000 { width: 1000px;}
 .def-width-900 { width: 900px;}
 .def-width-800 { width: 800px; }
+.def-width-600 { width: 600px; }
 
 @media(max-width: 1200px)
 {
@@ -9,6 +10,7 @@
 	.def-width-1000 { width: 100%;}
 	.def-width-900 { width: 100%;}
 	.def-width-800 { width: 100%; }
+	.def-width-600 { width: 100%; }
 }
 
 .title-box {
@@ -68,4 +70,17 @@
 	border-radius: 50%; 
 	border: 3px solid #EE3287;
 	z-index: 10; position: absolute; top:-11px; 
+}
+
+
+/* Define sub-menu properties ***/
+.mobile-menu { display: none; }
+@media(max-width: 800px)
+{
+	.mobile-menu { clear: both; width: 100%; position: fixed; top: 0px; z-index: 99; display: inline;}
+	.menu-typo { padding-right: 26px; }
+	.menu-bar {padding:15px; padding-right: 20px;}
+	.menu-contents { display: none; padding-left:28px; padding-right:28px;}
+	.menu-elements { height: 70px;  padding-top:23px; border-bottom: 1px solid #323232; }
+	.menu-elements-btn { height: 70px;  padding-top:23px; width: 100%; }
 }

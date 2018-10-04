@@ -1,5 +1,5 @@
-	<div class="continer-fluid bacred2 set-mgn">
-		<div class="h060"></div>
+	<div class="continer-fluid bacred2 set-mgn pdg30">
+		<div class="h030"></div>
 		<center>		
 			<a href="#" onclick="moveTop();"><img src="/images/logo.png" style="width:180px;"></a>
 			<div class="h030"></div>
@@ -12,7 +12,7 @@
 			<p class="cp4 twhite we500 lt000 ln18">Copyright ©2018 Allen Carr's Easyway (International) Ltd
 All rights reserved</p>
 		<center>
-		<div class="h050"></div>
+		<div class="h020"></div>
 	</div>
 
 	<script type="text/javascript">

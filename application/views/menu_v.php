@@ -5,12 +5,20 @@
 					<?php if ($this->uri->segment(2)) : ?>	
 					<td class="cp2 we700 twhite bacred pdg20" onclick="location.href='<?=site_url("MainSystem")?>'" style="width: 350px; cursor: pointer;">메인으로 돌아가기</td>
 					<td class="bacred tace" style="width:50px;"><img src="/images/icon-arrowdown.png"></td>
-					<td class="cp4 tblack1 pdglr30" style="background-color: #F5F5F5;">
-						<font class="txt-menu" onclick="MoveScroll('tag-value')">MY PAGE</font>
-						<font class="txt-menu" onclick="MoveScroll('tag-value')">RESERVATION PAGE</font>
+					<td class="cp4 tblack1 pdglr30" style="background-color: #F5F5F5;">						
+
+						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Book")?>'">BOOKING PAGE</font>
+					</td>
+					<td class="cp4 tblack1 tari" style="background-color: #F5F5F5;">
+						<?php if ($this->session->userdata('email')) : ?>
+						<font class="txt-menu tblack1">마이페이지(<?=$this->session->userdata('email')?>)</font>
+						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/btnLogout")?>'">LOG-OUT</font>
+						<?php else : ?>						
+						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Login")?>'">LOG-IN</font>
+						<?php endif ?>
 					</td>
 					<?php else : ?>
-					<td class="cp2 we700 twhite bacred pdg20" onclick="location.href='<?=site_url("MainSystem/Book")?>'" style="width: 350px; cursor: pointer;">프로그램 일정 확인하기</td>
+					<td class="cp2 we700 twhite bacred pdg20" onclick="location.href='<?=site_url("MainSystem/Book")?>'" style="width: 350px; cursor: pointer;">예약일정 확인하기</td>
 					<td class="bacred tace" style="width:50px;"><img src="/images/icon-arrowdown.png"></td>
 					<td class="cp4 tblack1 pdglr30" style="background-color: #F5F5F5;">
 						<font class="txt-menu" onclick="MoveScroll('tag-value')">VALUES</font>
@@ -24,6 +32,30 @@
 				</tr>
 			</table>
 		</div>
+	</div>
+
+	<div class="mobile-menu">
+		<div class="menu-bar bacnavy">
+			<table width="100%">
+				<tr>
+					<td>
+						<img src="/images/logo.png" width="25%" onclick="MoveTop();">
+					</td>
+					<td>
+						<a href="javascript:void(0);" onclick="menuSlide();" id="smallMenu"><img src="/images/menu-icon.png"></a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="menu-contents bacnavy">
+			dfsdfdfsfddsffds<br>
+			dfsdfdfsfddsffds<br>
+			dfsdfdfsfddsffds<br>
+			dfsdfdfsfddsffds<br>
+			dfsdfdfsfddsffds<br>
+			dfsdfdfsfddsffds<br>
+		</div>		
+		<div style="height: 1px; background-color: #555555;"></div>
 	</div>
 
 	<script type="text/javascript">
@@ -43,4 +75,30 @@
 			$('#desk_menu').removeClass('animated fadeInDown');
 		}
 	});
+
+	// Mobile Menu Slide
+	function menuSlide() 
+	{
+		var brHeight = window.innerHeight - 68;
+		$('.menu-contents').css('height',brHeight);
+		if ($('.menu-contents').css('display') == 'none') {
+			$('.menu-contents').slideDown(550,'easeOutQuart');
+		}			
+		else {
+			$('.menu-contents').slideUp(550,'easeOutQuart');
+		}
+	}
+	function MoveTop()
+	{
+		$('html, body').animate({'scrollTop' : 0}, 800);
+	}
+	function MoveScroll(name)
+	{
+		$('html, body').animate({'scrollTop' : $("#" + name).offset().top}, 800);			
+	}
+	function MoveScroll_m(name)
+	{
+		$('html, body').animate({'scrollTop' : $("#" + name).offset().top}, 800);
+		$('.menu-contents').slideUp(550,'easeOutQuart');			
+	}	
 	</script>

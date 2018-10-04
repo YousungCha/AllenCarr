@@ -15,7 +15,8 @@
 		<link rel="stylesheet" type="text/css" href="/include/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="/include/css/swiper.css">
 		<script type="text/javascript" src="/include/js/jquery.min.js"></script>
-		<script type="text/javascript" src="/include/js/swiper.js"></script>	
+		<script type="text/javascript" src="/include/js/jquery.easing.js"></script>
+		<script type="text/javascript" src="/include/js/swiper.js"></script>		
 		<script type="text/javascript" src="/include/js/bootstrap.min.js"></script>
 
 		<!-- ac private css/js -->

@@ -37,6 +37,14 @@ input, button:focus {
 	margin-bottom: 2px;
 }
 
+.btn-general {
+	border: 0px;
+	padding:15px;
+}
+.btn-general:hover {
+	background-color: orange;
+}
+
 .txt-menu {
 	padding-right: 25px; 
 	letter-spacing: 0.1em; 
