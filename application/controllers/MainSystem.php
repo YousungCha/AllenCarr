@@ -12,6 +12,7 @@ class MainSystem extends CI_Controller
         $this->load->database();          
         $this->load->helper('url');  
         $this->load->helper('form');
+        $this->load->helper('string');
         $this->load->model('MainSystem_m');
         $this->load->library('session');
     }
@@ -44,7 +45,7 @@ class MainSystem extends CI_Controller
 		$this->load->view('menu_v');
 		$this->load->view('login_v');
 		$this->load->view('footer_v');	
-	}
+	}		
 	public function Join()
 	{
 		$this->load->view('header_v');		
@@ -52,6 +53,20 @@ class MainSystem extends CI_Controller
 		$this->load->view('join_v');
 		$this->load->view('footer_v');	
 	}	
+	public function JoinComplete()
+	{
+		$this->load->view('header_v');		
+		$this->load->view('menu_v');
+		$this->load->view('complete_v');
+		$this->load->view('footer_v');	
+	}
+	public function MyPage()
+	{
+		$this->load->view('header_v');		
+		$this->load->view('menu_v');
+		$this->load->view('myinfo_v');
+		$this->load->view('footer_v');
+	}
 
 	/*
 	 * Button Integration
@@ -74,6 +89,7 @@ class MainSystem extends CI_Controller
 	            	'login_time' => date("Y-m-d H:i:s")
 	            );
 	            $this->session->set_userdata($sdata);
+	            redirect('MainSystem/MyPage');
 	        }
 	        else
 	        {
@@ -105,8 +121,7 @@ class MainSystem extends CI_Controller
 			);
 			if ($this->MainSystem_m->setData('member',$member_data))
 			{
-				echo "<script>alert('회원 가입을 축하합니다.');</script>";
-				$this->Login();
+				redirect('MainSystem/JoinComplete');
 			}
 		}
 		else 
@@ -118,6 +133,25 @@ class MainSystem extends CI_Controller
 	/*
 	 * AJAX
 	 */
+	public function addEmailList()
+	{
+		$email = $this->input->post('email');	
+		if ($this->MainSystem_m->checkEmailExist('mail_list',$email)) 
+		{
+			echo $email."은 이미 등록된 이메일입니다.";
+		}
+		else
+		{
+			$data = array(
+				'userkey' => random_string("alnum",32),
+				'email' => $email,
+				'step' => 1,
+				'join_date' => date("Y-m-d H:i:s"),
+			);
+			$this->MainSystem_m->setData('mail_list',$data);
+			echo "정상적으로 등록되었습니다.";
+		}
+	}
 	public function checkEmailExist()
 	{
 		$email = $this->input->post('email');

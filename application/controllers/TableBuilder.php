@@ -87,6 +87,18 @@ class TableBuilder extends CI_Controller
 		)
 		";	
 
+		$data =
+		"CREATE TABLE IF NOT EXISTS mail_list (
+			no int(10) NULL AUTO_INCREMENT,
+			userkey varchar(40) NOT NULL,
+			email varchar(40) NOT NULL,
+			step int(10) NOT NULL,
+			status varchar(40) NOT NULL,
+			join_date timestamp NOT NULL,
+			etc varchar(40) NOT NULL,	
+			PRIMARY KEY(no)
+		)
+		";
 		$this->db->query($data);        
 	}
 }

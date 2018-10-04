@@ -10,11 +10,14 @@
 						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Book")?>'">BOOKING PAGE</font>
 					</td>
 					<td class="cp4 tblack1 tari" style="background-color: #F5F5F5;">
+						<?php if ($this->session->userdata('email') == "master@allencarr.co.kr") : ?>
+							<font class="txt-menu tblack1" onclick="location.href='<?=site_url("AdminSystem")?>'">관리자페이지</font>
+						<?php endif ?>
 						<?php if ($this->session->userdata('email')) : ?>
-						<font class="txt-menu tblack1">마이페이지(<?=$this->session->userdata('email')?>)</font>
-						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/btnLogout")?>'">LOG-OUT</font>
+							<font class="txt-menu tblack1" onclick="location.href='<?=site_url("MainSystem/MyPage")?>'">마이페이지(<?=$this->session->userdata('email')?>)</font>						
+							<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/btnLogout")?>'">LOG-OUT</font>
 						<?php else : ?>						
-						<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Login")?>'">LOG-IN</font>
+							<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Login")?>'">LOG-IN</font>
 						<?php endif ?>
 					</td>
 					<?php else : ?>
@@ -27,7 +30,15 @@
 						<font class="txt-menu" onclick="MoveScroll('tag-partner')">PARTNERS</font>
 						<font class="txt-menu" onclick="MoveScroll('tag-testi')">TESTIMONIAL</font>
 						<font class="txt-menu" onclick="MoveScroll('tag-faq')">FAQ</font>		
-					</td>					
+					</td>	
+					<td class="cp4 tblack1 tari" style="background-color: #F5F5F5;">
+						<?php if ($this->session->userdata('email')) : ?>
+							<font class="txt-menu tblack1" onclick="location.href='<?=site_url("MainSystem/MyPage")?>'">마이페이지(<?=$this->session->userdata('email')?>)</font>	
+							<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/btnLogout")?>'">LOG-OUT</font>
+						<?php else : ?>						
+							<font class="txt-menu" onclick="location.href='<?=site_url("MainSystem/Login")?>'">LOG-IN</font>
+						<?php endif ?>
+					</td>									
 					<?php endif ?>											
 				</tr>
 			</table>
