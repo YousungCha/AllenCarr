@@ -50,7 +50,7 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="/images/logo.png" width="25%" onclick="MoveTop();">
+						<img src="/images/logo.png" width="25%" onclick="location.href='<?=site_url("MainSystem")?>'">
 					</td>
 					<td>
 						<a href="javascript:void(0);" onclick="menuSlide();" id="smallMenu"><img src="/images/menu-icon.png"></a>
@@ -59,12 +59,26 @@
 			</table>
 		</div>
 		<div class="menu-contents bacnavy">
-			dfsdfdfsfddsffds<br>
-			dfsdfdfsfddsffds<br>
-			dfsdfdfsfddsffds<br>
-			dfsdfdfsfddsffds<br>
-			dfsdfdfsfddsffds<br>
-			dfsdfdfsfddsffds<br>
+			<table width="100%">
+				<tr onclick="MoveScroll_m('tag-value')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Values</td>
+				</tr>
+				<tr onclick="MoveScroll_m('tag-method')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Method</td>
+				</tr>
+				<tr onclick="MoveScroll_m('tag-team')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Team</td>
+				</tr>
+				<tr onclick="MoveScroll_m('tag-partner')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">Partners</td>
+				</tr>
+				<tr onclick="MoveScroll_m('tag-testi')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">TESTIMONIAL</td>
+				</tr>
+				<tr onclick="MoveScroll_m('tag-faq')">
+					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555;">FAQ</td>
+				</tr>
+			</table>
 		</div>		
 		<div style="height: 1px; background-color: #555555;"></div>
 	</div>
@@ -90,7 +104,7 @@
 	// Mobile Menu Slide
 	function menuSlide() 
 	{
-		var brHeight = window.innerHeight - 68;
+		var brHeight = window.innerHeight;
 		$('.menu-contents').css('height',brHeight);
 		if ($('.menu-contents').css('display') == 'none') {
 			$('.menu-contents').slideDown(550,'easeOutQuart');

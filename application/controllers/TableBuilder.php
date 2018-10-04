@@ -28,18 +28,18 @@ class TableBuilder extends CI_Controller
         );        
         ";
 
-		$data =
+		$data1 =
 		"CREATE TABLE IF NOT EXISTS member (
 			no int(10) NULL AUTO_INCREMENT,
 			email varchar(40) NOT NULL,	
-			password varchar(40) NOT NULL,	
+			password varchar(80) NOT NULL,	
 			join_date datetime NOT NULL,	
 			etc varchar(40) NOT NULL,	
 			PRIMARY KEY(no)
 		)
 		";
 
-		$data =
+		$data2 =
 		"CREATE TABLE IF NOT EXISTS session (
 			no int(10) NULL AUTO_INCREMENT,
 			email varchar(40) NOT NULL,	
@@ -59,7 +59,7 @@ class TableBuilder extends CI_Controller
 			PRIMARY KEY(no)
 		)
 		";		
-		$data =
+		$data3 =
 		"CREATE TABLE IF NOT EXISTS question (
 			no int(10) NULL AUTO_INCREMENT,
 			name varchar(40) NOT NULL,	
@@ -87,7 +87,7 @@ class TableBuilder extends CI_Controller
 		)
 		";	
 
-		$data =
+		$data4 =
 		"CREATE TABLE IF NOT EXISTS mail_list (
 			no int(10) NULL AUTO_INCREMENT,
 			userkey varchar(40) NOT NULL,
