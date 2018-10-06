@@ -49,8 +49,8 @@
 		<div class="menu-bar bacnavy">
 			<table width="100%">
 				<tr>
-					<td>
-						<img src="/images/logo-m.png" width="25%" onclick="location.href='<?=site_url("MainSystem")?>'">
+					<td class="pdg05">
+						<img src="/images/logo.png" style="width: 90px;" onclick="location.href='<?=site_url("MainSystem")?>'">
 					</td>
 					<td align="right">
 						<a href="javascript:void(0);" onclick="menuSlide();" id="smallMenu"><img src="/images/menu-icon.png"></a>
