@@ -37,6 +37,13 @@ input, button:focus {
 	margin-bottom: 2px;
 }
 
+.btn-coming {
+	border:0px; 
+	background-image: linear-gradient(to right, #555555, #555555); 	
+	border-radius: 5px; 
+	font-family: 'arial';
+}
+
 .btn-general {
 	border: 0px;
 	padding:15px;
@@ -56,7 +63,7 @@ input, button:focus {
 }
 
 .img-trailer {
-	width:300px; border:7px solid #f7f7f7; cursor: pointer;
+	width:280px; border:7px solid #f7f7f7; cursor: pointer;
 }
 .img-trailer:hover {
 	border: 7px solid white;

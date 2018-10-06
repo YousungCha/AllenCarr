@@ -50,9 +50,9 @@
 			<table width="100%">
 				<tr>
 					<td>
-						<img src="/images/logo.png" width="25%" onclick="location.href='<?=site_url("MainSystem")?>'">
+						<img src="/images/logo-m.png" width="25%" onclick="location.href='<?=site_url("MainSystem")?>'">
 					</td>
-					<td>
+					<td align="right">
 						<a href="javascript:void(0);" onclick="menuSlide();" id="smallMenu"><img src="/images/menu-icon.png"></a>
 					</td>
 				</tr>

@@ -5,8 +5,8 @@
 			 		<div class="h100"></div> 
 			 		<p class="tt3 we700 twhite ln15 lt007"> 		
 			 			
-			 			당신의 금연 역사를 다시 써드립니다.<br>
-			 			담배를 피워본 적 없던 삶으로
+			 			첫담배를 피우기 전으로<br>
+			 			돌아갈 수 있는 유일한 길
 			 			<!--
 			 			알렌카, 10월에 새롭고 강해진 모습으로<br>
 			 			다시 찾아뵙겠습니다.
@@ -16,18 +16,39 @@
 			 		<p class="cp4 ln18 twhite2 lt000">Official Trademark</p>
 			 		<div class="h005"></div>
 			 		<img src="/images/logo.png" style="width: 120px;">
-					<div class="h060"></div>	
+					<div class="h070"></div>	
 					<img src="/images/trailer-ani.gif" data-toggle="modal" data-target="#modal-for-trailer" data-backdrop="static" class="img-trailer">
-					<div class="h080"></div>
+					<div class="h060"></div>
 
-					<p class="sns-menu-desk cp2 we700 tgray1 lt000 ln20">
+					<p class="desk cp2 we700 tgray1 lt000 ln20">
 						<img src="/images/icon-kakao.png" style="margin-right: 7px; margin-top:-2px;"> <a href="https://open.kakao.com/o/gaAXTDV" target="_blank" class="tgray1">카카오톡 공식 채널</a>
-						<img src="/images/icon-cafe.png" style="margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <a href="https://cafe.naver.com/allencarr" target="_blank" class="tgray1">네이버 카페</a>
-						<img src="/images/icon-blog.png" style="width:25px; margin-left: 20px; margin-right: 7px;"> <a href="https://blog.naver.com/allencarr" target="_blank" class="tgray1">네이버 블로그</a>
+						<img src="/images/icon-cafe.png" style="width: 20px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <a href="https://cafe.naver.com/allencarr" target="_blank" class="tgray1">네이버 카페</a>
+						<img src="/images/icon-blog.png" style="width:16px; margin-left: 20px; margin-right: 7px;"> <a href="https://blog.naver.com/allencarr" target="_blank" class="tgray1">네이버 블로그</a>
 						<img src="/images/icon-facebook.png" style="width:25px; margin-left: 20px; margin-right: 7px; margin-top:-2px;"> <font class="tgray"> Facebook</font>
 					</p>
-					<div class="h100"></div>
-					<div class="h050 desk"></div>
+					<center>
+						<table class="mobile cp2 we700 tgray1 lt000 ln20" style="max-width: 250px;">
+							<tr>
+								<td width="150">
+									<img src="/images/icon-kakao.png" style="margin-right: 7px; margin-top:-2px;"><a href="https://open.kakao.com/o/gaAXTDV" target="_blank" class="tgray1">카카오톡 공식 채널</a>
+								</td>
+								<td>
+									<img src="/images/icon-cafe.png" style="width:20px; margin-left: 3px; margin-right: 7px; margin-top:-2px;"> <a href="https://cafe.naver.com/allencarr" target="_blank" class="tgray1">네이버 카페</a>
+								</td>
+							</tr>
+							<tr style="height: 15px;"></tr>
+							<tr>
+								<td style="text-align: left;">
+									<img src="/images/icon-blog.png" style="width: 16px; margin-right: 5px;"> <a href="https://blog.naver.com/allencarr" target="_blank" class="tgray1">네이버 블로그</a>
+								</td>
+								<td>
+									<img src="/images/icon-facebook.png" style="width:25px; margin-right: 5px; margin-top:-2px;"> <font class="tgray"> Facebook</font>
+								</td>
+							</tr>							
+						</table>
+					</center>
+					<div class="h080"></div>
+					<div class="h070 desk"></div>
 				</div>				
 			</div>
 			<!--

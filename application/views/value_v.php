@@ -1,7 +1,8 @@
 
 	<!-- Allen Carr's Value -->
 	<div class="container-fluid set-mgn" id="tag-value">
-		<div class="h100"></div>
+		<div class="h030 desk"></div>
+		<div class="h070"></div>
 		<p class="tt3 we700 tace ln15 lt009">
 			진짜 금연은 목표가 다르다.
 		</p>
@@ -42,7 +43,8 @@
 				<div class="h020"></div>
 			</div>			
 		</div>
-		<div class="h100"></div>
+		<div class="h050"></div>
+		<div class="h050 desk"></div>
 	</div>
 
 	<div class="container-fluid bwhite1 set-mgn">

@@ -21,7 +21,7 @@
 						본 PDF 문서에는 금연테라피의 특징, 작동 방식, 참여하는 방법, 금연 성공의 기준 및 실패 가이드라인 등이 정리되어 있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-download"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-coming" onclick="noticeDownload();"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -37,7 +37,7 @@
 						대한민국에서는 정부를 포함한 유수의 기업들이 알렌카에 금연 파트너로서 참여하고 있습니다. 본 PDF 문서에는 사내 금연의 진행 방식, 절차, 참여 기업들 및 성공률에 대한 내용이 담겨 있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-download"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-coming" onclick="noticeDownload();"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -53,7 +53,7 @@
 						알렌카 한국팀은 마케팅을 비롯한 다양한 전략적 제휴에 대해서도 긍정적인 마음으로 참여할 준비가 되어있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-download"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-coming" onclick="noticeDownload();"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -97,16 +97,27 @@
 								<img src="/images/email-white.14b4e9c3.svg">
 							</td>
 							<td style="border:1px solid #EB3186; border-left:0px;"><input class="we500 twhite" type="email" name="email" style="width:100%; background-color: transparent; padding-left:10px; border:0px; height:42px;" placeholder="your@email.com"></td>
-							<td style="border:1px solid #D41147;"><button class="twhite pdg15 pdglr20 cp3 lt000 bacred" style="border:0px; background-color: #D41147; width: 100%;" onclick="AddEmailList();">SUBSCRIBE</button></td>
+							<td style="border:1px solid #D41147; padding:0px;"><button class="twhite pdg15 pdglr20 cp3 lt000 bacred" style="border:1px solid #D41147; background-color: #D41147; width: 100%;" onclick="AddEmailList();">SUBSCRIBE</button></td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								<div class="h010"></div>
+								<p id="errStepMail" class="cp2 torange" style="display: none;">이메일을 입력해주세요.</p>
+								<p id="errStepMailValid" class="cp2 torange" style="display: none;">올바른 형식의 이메일을 입력해주세요.</p>
+							</td>
 						</tr>
 					</table>
 
 			</div>			
 		</div>
-		<div class="h100"></div>
+		<div class="h080"></div>
 		</center>		
 	</div>
 	<script type="text/javascript">
+	function noticeDownload()
+	{
+		alert("곧 파일이 업로드 될 예정입니다.");
+	}
 	function isEmail(email) 
 	{
 		var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -115,14 +126,15 @@
 	function AddEmailList() {
 		var valSuccess = true;
 		var emailValue = $('input[name="email"]').val();
+		$("#errStepMail, #errStepMailValid").css("display","none");
 		if (!emailValue) 
 		{
-			$("#errEmail").css("display","inline");
+			$("#errStepMail").css("display","inline");
 			valSuccess = false;
 		}
 		else if (!isEmail(emailValue))
 		{
-			$("#errEmailValid").css("display","inline");
+			$("#errStepMailValid").css("display","inline");
 			valSuccess = false;
 		}		
 		if (valSuccess)
