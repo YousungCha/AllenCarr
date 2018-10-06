@@ -108,13 +108,13 @@
 				</div>
 			</div>
 			-->
-		</div>		
+		</div>
     	<div class="swiper-pagination desk" style="margin-bottom:50px;"></div>    	
 	</div>
 
 	<!-- movie -->
 	<div class="modal fade" id="modal-for-trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="container-fluid" style="width:100%; background: rgba(0,0,0,0.5);" onclick="modalClose('#modal-for-trailer');">
+		<div class="container-fluid" style="width:100%; height: 100%; background: rgba(0,0,55,0.5);" onclick="modalClose('#modal-for-trailer');">
 			<div class="h100"></div>
 			<p class="tari" style="padding-right: 30px;"><a href="#" data-dismiss="modal" onclick="modalClose('#modal-for-trailer');"><img src="/images/icon-close.png" style="width: 19px; height: 18px;"></a></p>
 			<div class="h030"></div>
