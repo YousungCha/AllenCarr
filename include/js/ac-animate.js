@@ -2,8 +2,8 @@
 // Animation Name and Order
 $(window).scroll(function() {
 	var scrPos = $(document).scrollTop();
-	menuBar(scrPos);
-	doAnimation(scrPos,'#mt-value','fadeInDown');
+	doAnimation(scrPos,'p#mt-value','fadeInDown');
+	/*
 	doAnimation(scrPos,'#st-value','fadeInUp');
 	doAnimation(scrPos,'#img1-value','jackInTheBox');
 	doAnimation(scrPos,'#tbox1-value','flipInY');
@@ -15,14 +15,14 @@ $(window).scroll(function() {
 	doAnimation(scrPos,'#sub-method','fadeInUp');
 	progLine(scrPos);
 	methodBox(scrPos);
-
+	*/
 	$('.ani-circle-par').css("visibility","visible");
 	$('.ani-circle-chd').css("visibility","visible");
 });
 
 // Functions
 function doAnimation(scr, tg, ani)
-{
+{	
 	var target = $(tg).offset().top - (window.innerHeight);
 	if (scr > target)
 	{
@@ -31,25 +31,6 @@ function doAnimation(scr, tg, ani)
 	}
 }
 
-function menuBar(scr)
-{
-	// Menu Bar	
-	var height = $('.swiper-container').height();
-	if (scr >= height) {
-		$("#desk_menu").css({
-			"top":"0px",
-			"position":"fixed",
-		});
-		$("#desk_menu").animate({
-			"height":"70px",
-			"padding-top":"20px",
-		},500);
-		$("#desk_logo").animate({"width":"115px"},500);
-	}	
-	else {		
-		$("#desk_menu").css("position","relative");	
-	}	
-}
 
 var progFlag = false;
 function progLine(scr)
@@ -100,26 +81,3 @@ function methodBox(scr)
 		setTimeout(function(){ $("#tbox3-method").css("visibility","visible").addClass('animated fadeInUp') },500);
 	}
 }
-
-// Swiper Demo
-var swiper = new Swiper('.swiper-container', {
-	speed: 1500,
-	spaceBetween: 120,
-	effect: 'fade',
-	loop: true,
-	/*
-	autoplay: 
-	{
-		delay: 3000,
-		disableOnInteraction: false,
-	},
-	*/
-	pagination: {
-		el: '.swiper-pagination',
-		clickable: true,
-	},
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-});

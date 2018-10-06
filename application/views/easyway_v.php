@@ -4,8 +4,8 @@
 		<div class="h080 desk"></div>
 		<div class="h050 mobile"></div>
 		<p class="sb3 we700 tace ln18 lt009">
-			<font class="tacred">97%의 흡연자가 금연에 실패</font>합니다.<br>		
-			이 참담한 현실을 알렌카가 바꾸려 합니다.<br>
+			<font class="tacred">97% 흡연자가  금연에 실패</font>합니다.<br>		
+			참담한 현실, 알렌카가 바꿉니다.<br>
 			당신도 성공할 수 있습니다.
 		</p>
 		<div class="h100 desk"></div>

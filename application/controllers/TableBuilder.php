@@ -95,6 +95,7 @@ class TableBuilder extends CI_Controller
 			step int(10) NOT NULL,
 			status varchar(40) NOT NULL,
 			join_date timestamp NOT NULL,
+			update_date timestamp NOT NULL,
 			etc varchar(40) NOT NULL,	
 			PRIMARY KEY(no)
 		)

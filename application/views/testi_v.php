@@ -13,12 +13,13 @@
 			<div class="h020"></div>
 			<center>
 			<p class="cp1 lt000 we300 ln18 tace twhite1" style="max-width: 600px;">
-				세계적으로 매년 10만 명의 흡연자가 알렌카를 찾습니다. <b class="twhite lt003">대한민국은 2014년 2월 첫 런칭 이후로 약 2,700명의 흡연자</b>가 찾아주셨습니다. 모두들 처음 알렌카를 찾을 때는 반신반의였습니다. 그러나 세월이 흘러도 흡연 욕구가 생기지 않는 본인을 발견하고는 의심은 확신으로 바뀌었습니다.
+				세계적으로 매년 10만 명의 흡연자가 알렌카를 찾습니다. <b class="twhite lt003">대한민국은 2014년 2월 첫 런칭 이후로 약 2,700명의 흡연자</b>가 찾아주셨습니다.<br class="mobile"><br class="mobile">모두들 처음 알렌카를 찾을 때는 반신반의였습니다. 그러나 세월이 흘러도 흡연 욕구가 생기지 않는 본인을 발견하고는 의심은 확신으로 바뀌었습니다.
 			</p>			
 			<div class="h050"></div>
 			<center>
 			
-			<div class="swiper-container gallery-top" style="height: 509px;">
+			<!-- desk thumb -->
+			<div class="swiper-container gallery-top">
 				<div class="swiper-wrapper" style="background-color: rgba(0,0,0,0.0);">
 					<div class="swiper-slide top-set" style="background-image: url('/images/people/donghun-lee.jpg'); background-size: 100%; background-repeat: no-repeat;">
 						<div id="mv_1" class="container-fluid wh-window" onclick="moviePlay('mv_1')" style="cursor: pointer;">
@@ -158,7 +159,7 @@
 					</div>															
 				</div>
 			</div>			
-
+		
 			</center>
 			<div class="h080"></div>
 			<button class="cp3 we700 lt000 tgray1 btn-trans" onclick="window.open('https://www.youtube.com/channel/UCWuMNQbxpltFjwvghbPfygg?view_as=subscriber')">YOUTUBE CHANNEL - <font class="we300 twhite lt000">참가자들의 후기</font></button>
@@ -171,11 +172,11 @@
 	<script type="text/javascript">
 		function moviePlay(id)
 		{
-			$("#mv_1, #mv_2, #mv_3, #mv_4, #mv_5").css("display","block");
-			
+			$("#mv_1, #mv_2, #mv_3, #mv_4, #mv_5").css("display","block");			
 			$("#mv_1_if, #mv_2_if, #mv_3_if, #mv_4_if, #mv_5_if").css("display","none");
 
 			$("#" + id).css("display","none");
 			$("#" + id + "_if").css("display","inline");
 		}
+
 	</script>

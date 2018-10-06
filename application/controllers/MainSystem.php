@@ -135,28 +135,35 @@ class MainSystem extends CI_Controller
 	 */
 	public function addEmailList()
 	{
-		$email = $this->input->post('email');	
-		if ($this->MainSystem_m->checkEmailExist('mail_list',$email)) 
+		if ($_SERVER["REQUEST_METHOD"] == "POST")
 		{
-			echo $email."은 이미 등록된 이메일입니다.";
-		}
-		else
-		{
-			$data = array(
-				'userkey' => random_string("alnum",32),
-				'email' => $email,
-				'step' => 1,
-				'join_date' => date("Y-m-d H:i:s"),
-			);
-			$this->MainSystem_m->setData('mail_list',$data);
-			echo "정상적으로 등록되었습니다.";
+			$email = $this->input->post('email');	
+			if ($this->MainSystem_m->checkEmailExist('mail_list',$email)) 
+			{
+				echo $email."은 이미 등록된 이메일입니다.";
+			}
+			else
+			{
+				$data = array(
+					'userkey' => random_string("alnum",32),
+					'email' => $email,
+					'step' => 1,
+					'status' => "normal",
+					'join_date' => date("Y-m-d H:i:s"),
+				);
+				$this->MainSystem_m->setData('mail_list',$data);
+				echo "정상적으로 등록되었습니다.";
+			}
 		}
 	}
 	public function checkEmailExist()
 	{
-		$email = $this->input->post('email');
-		if ($this->MainSystem_m->checkEmailExist('member',$email)) echo "true";
-		else echo "false";
+		if ($_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$email = $this->input->post('email');
+			if ($this->MainSystem_m->checkEmailExist('member',$email)) echo "true";
+			else echo "false";
+		}
 	}
 }
 

@@ -49,7 +49,7 @@
 		<div class="menu-bar bacnavy">
 			<table width="100%">
 				<tr>
-					<td class="pdg05">
+					<td>
 						<img src="/images/logo.png" style="width: 90px;" onclick="location.href='<?=site_url("MainSystem")?>'">
 					</td>
 					<td align="right">

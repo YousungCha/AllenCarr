@@ -21,7 +21,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-1" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-1" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								금연테라피는 영국의 알렌카(Allen Carr)가 창안한 금연 메서드입니다. 60개국 150개 도시에서 매년 10만 명이 참여하는 세계적인 기법이기도 합니다.<br><br>
 								약물, 대체법, 보조제 등을 전혀 사용하지 않으며, 공포/충격 요법 또한 사용하지 않습니다. 인간의 합리적인 사고에 근간하여 이성적이고 논리적으로 접근합니다.<br><br>
@@ -37,7 +37,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-2" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-2" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카는 일반적으로 8 ~ 15명 사이의 소규모 인원으로 그룹테라피를 진행합니다. 전문 테라피스트가 시작부터 끝까지 모든 영역을 담당하며 흡연자를 케어합니다.<br><br>
 								핵심이되는 '금연테라피 1차'는 5시간의 심리테라피, 20분의 최면테라피로 구성되어 있습니다. 심리테라피는 메서드의 핵심적인 요소를 모두 포함하고 있으며, 최면테라피는 전체 내용을 되짚고 강화하는 용도로 이용됩니다.<br><br>
@@ -53,7 +53,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-3" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-3" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								모든 면에서 180도 달리 접근합니다.<br><br>
 								<b>1.</b> <font class="tacred">가장 큰 차이점은 '의지력'을 주문하지 않는다는 점</font>입니다. 그 어떤 경우에도 담배를 억지로 참고 버티라고 말하지 않습니다.<br><br>
@@ -72,7 +72,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-4" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-4" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								의학계에서는 알렌카를 '인지행동치료'로 분류하는 경향이 있습니다. 담배에 대한 흡연자의 왜곡된 시각, 또한 거기서 발생하는 두려움을 제거하는 방식입니다.<br><br>
 								예컨대, 금단증상보다 흡연자가 두려워하는 것은 다음과 같은 부분들입니다.<br><br>
@@ -101,7 +101,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-5" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-5" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								현재 알렌카는 특별한 구분없이 다양한 연령, 지역, 계층에서 많은 흡연자가 찾아오며, 약 20% 정도만 기존 참가자를 비롯한 다양한 지인 소개로 알렌카에 참여합니다.<br><br>
 								참가자 중에는 하루에 3~4갑 이상을 피우는 골초, 30년 이상의 장기 흡연자가 있는 반면에 하루에 1~2 개비를 피우는 캐주얼 스모커, 여성, 학생 등 다양합니다.
@@ -115,7 +115,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-6" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-6" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카 대한민국 브랜치는 2014년 2월 첫 테라피를 시작으로 현재까지 꾸준히 성장해왔습니다. 약 2875명의 흡연자가 테라피에 참여했고, 그 중 환불자를 기준으로 2472명(2018년 08월 기준 약 86%)이 금연에 성공했습니다.<br><br>실패한 모든 흡연자는 절차에 따라 명확하게 모든 비용을 환불처리해드렸습니다.
 								<div class="h015"></div>
@@ -138,7 +138,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-7" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-7" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								금연테라피의 핵심은 1차이며, 2차와 3차는 실패자를 대상으로한 심화테라피입니다.<br><br>
 								1차만으로도 충분한 사람들이 있는 반면, 실패하는 분들도 있습니다. 알렌카는 금연테라피에 참여하고도 실패하는 사람들의 심리까지 면밀히 조사/분석했습니다. 그리고 그들에게는 반드시 심화테라피가 필요하다는 것을 확인했습니다.<br><br>
@@ -154,7 +154,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-8" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-8" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카 한국 브랜치는 수많은 분들이 참여하므로 성공률에 약간씩의 변동이 있습니다. 참여한 분들을 대상으로한 통계는 다음과 같습니다.<br><br>
 								1차 : <b class="tacred">45 ~ 55%</b><br>
@@ -172,7 +172,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-9" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-9" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								대상이 기계가 아니라 '사람'이기 때문입니다.<br><br>
 								알렌카는 사람의 사고를 변화합니다. 사고의 변화는 결코 강제적으로 이루어질 수 없습니다. 모든 것은 설득과 이해, 그리고 수용의 과정을 거쳐야 합니다.<br><br>
@@ -188,7 +188,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-10" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-10" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								환불보증제도는 알렌카 런던 본사를 비롯한 세계 모든 곳에서 국제표준으로 운영되고 있습니다.<br><br>
 								알렌카의 환불보증제도는 무척 단순하고 알기 쉽습니다. 다음의 조건을 만족할 경우 금연 성공/실패 여부와 무관하게 환불을 보장합니다.<br><br>
@@ -212,7 +212,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-11" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-11" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								대다수 흡연자는 선량하고 합리적이지만, 그렇지 않은 사람들도 분명히 있습니다.<br><br>
 								알렌카에서 평생의 해방감이라는 놀라운 느낌을 받은 분들은 대다수 고마운 마음을 전합니다. 그러나 사람의 마음은 시간이 지남에 따라 바뀔 수 있습니다. 그렇게 고마워 했던 분들도 본의 아니게 삶이 힘들어지면 알렌카에 돈을 맡겨 놓은 것처럼 찾아갈 수 있겠지요.<br><br>
@@ -227,7 +227,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-12" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-12" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								대다수 흡연자는 1차, 2차, 3차를 참여하는 동안 행복한 비흡연자가 됩니다. 그러나 실패 이후에도 환불보다는 재참여를 원하는 분들이 많습니다. <br><br>
 								이런 경우 심화테라피(2차, 3차)는 1년 동안 비용에 제한없이 참여할 수 있으며, 1차의 경우 담당 테라피스트의 판단 하에 반드시 필요할 경우 참여가 가능합니다.
@@ -241,7 +241,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-13" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-13" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								금연테라피 1차 참여일로부터 1년이 지났다면 심화테라피(2차, 3차)보다는 1차에 다시 참여하는 것을 강력하게 권해드립니다. 심화테라피는 1차 테라피의 기본이 되어 있어야 제대로 작동하기 때문입니다.<br><br>
 								<font class="tacred">
@@ -265,7 +265,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-14" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-14" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카는 다음과 같은 행복한 비흡연자의 확신을 선물로 드립니다.<br><br>
 								남은 평생 피우지 않을 수 있는 자신감<br>
@@ -283,7 +283,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-15" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-15" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								특별히 질문을 하지 않는다면 <font class="tacred">대화는 첫시간에 1 ~ 2분 정도에 불과</font>합니다. 흡연자의 흡연 패턴과 사고 방식을 분석하기 위한 질문들입니다.<br><br>
 								그러나 이조차도 불편하다면 테라피스트에게 미리 언급해주시기 바랍니다.
@@ -298,7 +298,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-16" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-16" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								실제로 보조제는 위약 효과(Placebo Effect) 정도에 불과하다는 것이 학계의 정설입니다. 또한, 알렌카에서 이러한 보조제가 왜 금연에 '실질적인 방해 요소'가 되는지도 명확하게 이해하실 수 있을 것입니다.<br><br>
 								금연은 생각보다 대단히 교묘하고 복잡한 심리적 함정이기도 합니다. 정확한 접근법을 모르고 잘못된 방법을 쓴다면 아무 효과가 없는 것이 당연합니다. 알렌카에는 보조제나 약물로 실패했던 분들이 수도 없이 많이 참여합니다.<br><br>
@@ -312,7 +312,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-17" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-17" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								소위 전문가라 불리는 사람들은 그저 금단증상이 괴로워서 금연이 어려울 것이라고 엄포를 놓곤 합니다. 그러나 금단증상은 정확히 파악하지 못하면 그저 흡연자가 다시 담배를 피우기 위한 '훌륭한 핑계거리'에 불과합니다.<br><br>
 								알렌카에서는 금단증상을 신체적/정신적으로 분류하고 그 실체를 매우 정확하게 짚어냅니다. <font class="tacred">실제로 따져보면 신체의 고통보다는 정신적 고통이 훨씬 더 강하다는 것</font>을 알 수 있습니다.<br><br>
@@ -331,7 +331,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-18" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-18" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카에는 하루 평균 4갑 이상을 피우는 골초 분들도 많이 참여하십니다. 이런 분들은 실제로 한시간 이상 담배없이 무언가 집중하는 것을 무척 어려워합니다.<br><br>
 								알렌카에서는 금연테라피를 진행하는 <font class="tacred">5시간 내내 흡연할 수 있도록 쉬는 시간(Smoking Break)을 제공</font>합니다. 참여하는 내내 편안하게 흡연하시고 마지막 담배를 버리는 그 순간부터 비흡연자의 삶을 사시면 됩니다.<br><br>
@@ -345,7 +345,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-19" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-19" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								금연테라피는 최면을 포함하여 약 5시간 30분 정도의 시간이 소요됩니다. 이 모든 내용을 암기하는 것은 테라피스트와 같은 전문가의 영역입니다. 알렌카는 결코 암기에 의해 작동하는 것이 아닙니다.<br><br>
 								금연테라피는 철저하게 설득 → 이해 → 수용의 과정을 거칩니다. 모든 내용을 정확하게 받아들였다면, <font class="tacred">실제 테라피 내용의 대부분을 기억하지 못해도 크게 문제되지 않습니다.</font><br><br>
@@ -359,7 +359,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-20" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-20" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카에는 이제 막 담배를 시작한 15세 학생부터, 50년 이상을 흡연한 80대의 연로하신 분들까지 다양한 연령의 스펙트럼을 보유하고 있습니다.<br><br>
 								30년을 피웠다고해서 3년을 피운 사람보다 무언가 특별할 이유는 전혀 없습니다. 다만 보다 실패 경험이 많아 자신감이 떨어진 정도에 불과하다는 것이지요.<br><br>
@@ -374,7 +374,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-21" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-21" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카에서는 골초보다 하루에 1대 정도를 피우는 캐주얼 스모커(Casual Smoker)를 더 까다롭게 받아들입니다.<br><br>
 								골초는 비교적 흡연의 본질에 대해서 정확히 알고 있기 때문에, 테라피스트가 하는 모든 이야기에 대부분 공감하고 쉽게 변화합니다. 또한, 알렌카로 담배를 끊은 뒤의 긍정적 변화도 훨씬 극적으로 일어나기 때문에 여러면에서 긍정적입니다.<br><br>
@@ -399,7 +399,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-22" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-22" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								2018년 9월 현재 알렌카의 금연테라피는 398,000원으로 진행되고 있으며, 이는 대략 3개월치 담뱃값에 해당합니다.<br><br>
 								<font class="tacred">1갑(4,500원) x 90일 = 405,000원</font><br><br>
@@ -416,7 +416,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-23" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-23" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								대다수 흡연자는 1차, 2차, 3차를 참여하는 동안 행복한 비흡연자가 됩니다. 그러나 실패 이후에도 환불보다는 재참여를 원하는 분들이 많습니다. <br><br>
 								<font class="tacred">이런 경우 심화테라피(2차, 3차)는 1년 동안 비용에 제한없이 참여</font>할 수 있으며, 1차의 경우 담당 테라피스트의 판단 하에 반드시 필요할 경우 참여가 가능합니다.<br><br>
@@ -430,7 +430,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-24" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-24" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카는 결제 PG 모듈로 이니시스를 이용하고 있으며, 주요 카드사를 모두 이용할 수 있습니다. 예약페이지에서 카드 결제가 가능합니다.<br><br>
 							</div>
@@ -443,7 +443,7 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<div id="faq-25" class="cp1 we300 ln18 tale pdglr30 tblack" style="display: none;">
+							<div id="faq-25" class="cp1 we300 ln18 tale pdglr25 tblack" style="display: none;">
 								<div class="h015"></div>
 								알렌카의 비용은 3개월치 담뱃값으로 합리적인 근거로 책정되었습니다. 또한, 카드로 할부 결제가 가능하므로 일시불에 대한 부담도 줄일 수 있습니다.<br><br>
 								그럼에도 불구하고 비용에 민감한 분들이 많기 때문에, 웨비나 할인, 지인 추천에 의한 할인 등 다양한 프로모션을 준비하고 있습니다.<br><br>

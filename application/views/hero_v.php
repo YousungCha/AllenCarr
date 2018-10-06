@@ -1,9 +1,11 @@
+
 	<div class="swiper-container set-mgn" style="margin-top:0px;">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide">
 			 	<div class="title-box container-fluid bblack1 tace">	 	
 			 		<div class="h100"></div> 
-			 		<p class="tt3 we700 twhite ln15 lt007"> 		
+			 		<div class="h050 mobile"></div> 
+			 		<p class="tt3 we700 twhite ln15 lt007" id="mt-value">
 			 			
 			 			첫담배를 피우기 전으로<br>
 			 			돌아갈 수 있는 유일한 길
@@ -124,7 +126,6 @@
 			<div class="h100"></div>
 		</div>
 	</div>
-
 	<script type="text/javascript">
 	function modalClose(modalName)
 	{
