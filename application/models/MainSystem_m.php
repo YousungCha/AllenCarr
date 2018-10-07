@@ -26,6 +26,18 @@ class MainSystem_m extends CI_Model
         $errMsg = $this->db->insert($table);
         return $errMsg;
     }
+    function getAllData($table)
+    {
+        $this->db->select('*');
+        $query = $this->db->get($table);
+        return $query->result_array();
+    }
+    function getTableCount($table)
+    {
+        $this->db->select('*');
+        $query = $this->db->get($table);
+        return $query->num_rows();   
+    }
     function mMemberLogin($table, $auth) 
     {
         $this->db->select('email, password');

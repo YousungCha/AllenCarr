@@ -9,10 +9,51 @@
 		<div class="h050"></div>
 
 		<center>
-		<div class="row def-width-1200">
-			<p class="dp2 we700 twhite ln18 tace">
+		<div class="row def-width-1200">			
+		
+			<?php foreach ($data as $row) : ?>
+				<?php 
+		            $sdate = mdate("%Y-%m-%d",human_to_unix($row['sdate']));
+		            $stime = mdate("%g%A",human_to_unix($row['sdate']));
+		            $etime = mdate("%g%A",human_to_unix($row['sdate']) + (3600 * 5));
+		            $ref = array("일요일","월요일","화요일","수요일","목요일","금요일","토요일");
+		            $day = $ref[date("w",strtotime($sdate))];
+				?>
+				<?php if ($row['status'] == "active" && $row['count'] == 1) : ?>				
+				<div class="col-md-6">
+					<div class="container-fluid bwhite pdg25 tale" style="
+						background-color: white; 
+					    background-image: -webkit-linear-gradient(155deg, #eeeeee 25%, transparent 20%); 
+					    background-image: -moz-linear-gradient(155deg, #eeeeee 25%, transparent 20%);
+					    border-bottom: 3px solid gray;">
+						<p class="dp3 we700"><?=$sdate?> (<?=$day?>) <?=$stime?> ~ <?=$etime?></p>
+						<p class="dp4 we500 tgray1">알렌카 정규 금연테라피</p>
+						<div class="h015"></div>
+						<p class="cp1 we200 ln18">
+							테라피스트와 현장에서 진행하는 알렌카 정규 금연 프로그램<br>						
+							<font class="tacred">서울 강남구 테헤란로103길 14, 토즈 삼성점</font>
+						</p>
+						<table width="100%">
+							<tr>
+								<td class="tale">
+									<div class="h010"></div>
+									<b class="dp4"><?=$row['price']?>원</b>
+								</td>
+								<td class="tari">
+									<button class="twhite pdg15 pdglr30 cp2 lt000 btn-download"><b>테라피 예약하기</b></button>								
+								</td>
+							</tr>
+						</table>					
+					</div>
+					<div class="h025"></div>
+				</div>				
+				<?php endif ?>
+			<?php endforeach ?>
+			<?php if ($count == 0) : ?>
+				<p class="dp2 we700 twhite ln18 tace">
 				현재 확정된 일정이 없습니다. 조금만 기다려주세요.
-			</p>
+				</p>
+			<?php endif ?>			
 			<!--
 			<div class="col-md-6">
 				<div class="container-fluid bwhite pdg25 tale" style="

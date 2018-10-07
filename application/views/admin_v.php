@@ -7,11 +7,19 @@
 		<div class="h015"></div>
 		<p class="cp3 tace lt100 tsilver ln18">Administrative Pages</p>
 		<div class="h100"></div>
-		<p class="dp3 we700 tgray1 ln18 tace">
-			행복한 비흡연자의 길에 한 걸음 다가오셨습니다.<br>
-			시작은 <font class="tsilver">금연의 절반</font>입니다.
-		</p>
-		<div class="h100"></div>	
+		
+		<center>
+		<div class="def-width-900">
+			<div class="row">
+				<div class="col-md-6">
+				</div>
+				<div class="col-md-6 bwhite">
+					
+				</div>
+			</div>
+		</div>
+		</center>
+
 		<div class="h100"></div>	
 		</center>		
 	</div>

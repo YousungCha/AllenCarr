@@ -12,6 +12,7 @@ class MainSystem extends CI_Controller
         $this->load->database();          
         $this->load->helper('url');  
         $this->load->helper('form');
+        $this->load->helper('date');
         $this->load->helper('string');
         $this->load->model('MainSystem_m');
         $this->load->library('session');
@@ -34,9 +35,13 @@ class MainSystem extends CI_Controller
 	}
 	public function Book()
 	{
+		$data = array(
+			'count' => $this->MainSystem_m->getTableCount('schedule'),
+			'data' => $this->MainSystem_m->getAllData('schedule') 
+		);
 		$this->load->view('header_v');		
 		$this->load->view('menu_v');
-		$this->load->view('book_v');
+		$this->load->view('book_v',$data);
 		$this->load->view('footer_v');
 	}
 	public function Login()
