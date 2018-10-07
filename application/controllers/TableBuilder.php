@@ -100,7 +100,21 @@ class TableBuilder extends CI_Controller
 			PRIMARY KEY(no)
 		)
 		";
-		$this->db->query($data);        
+
+		$data5 =
+		"CREATE TABLE IF NOT EXISTS schedule (
+			no int(10) NOT NULL AUTO_INCREMENT,
+			count int(1) NOT NULL,
+			sdate datetime NOT NULL,
+			price varchar(20) NOT NULL,
+			discount int(2) NOT NULL,		
+			type varchar(10) NOT NULL, 
+			status varchar(10) NOT NULL,
+			etc varchar(40) NOT NULL,
+			PRIMARY KEY(no)
+		)
+		";
+		$this->db->query($data5);        
 	}
 }
 
