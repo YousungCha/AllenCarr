@@ -26,6 +26,12 @@ class MainSystem_m extends CI_Model
         $errMsg = $this->db->insert($table);
         return $errMsg;
     }
+    function updateData($table, $data)
+    {        
+        $errMsg = $this->db->set($data);
+        $errMsg = $this->db->update($table);
+        return $errMsg;
+    }    
     function getAllData($table)
     {
         $this->db->select('*');

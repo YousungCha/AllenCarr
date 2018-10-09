@@ -17,7 +17,12 @@ class MainSystem extends CI_Controller
         $this->load->model('MainSystem_m');
         $this->load->library('session');
     }
-
+    public function test()
+    {
+    	$timestamp = strtotime(mdate("%Y-%m-%d"));
+    	$timestamp = strtotime("+3 months");
+    	echo date("Y-m-d",$timestamp);
+    }
 	public function index()
 	{
 		$this->load->view('header_v');		
@@ -77,6 +82,26 @@ class MainSystem extends CI_Controller
 		else
 		{
 			redirect("MainSystem");
+		}
+	}
+	public function BookForm()
+	{
+		if ($this->session->userdata('logged_in') == true &&
+			$_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$session_no = $this->input->post('session_no');
+			$query = $this->db->query("select * from schedule where no='$session_no'");
+			$data = array(
+				'data' => $query->row(), 
+			);
+			$this->load->view('header_v');		
+			$this->load->view('menu_v');
+			$this->load->view('bookForm_v',$data);
+			$this->load->view('footer_v');
+		}
+		else
+		{
+			redirect("MainSystem/Login");
 		}
 	}
 
@@ -145,6 +170,53 @@ class MainSystem extends CI_Controller
 	/*
 	 * AJAX
 	 */
+	public function InsertSessionByCard()
+	{
+		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+
+		}
+		else
+		{
+			redirect('MainSystem/Book');
+		}
+	}
+	public function InsertSession()
+	{
+		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$email = $this->input->post('email');
+			$payment = $this->input->post('payment');
+			$date_1 = strtotime($this->input->post('date_1'));
+			$mbg = $date_1;
+			$date_1 = date("Y-m-d",$date_1);
+			$mbg = date("Y-m-d",strtotime("+3 months"));
+
+			$data = array(
+				'email' => $email, 
+				'name' => $this->input->post('name'), 
+				'phone' => $this->input->post('phone'), 
+				'class' => $this->input->post('class'), 
+				'amount' => $this->input->post('quantity'), 
+				'date_1' => $date_1, 
+				'status' => ($payment == 1) ? "complete" : "wait",
+				'mbg' => $mbg,
+				'payment' => ($payment == 1) ? "card" : "account",
+				'order_number' => random_string("alnum",16),
+				'sales_code' => $this->input->post('sales_code'),
+			);
+			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
+				$this->MainSystem_m->updateData('session',$data);	
+			}
+			else  {
+				$this->MainSystem_m->setData('session',$data);
+			}
+		}
+		else
+		{
+			redirect('MainSystem/Book');
+		}
+	}
 	public function addEmailList()
 	{
 		if ($_SERVER["REQUEST_METHOD"] == "POST")

@@ -52,6 +52,10 @@ input, button:focus {
 	background-color: orange;
 }
 
+.input-underbar {
+	height: 35px; width: 100%; border:0px; border-bottom: 1px solid silver;
+}
+
 .txt-menu {
 	padding-right: 25px; 
 	letter-spacing: 0.1em; 

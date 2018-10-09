@@ -20,6 +20,11 @@
 		            $day = $ref[date("w",strtotime($sdate))];
 				?>
 				<?php if ($row['status'] == "active" && $row['count'] == 1) : ?>				
+				<?php 
+					$attributes = array('name' => 'bookForm', 'method' => 'post');
+					echo form_open(site_url('MainSystem/BookForm'),$attributes); 
+				?>
+				<input type="hidden" name="session_no" value="<?=$row['no']?>">
 				<div class="col-md-6">
 					<div class="container-fluid bwhite pdg25 tale" style="
 						background-color: white; 
@@ -33,20 +38,19 @@
 							테라피스트와 현장에서 진행하는 알렌카 정규 금연 프로그램<br>						
 							<font class="tacred">서울 강남구 테헤란로103길 14, 토즈 삼성점</font>
 						</p>
+						<div class="h010"></div>
 						<table width="100%">
 							<tr>
-								<td class="tale">
-									<div class="h010"></div>
-									<b class="dp4"><?=$row['price']?>원</b>
-								</td>
-								<td class="tari">
-									<button class="twhite pdg15 pdglr30 cp2 lt000 btn-download"><b>테라피 예약하기</b></button>								
+								<td class="tale"><b class="dp4"><?=number_format($row['price'])?>원</b></td>
+								<td class="tari">									
+									<button class="twhite pdg15 pdglr30 cp2 lt000 btn-download" type="submit"><b>테라피 예약하기</b></button>								
 								</td>
 							</tr>
 						</table>					
 					</div>
 					<div class="h025"></div>
 				</div>				
+				</form>
 				<?php endif ?>
 			<?php endforeach ?>
 			<?php if ($count == 0) : ?>
