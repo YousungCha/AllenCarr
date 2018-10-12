@@ -41,7 +41,22 @@
 						<div class="h010"></div>
 						<table width="100%">
 							<tr>
-								<td class="tale"><b class="dp4"><?=number_format($row['price'])?>원</b></td>
+								<td class="tale">
+									<?php if ($row['discount'] == 0) : ?>
+									<b class="dp4"><?=number_format($row['price'])?>원</b>
+									<?php else : ?>
+									<font class="dp4 we200 tsilver"><del><?=number_format($row['price'])?>원</del></font> → 
+									<b class="dp4">
+										<?php											
+											$discount = (100 - $row['discount']) * 0.01;
+											$price = $row['price'] * $discount;
+											echo number_format($price)."원";
+										?>										
+									</b>
+									<div class="h015"></div>
+									<p class="cp3 torange we200"><?=$row['etc']?></p>
+									<?php endif ?>
+								</td>
 								<td class="tari">									
 									<button class="twhite pdg15 pdglr30 cp2 lt000 btn-download" type="submit"><b>테라피 예약하기</b></button>								
 								</td>
@@ -124,18 +139,14 @@
 		</center>		
 	</div>
 
-	<div class="container-fluid bacblue set-mgn">
-		<div class="h100"></div>
-	</div>
-
 	<div class="container-fluid bwhite">
 		<div class="h060"></div>
-		<p class="sb3 we700 ln15 tace">
+		<p class="sb3 we700 ln18 tace">
 			<font class="tacred">정규 금연테라피, 온라인 금연테라피</font><br>어떤 차이가 있을까?
 		</p>
 		<div class="h050"></div>
 		<center>
-		<div class="row def-width-1000">
+		<div class="row def-width-1200">
 			<div class="col-md-1"></div>
 			<div class="col-md-5">
 				<p class="dp3 we700 ln15 tale">

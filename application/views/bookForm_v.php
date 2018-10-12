@@ -101,8 +101,13 @@
 						</tr>
 						<tr style="height: 25px;"></tr>
 						<tr>
+							<?php 
+								$price = $data->price * ((100 - $data->discount) * 0.01);
+							 ?>
 							<td class="dp4">결제비용 </td>
-							<td><div class="h010"></div><p id="price" class="dp3 torange"><?=number_format($data->price)?>원</p></td>
+							<td><div class="h010"></div><p id="price" class="dp3 torange"><?=number_format($price)?>원</p></td>
+							<input type="hidden" name="price" value="<?=$price?>">
+
 						</tr>
 					</table>
 					<div class="h030"></div>
@@ -121,12 +126,13 @@
 
 		function formSubmit() {
 			var paymentType = $("#payType option:selected").val();	// 결제 방식
-			var queryString = $("form[name=bookForm]").serialize();			// 폼 데이터 직렬화	
+			var queryString = $("form[name=bookForm]").serialize();			// 폼 데이터 
 
 			// 폼 검증
 			var name = $('input[name="name"]').val();
 			var phone = $('input[name="phone"]').val();
 			var email = $('input[name="email"]').val();
+			var price = $('input[name="price"]').val();
 			var quantity = $("#session_quantity option:selected").val();
 
 			// 폼 검증 후 이상없으면 결제 모듈 띄움
@@ -136,7 +142,7 @@
 			else if (!paymentType) { alert("결제 방식을 선택해주세요"); }
 			else 
 			{
-				if (paymentType == 1) iamPort(name, phone, email, quantity, queryString);	 
+				if (paymentType == 1) iamPort(name, phone, email, quantity, price, queryString);	 
 				else
 				{
 			        $.ajax({
@@ -157,8 +163,8 @@
 			}
 		}
 
-		function iamPort(name, phone, email, quantity, queryString) 
-		{
+		function iamPort(name, phone, email, quantity, price, queryString) 
+		{			
 			var prevForm = $("form[name=bookForm]").html();	// 폼 태그 저장
 			$("form[name=bookForm]").html('<p class="nor-t2 tc-std-silver pdg-30"><img src="/images/ajax/lg.rotating-balls-spinner.gif"><br><br>잠시만 기다리세요. 결제를 진행 중입니다..<br><br><br></p>');
 	        var IMP = window.IMP;
@@ -168,7 +174,7 @@
 			    pay_method : 'card',
 			    merchant_uid : 'merchant_' + new Date().getTime(),
 			    name : '알렌카 정규 금연테라피',
-			    amount : 1, //quantity * <?=$data->price?>,
+			    amount : quantity * price,
 			    buyer_email : email,
 			    buyer_name : name,
 			    buyer_tel : phone,
@@ -190,7 +196,7 @@
 			            dataType : 'html',
 
 			            success: function(receiveData) {
-			            	location.href = "/MainSystem/mypage/";
+			            	location.href = "/MainSystem/mypage/paid_ok";
 			            },
 						error: function(xhr, status, error){
 			                alert(error);
@@ -207,6 +213,7 @@
 				$('input[name="name"]').val(name);
 				$('input[name="phone"]').val(phone);
 				$('input[name="email"]').val(email);
+				location.href = "/MainSystem/mypage/paid_ok";
 			});			
 		}
 

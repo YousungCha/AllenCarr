@@ -38,6 +38,13 @@ class MainSystem_m extends CI_Model
         $query = $this->db->get($table);
         return $query->result_array();
     }
+    function getOneData($table, $email)
+    {
+        $this->db->select('*');
+        $this->db->where('email',$email);
+        $query = $this->db->get($table);
+        return $query->row();
+    }    
     function getTableCount($table)
     {
         $this->db->select('*');

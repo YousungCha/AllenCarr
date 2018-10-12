@@ -1,6 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class MainSystem extends CI_Controller 
 {	
     function __construct() 
@@ -70,13 +69,21 @@ class MainSystem extends CI_Controller
 		$this->load->view('complete_v');
 		$this->load->view('footer_v');	
 	}
-	public function MyPage()
+	public function MyPage($payInfo = '')
 	{
 		if ($this->session->userdata('logged_in') == true)
 		{
+			if ($_SERVER["REQUEST_METHOD"] == "POST" && $payInfo == "paid_ok")
+			{
+				echo "test-ok";
+			}
+			$data = array(
+				'mem' => $this->MainSystem_m->getOneData('member',$this->session->userdata('email')), 
+				'data' => $this->MainSystem_m->getOneData('session',$this->session->userdata('email')), 
+			);
 			$this->load->view('header_v');		
 			$this->load->view('menu_v');
-			$this->load->view('myinfo_v');
+			$this->load->view('myinfo_v',$data);
 			$this->load->view('footer_v');
 		}
 		else
@@ -89,6 +96,10 @@ class MainSystem extends CI_Controller
 		if ($this->session->userdata('logged_in') == true &&
 			$_SERVER["REQUEST_METHOD"] == "POST")
 		{
+			if ($this->MainSystem_m->checkExist('session','email',$this->session->userdata('email')))
+			{
+				redirect("MainSystem/MyPage");
+			}
 			$session_no = $this->input->post('session_no');
 			$query = $this->db->query("select * from schedule where no='$session_no'");
 			$data = array(
@@ -170,17 +181,7 @@ class MainSystem extends CI_Controller
 	/*
 	 * AJAX
 	 */
-	public function InsertSessionByCard()
-	{
-		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
-		{
 
-		}
-		else
-		{
-			redirect('MainSystem/Book');
-		}
-	}
 	public function InsertSession()
 	{
 		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")

@@ -110,6 +110,7 @@ class TableBuilder extends CI_Controller
 			discount int(2) NOT NULL,		
 			type varchar(10) NOT NULL, 
 			status varchar(10) NOT NULL,
+			max int(2) NOT NULL,
 			etc varchar(40) NOT NULL,
 			PRIMARY KEY(no)
 		)

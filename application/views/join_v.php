@@ -11,7 +11,7 @@
 		<center>
 		<div class="row def-width-600 bwhite pdg30 tale">
 			<?php 
-				$attributes = array('name' => 'bookForm', 'method' => 'post');
+				$attributes = array('name' => 'memberRegistration', 'method' => 'post');
 				echo form_open(site_url('MainSystem/btnMemberRegister'),$attributes); 
 			?>
 				<div class="h015"></div>
