@@ -200,7 +200,7 @@ class MainSystem extends CI_Controller
 				'class' => $this->input->post('class'), 
 				'amount' => $this->input->post('quantity'), 
 				'date_1' => $date_1, 
-				'status' => ($payment == 1) ? "complete" : "wait",
+				'status' => ($payment == 1) ? "1OK" : "wait",
 				'mbg' => $mbg,
 				'payment' => ($payment == 1) ? "card" : "account",
 				'order_number' => random_string("alnum",16),

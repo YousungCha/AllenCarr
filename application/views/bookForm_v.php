@@ -221,7 +221,8 @@
 	<script type="text/javascript">
 		// 선택되는 숫자 비용을 곱한다.
 		$("#session_quantity").change(function() {
-			var quan = $("#session_quantity option:selected").val() * <?=$data->price?>;
+			var price = $('input[name="price"]').val();
+			var quan = $("#session_quantity option:selected").val() * price;
 			quan = numberWithCommas(quan);
 			quan = quan + "원";
 			var tag = "<font class='tc-darkorange'>" + quan + "</font>";
