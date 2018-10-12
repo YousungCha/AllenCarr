@@ -19,7 +19,7 @@
 		            $ref = array("일요일","월요일","화요일","수요일","목요일","금요일","토요일");
 		            $day = $ref[date("w",strtotime($sdate))];
 				?>
-				<?php if ($row['status'] == "active" && $row['count'] == 1) : ?>				
+				<?php if ($row['status'] == "active" && $row['count'] == 1) : ?>		
 				<?php 
 					$attributes = array('name' => 'bookForm', 'method' => 'post');
 					echo form_open(site_url('MainSystem/BookForm'),$attributes); 
@@ -64,8 +64,28 @@
 						</table>					
 					</div>
 					<div class="h025"></div>
-				</div>				
+				</div>
 				</form>
+				<?php elseif ($row['status'] == 'closed' && $row['count'] == 1) : ?>
+				<div class="col-md-6">
+					<div class="container-fluid bwhite pdg25 tale" style="
+						background-color: white; 
+					    background-image: -webkit-linear-gradient(155deg, #eeeeee 25%, transparent 20%); 
+					    background-image: -moz-linear-gradient(155deg, #eeeeee 25%, transparent 20%);
+					    border-bottom: 3px solid gray;">
+						<p class="dp3 we700"><?=$sdate?> (<?=$day?>) <?=$stime?> ~ <?=$etime?></p>
+						<p class="dp4 we500 tgray1">알렌카 정규 금연테라피</p>
+						<div class="h015"></div>
+						<p class="cp1 we200 ln18">
+							테라피스트와 현장에서 진행하는 알렌카 정규 금연 프로그램<br>						
+							<div class="h015"></div>
+							<p class="tsilver dp3 we700 tace">예약 마감되었습니다.</p>
+						</p>
+						<div class="h010"></div>
+				
+					</div>
+					<div class="h025"></div>
+				</div>					
 				<?php endif ?>
 			<?php endforeach ?>
 			<?php if ($count == 0) : ?>

@@ -16,12 +16,7 @@ class MainSystem extends CI_Controller
         $this->load->model('MainSystem_m');
         $this->load->library('session');
     }
-    public function test()
-    {
-    	$timestamp = strtotime(mdate("%Y-%m-%d"));
-    	$timestamp = strtotime("+3 months");
-    	echo date("Y-m-d",$timestamp);
-    }
+
 	public function index()
 	{
 		$this->load->view('header_v');		
