@@ -69,14 +69,10 @@ class MainSystem extends CI_Controller
 		$this->load->view('complete_v');
 		$this->load->view('footer_v');	
 	}
-	public function MyPage($payInfo = '')
+	public function MyPage()
 	{
 		if ($this->session->userdata('logged_in') == true)
 		{
-			if ($_SERVER["REQUEST_METHOD"] == "POST" && $payInfo == "paid_ok")
-			{
-				echo "test-ok";
-			}
 			$data = array(
 				'mem' => $this->MainSystem_m->getOneData('member',$this->session->userdata('email')), 
 				'data' => $this->MainSystem_m->getOneData('session',$this->session->userdata('email')), 

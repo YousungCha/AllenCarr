@@ -213,7 +213,6 @@
 				$('input[name="name"]').val(name);
 				$('input[name="phone"]').val(phone);
 				$('input[name="email"]').val(email);
-				location.href = "/MainSystem/mypage/paid_ok";
 			});			
 		}
 
