@@ -152,7 +152,6 @@
 			            dataType : 'html',
 
 			            success: function(receiveData) {
-			            	alert(receiveData);
 			            	location.href = "/MainSystem/mypage/";
 			            },
 						error: function(xhr, status, error){
@@ -166,7 +165,7 @@
 		function iamPort(name, phone, email, quantity, price, queryString) 
 		{			
 			var prevForm = $("form[name=bookForm]").html();	// 폼 태그 저장
-			$("form[name=bookForm]").html('<p class="nor-t2 tc-std-silver pdg-30"><img src="/images/ajax/lg.rotating-balls-spinner.gif"><br><br>잠시만 기다리세요. 결제를 진행 중입니다..<br><br><br></p>');
+			$("form[name=bookForm]").html('<p class="dp3 pdg30 tace tsilver we700"><img src="/images/lg.rotating-balls-spinner.gif"><br><br>잠시만 기다리세요. 결제를 진행 중입니다..<br><br><br></p>');
 	        var IMP = window.IMP;
 	        IMP.init('imp04349282'); //'iamport' 대신 부여받은 "가맹점 식별코드"를 사용.
 			IMP.request_pay({

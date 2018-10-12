@@ -61,7 +61,7 @@
 							<td class="cp3 we200"><?=$row['no']?></td>
 							<td class="cp3 we200"><?=$row['email']?></td>
 							<td class="cp3 we200"><?=$row['name']?></td>
-							<td class="cp3 we200"><?=$row['phone']?>%</td>
+							<td class="cp3 we200"><?=$row['phone']?></td>
 							<td class="cp3 we200"><?=$row['class']?></td>
 							<td class="cp3 we200"><?=$row['amount']?></td>
 							<td class="cp3 we200"><?=$row['date_1']?></td>
