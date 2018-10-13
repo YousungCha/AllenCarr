@@ -59,5 +59,23 @@ class AdminSystem extends CI_Controller
 			redirect("MainSystem");
 		}
 	}
+	public function btnChangeSessionEtc()
+	{
+		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$etc = $this->input->post('etc');
+			$no = $this->input->post('no');
+			$data = array(
+				'etc' => $etc,
+				'no' => $no
+			);
+			$this->MainSystem_m->findUpdate('schedule','no',$data['no'],$data);
+			redirect("AdminSystem");
+		}
+		else 
+		{
+			redirect("MainSystem");
+		}
+	}	
 }
 
