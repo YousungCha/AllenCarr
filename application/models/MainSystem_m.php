@@ -32,11 +32,17 @@ class MainSystem_m extends CI_Model
         $errMsg = $this->db->update($table);
         return $errMsg;
     }    
-    function findUpdate($table, $filed, $key, $data)
+    function findUpdate($table, $field, $key, $data)
     {
         $errMsg = $this->db->set($data);
-        $errMsg = $this->db->where($filed,$key);
+        $errMsg = $this->db->where($field,$key);
         $errMsg = $this->db->update($table);
+        return $errMsg;
+    }
+    function deleteData($table, $field, $key)
+    {
+        $errMsg = $this->db->where($field,$key);
+        $errMsg = $this->db->delete($table);
         return $errMsg;
     }
     function getAllData($table)

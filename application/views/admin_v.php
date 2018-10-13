@@ -146,6 +146,15 @@
 												<tr style="height: 10px;"></tr>
 												<tr>
 													<td colspan="2">
+														<select name="delete" style="width:100%;">
+															<option value="no">상태유지</option>
+															<option value="yes">제거</option>
+														</select>														
+													</td>
+												</tr>												
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td colspan="2">
 														<button class="btn-general bacred twhite" type="submit" style="width:100%;">수정하기</button>
 													</td>
 												</tr>
