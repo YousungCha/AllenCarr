@@ -93,6 +93,7 @@
 					<tr onclick="location.href='<?=site_url('AdminSystem')?>'">
 						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">관리자페이지</td>
 					</tr>									
+				<?php endif ?>
 				<?php if ($this->session->userdata('email')) : ?>						
 					<tr onclick="location.href='<?=site_url('MainSystem/MyPage')?>'">
 						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">마이페이지</td>
