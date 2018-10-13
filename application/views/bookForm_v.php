@@ -177,7 +177,7 @@
 			    buyer_email : email,
 			    buyer_name : name,
 			    buyer_tel : phone,
-			    m_redirect_url : '/MainSystem/InsertSession?' + queryString
+			    m_redirect_url : 'https://allencarr.co.kr/MainSystem/InsertSession?' + queryString
 
 			}, function(rsp) {
 			    if ( rsp.success ) {
