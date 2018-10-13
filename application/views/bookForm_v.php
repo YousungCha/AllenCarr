@@ -177,7 +177,7 @@
 			    buyer_email : email,
 			    buyer_name : name,
 			    buyer_tel : phone,
-			    m_redirect_url : '/MainSystem/mypage/'
+			    m_redirect_url : '/MainSystem/InsertSession?' + queryString
 
 			}, function(rsp) {
 			    if ( rsp.success ) {

@@ -204,6 +204,35 @@ class MainSystem extends CI_Controller
 				$this->MainSystem_m->setData('session',$data);
 			}
 		}
+		else if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "GET")
+		{
+			$email = $this->input->get('email');
+			$payment = $this->input->get('payment');
+			$date_1 = strtotime($this->input->get('date_1'));
+			$mbg = $date_1;
+			$date_1 = date("Y-m-d",$date_1);
+			$mbg = date("Y-m-d",strtotime("+3 months"));
+
+			$data = array(
+				'email' => $email, 
+				'name' => $this->input->get('name'), 
+				'phone' => $this->input->get('phone'), 
+				'class' => $this->input->get('class'), 
+				'amount' => $this->input->get('quantity'), 
+				'date_1' => $date_1, 
+				'status' => ($payment == 1) ? "1OK" : "wait",
+				'mbg' => $mbg,
+				'payment' => ($payment == 1) ? "card" : "account",
+				'order_number' => random_string("alnum",16),
+				'sales_code' => $this->input->get('sales_code'),
+			);
+			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
+				$this->MainSystem_m->updateData('session',$data);	
+			}
+			else  {
+				$this->MainSystem_m->setData('session',$data);
+			}			
+		}
 		else
 		{
 			redirect('MainSystem/Book');
