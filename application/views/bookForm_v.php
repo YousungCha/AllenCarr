@@ -177,7 +177,7 @@
 			    buyer_email : email,
 			    buyer_name : name,
 			    buyer_tel : phone,
-			    m_redirect_url : ''
+			    m_redirect_url : '/MainSystem/mypage/'
 
 			}, function(rsp) {
 			    if ( rsp.success ) {
@@ -195,7 +195,7 @@
 			            dataType : 'html',
 
 			            success: function(receiveData) {
-			            	location.href = "/MainSystem/mypage/paid_ok";
+			            	location.href = "/MainSystem/mypage/";
 			            },
 						error: function(xhr, status, error){
 			                alert(error);

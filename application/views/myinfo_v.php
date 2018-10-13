@@ -114,7 +114,7 @@
 									3OK : 3차까지 참여 완료
 								-->
 								<?php if ($data->status == "wait") : ?>
-									<span class="pdg05 pdglr10 cp3" style="background-color:#43b4d9; color:white; border-radius: 10px; margin-left:-5px;" title="무통장 입금으로 신청하였으며, 아직 입금이 확인되지 않았습니다.">예약 대기</span>
+									<span class="pdg05 pdglr10 cp3" style="background-color:#43b4d9; color:white; border-radius: 10px; margin-left:-5px;" title="무통장 입금으로 신청하였으며, 아직 입금이 확인되지 않았습니다.">예약 대기</span>	
 								<?php elseif ($data->status == "1OK") : ?>
 									<span class="pdg05 pdglr10 cp3" style="background-color:#4eb840; color:white; border-radius: 10px; margin-left:-5px;">예약 확정</span>
 								<?php elseif ($data->status == "2OK") : ?>
@@ -123,6 +123,20 @@
 								<?php endif ?>
 							</td>
 						</tr>
+						<?php if ($data->status == "wait") : ?>
+						<tr style="height: 30px;">
+							<td colspan="2" style="border-bottom: 1px dotted silver;"></td>
+						</tr>
+						<tr>
+							<td class="dp4 we500">입금계좌 </td>
+							<td class="cp1 we200">
+								<div class="h030"></div>
+								우리은행 <b>1005-502-563204</b> 
+								<div class="h015"></div>
+								예금주 : (주)와이에이치
+							</td>
+						</tr>
+						<?php endif ?>
 					</table>
 					<div class="h015"></div>
 					<?php endif ?>			
