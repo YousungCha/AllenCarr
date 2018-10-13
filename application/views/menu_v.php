@@ -89,7 +89,14 @@
 				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
 					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">예약페이지</td>
 				</tr>				
+				<?php if ($this->session->userdata('email') == "master@allencarr.co.kr") : ?>						
+					<tr onclick="location.href='<?=site_url('AdminSystem')?>'">
+						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">관리자페이지</td>
+					</tr>									
 				<?php if ($this->session->userdata('email')) : ?>						
+					<tr onclick="location.href='<?=site_url('MainSystem/MyPage')?>'">
+						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">마이페이지</td>
+					</tr>									
 					<tr onclick="location.href='<?=site_url('MainSystem/btnLogout')?>'">
 						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">로그아웃</td>
 					</tr>
