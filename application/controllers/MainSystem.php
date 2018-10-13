@@ -198,7 +198,7 @@ class MainSystem extends CI_Controller
 				'sales_code' => $this->input->post('sales_code'),
 			);
 			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
-				$this->MainSystem_m->updateData('session',$data);	
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);	
 			}
 			else  {
 				$this->MainSystem_m->setData('session',$data);
@@ -227,11 +227,12 @@ class MainSystem extends CI_Controller
 				'sales_code' => $this->input->get('sales_code'),
 			);
 			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
-				$this->MainSystem_m->updateData('session',$data);	
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);
 			}
 			else  {
 				$this->MainSystem_m->setData('session',$data);
 			}			
+			redirect('MainSystem/MyPage');
 		}
 		else
 		{

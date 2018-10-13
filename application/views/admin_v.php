@@ -96,7 +96,63 @@
 						<tr>
 							<td colspan="6">
 								<div class="container-fluid bwhite1" id="<?=$row['no']?>" style="display: none;">
-									sfddfs
+									<div class="h030"></div>
+										<center>
+										<?php 
+											$attributes = array('name' => 'sessionMemberChange', 'method' => 'post');
+											echo form_open(site_url('AdminSystem/btnChangeSessionMember'),$attributes); 
+										?>					
+											<input type="hidden" name="no" value="<?=$row['no']?>">						
+											<table>
+												<tr>
+													<td width="100">이름</td>
+													<td><input type="text" name="name" value="<?=$row['name']?>" style="width:100%;"></td>
+												</tr>
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td>이메일</td>
+													<td><input type="text" name="email" value="<?=$row['email']?>" style="width:100%;"></td>
+												</tr>
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td>전화번호</td>
+													<td><input type="text" name="phone" value="<?=$row['phone']?>" style="width:100%;"></td>
+												</tr>	
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td>날짜</td>
+													<td><input type="text" name="date_1" value="<?=$row['date_1']?>" style="width:100%;"></td>
+												</tr>	
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td>MBG</td>
+													<td><input type="text" name="mbg" value="<?=$row['mbg']?>" style="width:100%;"></td>
+												</tr>	
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td>상태</td>
+													<td>
+														<?=$row['status']?>&nbsp;
+														<select name="status" style="width:60%;">
+															<option value="wait">wait</option>
+															<option value="1OK">1OK</option>
+															<option value="2WAIT">2WAIT</option>
+															<option value="2OK">2OK</option>
+															<option value="3WAIT">3WAIT</option>
+															<option value="3OK">3OK</option>
+														</select>
+													</td>
+												</tr>
+												<tr style="height: 10px;"></tr>
+												<tr>
+													<td colspan="2">
+														<button class="btn-general bacred twhite" type="submit" style="width:100%;">수정하기</button>
+													</td>
+												</tr>
+											</table>
+										</form>
+										</center>
+									<div class="h030"></div>
 								</div>
 							</td>
 						</tr>
