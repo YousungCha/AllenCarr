@@ -43,22 +43,25 @@
 							<tr>
 								<td class="tale">
 									<?php if ($row['discount'] == 0) : ?>
-									<b class="dp4"><?=number_format($row['price'])?>원</b>
+										<div class="h029"></div>
+										<b class="dp4"><?=number_format($row['price'])?>원</b>
+										<div class="h015"></div>
 									<?php else : ?>
-									<font class="dp4 we200 tsilver"><del><?=number_format($row['price'])?>원</del></font> → 
-									<b class="dp4">
-										<?php											
-											$discount = (100 - $row['discount']) * 0.01;
-											$price = $row['price'] * $discount;
-											echo number_format($price)."원";
-										?>										
-									</b>
-									<div class="h015"></div>
-									<p class="cp3 torange we200"><?=$row['etc']?></p>
+										<font class="cp1 we200 tsilver"><del><?=number_format($row['price'])?>원</del></font> →
+										<div class="h008 mobile"></div>
+										<b class="dp4">
+											<?php											
+												$discount = (100 - $row['discount']) * 0.01;
+												$price = $row['price'] * $discount;
+												echo number_format($price)."원";
+											?>										
+										</b>
+										<div class="h015"></div>
+										<p class="cp3 torange we200 ln15" style="padding-right: 5px;"><?=$row['etc']?></p>
 									<?php endif ?>
 								</td>
 								<td class="tari">									
-									<button class="twhite pdg15 pdglr30 cp2 lt000 btn-download" type="submit"><b>테라피 예약하기</b></button>								
+									<button class="twhite pdg15 pdglr25 cp2 lt000 btn-download" type="submit" style="min-width: 135px;"><b>테라피 예약하기</b></button>								
 								</td>
 							</tr>
 						</table>					

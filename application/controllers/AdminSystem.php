@@ -12,6 +12,7 @@ class AdminSystem extends CI_Controller
         $this->load->database();          
         $this->load->helper('url');  
         $this->load->helper('form');
+        $this->load->helper('date');
         $this->load->model('MainSystem_m');
         $this->load->library('session');
     }
@@ -32,6 +33,28 @@ class AdminSystem extends CI_Controller
 			$this->load->view('footer_v');
 		}
 		else
+		{
+			redirect("MainSystem");
+		}
+	}
+	public function btnChangeSessionStatus()
+	{
+		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$status = $this->input->post('status');
+			$no = $this->input->post('no');
+
+			if ($status == "active") $status = "closed";
+			else if ($status == "closed") $status = "hidden";
+			else if ($status == "hidden") $status = "active";
+			$data = array(
+				'status' => $status,
+				'no' => $no
+			);
+			$this->MainSystem_m->findUpdate('schedule','no',$data['no'],$data);
+			redirect("AdminSystem");
+		}
+		else 
 		{
 			redirect("MainSystem");
 		}
