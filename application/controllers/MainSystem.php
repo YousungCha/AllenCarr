@@ -17,6 +17,10 @@ class MainSystem extends CI_Controller
         $this->load->library('session');
     }
 
+    public function test()
+    {
+    	echo time();
+    }
 	public function index()
 	{
 		$this->load->view('header_v');		
@@ -179,6 +183,7 @@ class MainSystem extends CI_Controller
 		{
 			$email = $this->input->post('email');
 			$payment = $this->input->post('payment');
+			$mer_id = $this->input->post('mer_id');
 			$date_1 = strtotime($this->input->post('date_1'));
 			$mbg = $date_1;
 			$date_1 = date("Y-m-d",$date_1);
@@ -191,10 +196,10 @@ class MainSystem extends CI_Controller
 				'class' => $this->input->post('class'), 
 				'amount' => $this->input->post('quantity'), 
 				'date_1' => $date_1, 
-				'status' => ($payment == 1) ? "1OK" : "wait",
+				'status' => ($this->checkCustomerInfo($mer_id) == 'paid') ? "1OK" : "wait",
 				'mbg' => $mbg,
 				'payment' => ($payment == 1) ? "card" : "account",
-				'order_number' => random_string("alnum",16),
+				'order_number' =>  $mer_id, 
 				'sales_code' => $this->input->post('sales_code'),
 			);
 			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
@@ -208,6 +213,8 @@ class MainSystem extends CI_Controller
 		{
 			$email = $this->input->get('email');
 			$payment = $this->input->get('payment');
+			$mer_id = $this->input->get('mer_id');
+
 			$date_1 = strtotime($this->input->get('date_1'));
 			$mbg = $date_1;
 			$date_1 = date("Y-m-d",$date_1);
@@ -220,10 +227,10 @@ class MainSystem extends CI_Controller
 				'class' => $this->input->get('class'), 
 				'amount' => $this->input->get('quantity'), 
 				'date_1' => $date_1, 
-				'status' => ($payment == 1) ? "1OK" : "wait",
+				'status' => ($this->checkCustomerInfo($mer_id) == 'paid') ? "1OK" : "wait",
 				'mbg' => $mbg,
 				'payment' => ($payment == 1) ? "card" : "account",
-				'order_number' => random_string("alnum",16),
+				'order_number' => $mer_id,
 				'sales_code' => $this->input->get('sales_code'),
 			);
 			if ($this->MainSystem_m->checkEmailExist('session',$email)) {
@@ -270,6 +277,61 @@ class MainSystem extends CI_Controller
 			if ($this->MainSystem_m->checkEmailExist('member',$email)) echo "true";
 			else echo "false";
 		}
+	}
+
+	/*
+	 * CURL
+	 */
+	private function getAccessToken()
+	{
+		$curl = curl_init();
+    	$data = array(
+    		'imp_key' => '8483749489703886',
+    		'imp_secret' => 'CqV1K8gyy6RjBLOuGwz0qtEvU1VRhJ5Ta0UU9btHhl1S7PnNmWOMqtiluecMYhF8hA3qLw73S9WZZjNl'
+    	);
+		curl_setopt_array($curl, array(
+		  CURLOPT_URL => "https://api.iamport.kr/users/getToken",
+		  CURLOPT_RETURNTRANSFER => true,
+		  CURLOPT_ENCODING => "",
+		  CURLOPT_MAXREDIRS => 10,
+		  CURLOPT_TIMEOUT => 100,
+		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		  CURLOPT_CUSTOMREQUEST => "POST",
+		  CURLOPT_POSTFIELDS => http_build_query($data),		  
+		));
+
+		$response = curl_exec($curl);
+		$err = curl_error($curl);
+		$retData = json_decode($response);	
+		curl_close($curl);		
+
+		return $retData->response->access_token;
+	}
+
+	private function checkCustomerInfo($user_key)
+	{
+		$curl = curl_init();
+		curl_setopt_array($curl, array(
+		  CURLOPT_URL => "https://api.iamport.kr/payments/find/".$user_key,
+		  CURLOPT_RETURNTRANSFER => true,
+		  CURLOPT_ENCODING => "",
+		  CURLOPT_MAXREDIRS => 10,
+		  CURLOPT_TIMEOUT => 100,
+		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		  CURLOPT_CUSTOMREQUEST => "POST",
+		  CURLOPT_HTTPHEADER => array(
+		    "Content-Type: application/json",
+		    "Authorization: ".$this->getAccessToken()
+		  ),
+		));
+
+		$response = curl_exec($curl);
+		$err = curl_error($curl);
+
+		$retData = json_decode($response);	
+		curl_close($curl);		
+
+		return $retData->response->status;
 	}
 }
 

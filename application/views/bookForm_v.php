@@ -113,6 +113,7 @@
 					<div class="h030"></div>
 					<button class="btn-general bacred2 pdg15 twhite cp1 we200" type="button" onclick="formSubmit();" style="margin-right: 15px; height: 55px; width: 100%">결제하기</button>
 					<div class="h015"></div>
+					<input type="hidden" name="mer_id" value="<?="merchant_".time();?>">
 				</form>
 			</div>
 		</center>
@@ -165,13 +166,14 @@
 		function iamPort(name, phone, email, quantity, price, queryString) 
 		{			
 			var prevForm = $("form[name=bookForm]").html();	// 폼 태그 저장
+			var mer_id = $('input[name="mer_id"]').val();
 			$("form[name=bookForm]").html('<p class="dp3 pdg30 tace tsilver we700"><img src="/images/lg.rotating-balls-spinner.gif"><br><br>잠시만 기다리세요. 결제를 진행 중입니다..<br><br><br></p>');
 	        var IMP = window.IMP;
 	        IMP.init('imp04349282'); //'iamport' 대신 부여받은 "가맹점 식별코드"를 사용.
 			IMP.request_pay({
 			    pg : 'inicis', // version 1.1.0부터 지원.
 			    pay_method : 'card',
-			    merchant_uid : 'merchant_' + new Date().getTime(),
+			    merchant_uid : mer_id,
 			    name : '알렌카 정규 금연테라피',
 			    amount : quantity * price,
 			    buyer_email : email,
@@ -190,7 +192,7 @@
 			       	// AJAX 호출
 			        $.ajax({
 			            type : 'post',
-			            url : '/MainSystem/InsertSession',
+			            url : '/MainSystem/InsertSession/',
 			            data : queryString,
 			            dataType : 'html',
 
