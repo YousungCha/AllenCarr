@@ -6,13 +6,8 @@
 			 		<div class="h100"></div> 
 			 		<div class="h050 mobile"></div> 
 			 		<p class="tt3 we700 twhite ln15 lt007" id="mt-value">
-			 			
 			 			첫담배를 피우기 전으로<br>
 			 			돌아갈 수 있는 유일한 길
-			 			<!--
-			 			알렌카, 10월에 새롭고 강해진 모습으로<br>
-			 			다시 찾아뵙겠습니다.
-			 			-->
 			 		</p>
 			 		<div class="h050"></div>
 			 		<p class="cp4 ln18 twhite2 lt000">Official Trademark</p>
@@ -132,7 +127,7 @@
 		$(modalName).modal('hide');
 		window.location.reload();	// for stopping the movie play
 	}
-	// Hero Section
+	// Hero Sections
 	var swiperHero = new Swiper('.swiper-container', {		
 		slidesPerView: 1,
 		effect: 'fade',
