@@ -125,7 +125,7 @@
 	function modalClose(modalName)
 	{
 		$(modalName).modal('hide');
-		window.location.reload();	// for stopping the movie play
+		window.location.reload();	// for stopping the movie plays
 	}
 	// Hero Sectionssss
 	var swiperHero = new Swiper('.swiper-container', {		
