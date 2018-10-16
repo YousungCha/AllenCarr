@@ -4,7 +4,7 @@
 		<div class="h030 desk"></div>
 		<div class="h070"></div>
 		<p class="tt3 we700 tace ln15 lt009">
-			진짜 금연은 목표가 다르다.
+			흡연 욕구 없이 평생 살 수 있을까?
 		</p>
 		<div class="h030"></div>
 		<p class="cp4 we200 tace lt100 tsilver">Allen Carr's Value</p>

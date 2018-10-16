@@ -31,7 +31,7 @@
 								<p class="cp3 twhite1 we300 tace lt000">CEO of Allen Carr London</p>
 								<p class="cp1 twhite we700 tace">John C. Dicey</p>
 								<div class="h005"></div>
-								<img src="/images/icon-linkedin.png">
+								<a href="https://www.linkedin.com/in/john-dicey-73571731/" target="_blank"><img src="/images/icon-linkedin.png"></a>
 							</td>
 						</tr>				
 					</table>
@@ -68,7 +68,7 @@
 								<p class="cp3 twhite1 we300 tace lt000">Senior Therapist</p>
 								<p class="cp1 twhite we700 tace">Colleen Dwyer</p>
 								<div class="h005"></div>
-								<img src="/images/icon-linkedin.png">
+								<a href="https://www.linkedin.com/in/colleendwyer/" target="_blank"><img src="/images/icon-linkedin.png"></a>
 							</td>												
 							<td class="tace">
 								<img src="/images/members/yousung-cha.png" class="img-member">

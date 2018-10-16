@@ -48,8 +48,8 @@
 		</div>
 	</div>
 
-	<div class="mobile-menu">
-		<div class="menu-bar bacnavy">
+	<div class="mobile-menu bacred2">
+		<div class="menu-bar">
 			<table width="100%">
 				<tr>
 					<td>
@@ -61,58 +61,71 @@
 				</tr>
 			</table>
 		</div>
-		<div class="menu-contents bacnavy">
+		<div class="menu-contents bwhite2">
 						
 			<?php if (!$this->uri->segment(2)) : ?>						
-			<table width="100%">								
+			<table width="100%">						
+				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
+					<td class="dp3 tblack1 pdg25" style="border-bottom: 1px solid darkgray; padding-left: 0px;"><b>예약페이지 바로가기</b></td>
+				</tr>					
 				<tr onclick="MoveScroll_m('tag-value')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Values</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">Values</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-method')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Method</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">Method</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-team')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Team</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">Team</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-partner')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">Partners</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">Partners</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-testi')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">TESTIMONIAL</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">TESTIMONIAL</td>
 				</tr>
 				<tr onclick="MoveScroll_m('tag-faq')">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">FAQ</td>
-				</tr>				
-				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;"><b>예약페이지 바로가기</b></td>
-				</tr>				
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">FAQ</td>
+				</tr>							
 			</table>
 			<?php else : ?>
 			<table width="100%">		
 				<tr onclick="location.href='<?=site_url('MainSystem/Book')?>'">
-					<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">예약페이지</td>
+					<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">예약페이지</td>
 				</tr>				
 				<?php if ($this->session->userdata('email') == "master@allencarr.co.kr") : ?>						
 					<tr onclick="location.href='<?=site_url('AdminSystem')?>'">
-						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">관리자페이지</td>
+						<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">관리자페이지</td>
 					</tr>									
 				<?php endif ?>
 				<?php if ($this->session->userdata('email')) : ?>						
 					<tr onclick="location.href='<?=site_url('MainSystem/MyPage')?>'">
-						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">마이페이지</td>
+						<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">마이페이지</td>
 					</tr>									
 					<tr onclick="location.href='<?=site_url('MainSystem/btnLogout')?>'">
-						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">로그아웃</td>
+						<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">로그아웃</td>
 					</tr>
 				<?php else : ?>					
 					<tr onclick="location.href='<?=site_url('MainSystem/Login')?>'">
-						<td class="dp3 twhite pdg25" style="border-bottom: 1px solid #555555; padding-left: 0px;">로그인</td>
+						<td class="dp3 tblack1 pdg20" style="border-bottom: 1px solid darkgray; padding-left: 0px;">로그인</td>
 					</tr>
-				<?php endif ?>				
+				<?php endif ?>	
 			</table>				
-			<?php endif ?>			
+			<?php endif ?>	
+			<table width="100%" class="bwhite pdg15">
+				<tr style="height: 10px;"></tr>
+				<tr>
+					<td class="pdg15 tace" onclick="location.href='https://open.kakao.com/o/gaAXTDV'">
+						카카오톡에서 상담하기
+					</td>
+				</tr>
+				<tr>
+					<td class="pdg15 tace">
+						일반문의 <b>1599-5332</b>
+					</td>
+				</tr>
+				<tr style="height: 10px;"></tr>
+			</table>		
 		</div>		
-		<div style="height: 1px; background-color: #555555;"></div>
 	</div>
 
 	<script type="text/javascript">

@@ -62,7 +62,7 @@
 		<center>
 		<div class="row def-width-1000">
 			<div class="col-md-4">
-				<img src="/images/tvn.jpg" width="100%">
+				<a href="https://vimeo.com/136162953" target="_blank"><img src="/images/tvn.jpg" width="100%"></a>
 				<div class="h025"></div>
 				<div class="container-fluid bwhite pdg00">
 					<p class="dp3 we700 tale ln15">
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="/images/kbs.jpg" width="100%">
+				<a href="https://vimeo.com/156791027" target="_blank"><img src="/images/kbs.jpg" width="100%"></a>
 				<div class="h025"></div>
 				<div class="container-fluid bwhite pdg00">
 					<p class="dp3 we700 tale ln15">
@@ -90,7 +90,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="/images/mbc.jpg" width="100%">
+				<a href="https://vimeo.com/137317301" target="_blank"><img src="/images/mbc.jpg" width="100%"></a>
 				<div class="h025"></div>
 				<div class="container-fluid bwhite pdg00">
 					<p class="dp3 we700 tale ln15">
