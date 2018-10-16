@@ -127,7 +127,7 @@
 		$(modalName).modal('hide');
 		window.location.reload();	// for stopping the movie play
 	}
-	// Hero Sections
+	// Hero Sectionssss
 	var swiperHero = new Swiper('.swiper-container', {		
 		slidesPerView: 1,
 		effect: 'fade',
