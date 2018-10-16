@@ -120,7 +120,7 @@
 			<div class="h030"></div>
 			<div class="container">
 				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QazMfHqV0J8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QazMfHqV0J8?rel=0&cc_load_policy=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="h100"></div>
