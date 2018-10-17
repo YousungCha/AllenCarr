@@ -19,7 +19,16 @@ class MainSystem extends CI_Controller
 
     public function test()
     {
-    	echo time();
+			$date_1 = date("2018-12-10");			
+			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
+			echo $mbg;
+
+			//$mbg = $date_1;
+			//$date_1 = date("Y-m-d",$date_1);
+			//$mbg = date("Y-m-d",strtotime($data_1." +3 months"));
+			//echo $mbg;
+
+			//echo $date_1;
     }
 	public function index()
 	{
@@ -187,7 +196,7 @@ class MainSystem extends CI_Controller
 			$date_1 = strtotime($this->input->post('date_1'));
 			$mbg = $date_1;
 			$date_1 = date("Y-m-d",$date_1);
-			$mbg = date("Y-m-d",strtotime("+3 months"));
+			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
 
 			$data = array(
 				'email' => $email, 
@@ -218,7 +227,7 @@ class MainSystem extends CI_Controller
 			$date_1 = strtotime($this->input->get('date_1'));
 			$mbg = $date_1;
 			$date_1 = date("Y-m-d",$date_1);
-			$mbg = date("Y-m-d",strtotime("+3 months"));
+			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
 
 			$data = array(
 				'email' => $email, 
