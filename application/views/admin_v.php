@@ -61,6 +61,30 @@
 						<tr style="height:12px; border-bottom: 1px solid silver;"></tr>
 						<tr style="height: 1px; background-color: #eeeeee"><td colspan="6"></td></tr>
 					<?php endforeach ?>
+
+					<?php 
+						$attributes = array('name' => 'newSession', 'method' => 'post');
+						echo form_open(site_url('AdminSystem/btnAddNewSession'),$attributes); 
+					?>					
+						<tr class="we200 tace" style="height:40px;">
+							<td class="cp3">
+								<SELECT name="count">
+									<option>1차</option>
+									<option>2차</option>
+									<option>3차</option>
+								</SELECT>
+							</td>
+							<td class="cp3">
+								<input name="session_date" value="2018-12-01 13:00:00">
+							</td>
+							<td class="cp3"><input name="session_dis" value="0"></td>
+							<td class="cp3"><input name="session_type" value="live"></td>
+							<td class="cp3"></td>
+							<td class="cp3">
+								<button class="btn-general twhite" type="submit" style="background-color: #4eb840; padding: 10px;">세션 등록</button>
+							</td>
+						</tr>
+					</form>
 				</table>
 				<div class="h030"></div>
 			</div>

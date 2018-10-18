@@ -39,7 +39,7 @@ class AdminSystem extends CI_Controller
 	}
 	public function btnChangeSessionStatus()
 	{
-		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		if ($this->session->userdata('email') == "master@allencarr.co.kr" && $_SERVER["REQUEST_METHOD"] == "POST")
 		{
 			$status = $this->input->post('status');
 			$no = $this->input->post('no');
@@ -61,7 +61,7 @@ class AdminSystem extends CI_Controller
 	}
 	public function btnChangeSessionEtc()
 	{
-		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		if ($this->session->userdata('email') == "master@allencarr.co.kr" && $_SERVER["REQUEST_METHOD"] == "POST")
 		{
 			$etc = $this->input->post('etc');
 			$no = $this->input->post('no');
@@ -79,7 +79,7 @@ class AdminSystem extends CI_Controller
 	}	
 	public function btnChangeSessionMember()
 	{
-		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		if ($this->session->userdata('email') == "master@allencarr.co.kr" && $_SERVER["REQUEST_METHOD"] == "POST")
 		{
 			$delete = $this->input->post('delete');
 			$no = $this->input->post('no');
@@ -105,6 +105,26 @@ class AdminSystem extends CI_Controller
 		{
 			redirect("MainSystem");
 		}
-	}		
+	}
+	public function btnAddNewSession()
+	{
+		if ($this->session->userdata('email') == "master@allencarr.co.kr" && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$data = array(
+				'count' => $this->input->post("count"),
+				'sdate' => $this->input->post("session_date"),
+				'price' => "398000",
+				'discount' => $this->input->post("session_dis"),
+				'type' => $this->input->post("session_type"),
+				'status' => "active",
+			);
+			$this->MainSystem_m->setData('schedule',$data);
+			redirect("AdminSystem");
+		}
+		else 
+		{
+			redirect("MainSystem");
+		}
+	}	
 }
 

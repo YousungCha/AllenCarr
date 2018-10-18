@@ -82,6 +82,7 @@ class MainSystem extends CI_Controller
 		if ($this->session->userdata('logged_in') == true)
 		{
 			$data = array(
+				'schedule' => $this->MainSystem_m->getAllData('schedule'),
 				'mem' => $this->MainSystem_m->getOneData('member',$this->session->userdata('email')), 
 				'data' => $this->MainSystem_m->getOneData('session',$this->session->userdata('email')), 
 			);
@@ -102,7 +103,8 @@ class MainSystem extends CI_Controller
 		{
 			if ($this->MainSystem_m->checkExist('session','email',$this->session->userdata('email')))
 			{
-				redirect("MainSystem/MyPage");
+				$data = $this->MainSystem_m->getOneData('session',$this->session->userdata('email'));
+				if ($data->status != "cancel") redirect("MainSystem/MyPage");				
 			}
 			$session_no = $this->input->post('session_no');
 			$query = $this->db->query("select * from schedule where no='$session_no'");
@@ -163,8 +165,8 @@ class MainSystem extends CI_Controller
 	{
 		if ($_SERVER["REQUEST_METHOD"] == "POST")
 		{
-			$email = $this->input->post('email');
-			$password = $this->input->post('password');
+			$email = $this->input->post('email',TRUE);
+			$password = $this->input->post('password',TRUE);
 			$password = password_hash($password, PASSWORD_DEFAULT);
 			$member_data = array(
 				'email' => $email, 
@@ -181,7 +183,75 @@ class MainSystem extends CI_Controller
 			redirect('MainSystem');
 		}
 	}
+	public function btnAddBoost()
+	{
+		if ($_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$email = $this->input->post('email',TRUE);
+			$schedule_no = $this->input->post('no',TRUE);
+			$schedule = $this->MainSystem_m->getOneSchedule('schedule',$schedule_no);
 
+			if ($schedule->count == 2) 
+			{
+				$data = array(					
+					'date_2' => $schedule->sdate, 
+					'status' => "2OK",
+				);
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);
+			}		
+			if ($schedule->count == 3) 
+			{
+				$data = array(
+					'date_3' => $schedule->sdate, 
+					'status' => "3OK",
+				);
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);
+			}	
+			redirect('MainSystem/MyPage');
+		}
+		else 
+		{
+			redirect('MainSystem/MyPage');
+		}
+	}
+	public function btnCancelSession()
+	{
+		if ($_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$email = $this->input->post('email',TRUE);
+			$data = $this->MainSystem_m->getOneData('session',$email);
+			$status = $data->status;
+
+			if ($status == 'wait')
+			{
+				$data = array(
+					'status' => "cancel",
+				);
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);	
+			}
+			else if ($status == '2OK')
+			{
+				$data = array(
+					'date_2' => "",
+					'status' => "1OK" 
+				);
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);	
+			}
+			else if ($status == '3OK')
+			{
+				$data = array(
+					'date_3' => "",
+					'status' => "2OK" 
+				);
+				$this->MainSystem_m->findUpdate('session','email',$email,$data);	
+			}
+			redirect('MainSystem/MyPage');
+		}
+		else 
+		{
+			redirect('MainSystem/MyPage');
+		}
+	}
 	/*
 	 * AJAX
 	 */
@@ -195,7 +265,7 @@ class MainSystem extends CI_Controller
 			$mer_id = $this->input->post('mer_id');
 			$date_1 = strtotime($this->input->post('date_1'));
 			$mbg = $date_1;
-			$date_1 = date("Y-m-d",$date_1);
+			$date_1 = date("Y-m-d H:i:s",$date_1);
 			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
 
 			$data = array(
@@ -226,7 +296,7 @@ class MainSystem extends CI_Controller
 
 			$date_1 = strtotime($this->input->get('date_1'));
 			$mbg = $date_1;
-			$date_1 = date("Y-m-d",$date_1);
+			$date_1 = date("Y-m-d H:i:s",$date_1);
 			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
 
 			$data = array(

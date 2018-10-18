@@ -18,6 +18,33 @@
 					<div class="h030"></div>
 				</div>
 				<div class="h015"></div>
+
+				<?php if (isset($data->email)) : ?>
+				<div class="container-fluid bwhite">
+					<div class="h030"></div>
+					<p class="dp3 we700">심화테라피 신청하기</p>
+					<div class="h010"></div>
+					<p class="cp3">
+						<?php 
+							$attributes = array('name' => 'boostSession', 'method' => 'post');
+							echo form_open(site_url('MainSystem/btnAddBoost'),$attributes); 
+						?>				
+							<input type="hidden" name="email" value="<?=$mem->email?>">		
+							<select name="no" style="height: 35px; width: 100%; font-size: 14px;">
+							<?php foreach($schedule as $row) : ?>
+								<?php if ($row['count'] != '1') : ?>
+									<option value="<?=$row['no']?>"><?=$row['count']?>차 : <?=date("Y-m-d (D) gA",human_to_unix($row['sdate']))?></option>
+								<?php endif ?>
+							<?php endforeach ?>
+							</select>
+							<br><br>
+							<button class="btn-general bacred2 pdg15 twhite cp1 we200" type="submit" onclick="formSubmit();" style="margin-right: 15px; height: 45px; width: 100%">심화테라피 신청하기</button>								
+						</form>
+					</p>			
+					<div class="h020"></div>
+				</div>
+				<div class="h015"></div>
+				<?php endif ?>
 			</div>
 			<div class="col-md-8">
 				<div class="container-fluid bwhite pdg30">
@@ -67,27 +94,27 @@
 						<tr style="height: 25px;"></tr>
 						<tr>
 							<td class="dp4 we500">1차 일정 </td>
-							<td class="cp1 we500 torange"><?=date("Y-m-d (D)",human_to_unix($data->date_1))?></td>
+							<td class="cp1 we500 torange"><?=date("Y-m-d (D) gA",human_to_unix($data->date_1))?></td>
 						</tr>
 						<tr style="height: 25px;"></tr>
 						<tr>
 							<td class="dp4 we500">2차 일정 </td>
-							<td class="cp1 we200">
+							<td class="cp1 we500 torange">
 								<?php if ($data->date_2 == 0) : ?>
 									<font class="cp2 tgray">아직 예약된 일정이 없습니다.</font>									
 								<?php else : ?>
-									<?=date("Y-m-d (D)",human_to_unix($data->date_2))?>
+									<?=date("Y-m-d (D) gA",human_to_unix($data->date_2))?>
 								<?php endif ?>
 							</td>
 						</tr>
 						<tr style="height: 25px;"></tr>
 						<tr>
 							<td class="dp4 we500">3차 일정 </td>
-							<td class="dp4 we200">
+							<td class="cp1 we500 torange">
 								<?php if ($data->date_3 == 0) : ?>
 									<font class="cp2 tgray">아직 예약된 일정이 없습니다.</font>
 								<?php else : ?>
-									<?=date("Y-m-d (D)",human_to_unix($data->date_3))?>
+									<?=date("Y-m-d (D) gA",human_to_unix($data->date_3))?>
 								<?php endif ?>
 							</td>
 						</tr>
@@ -113,14 +140,23 @@
 									3WAIT : 3차 예약 확정
 									3OK : 3차까지 참여 완료
 								-->
-								<?php if ($data->status == "wait") : ?>
-									<span class="pdg05 pdglr10 cp3" style="background-color:#43b4d9; color:white; border-radius: 10px; margin-left:-5px;" title="무통장 입금으로 신청하였으며, 아직 입금이 확인되지 않았습니다.">예약 대기</span>	
+								<?php 
+									$attributes = array('name' => 'cancelSession', 'method' => 'post');
+									echo form_open(site_url('MainSystem/btnCancelSession'),$attributes); 
+								?>									
+								<input type="hidden" name="email" value="<?=$mem->email?>">
+								<?php if ($data->status == "cancel") : ?>
+									<span class="pdg05 pdglr10 cp3 bacred2" style="color:white; border-radius: 10px; margin-left:-5px;" title="무통장 입금으로 신청하였으며, 아직 입금이 확인되지 않았습니다.">예약이 취소되었습니다.</span>
+								<?php elseif ($data->status == "wait") : ?>
+									<span class="pdg05 pdglr10 cp3" style="background-color:#43b4d9; color:white; border-radius: 10px; margin-left:-5px;" title="무통장 입금으로 신청하였으며, 아직 입금이 확인되지 않았습니다.">예약 대기</span>	<button class="btn-general cp3 bwhite" type="submit" style="height:30px; padding:5px;"><u>취소하기</u></button>
 								<?php elseif ($data->status == "1OK") : ?>
-									<span class="pdg05 pdglr10 cp3" style="background-color:#4eb840; color:white; border-radius: 10px; margin-left:-5px;">예약 확정</span>
+									<span class="pdg05 pdglr10 cp3" style="background-color:#4eb840; color:white; border-radius: 10px; margin-left:-5px;">1차 예약 확정</span> 
 								<?php elseif ($data->status == "2OK") : ?>
+									<span class="pdg05 pdglr10 cp3" style="background-color:#4eb840; color:white; border-radius: 10px; margin-left:-5px;">2차 예약 확정</span>&nbsp;&nbsp;<button class="btn-general cp3 bwhite" type="submit" style="height:30px; padding:5px;"><u>취소하기</u></button>
 								<?php elseif ($data->status == "3OK") : ?>
-									
+									<span class="pdg05 pdglr10 cp3" style="background-color:#4eb840; color:white; border-radius: 10px; margin-left:-5px;">3차 예약 확정</span>&nbsp;&nbsp;<button class="btn-general cp3 bwhite" type="submit" style="height:30px; padding:5px;"><u>취소하기</u></button>
 								<?php endif ?>
+								</form>
 							</td>
 						</tr>
 						<?php if ($data->status == "wait") : ?>

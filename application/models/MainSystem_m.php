@@ -58,6 +58,13 @@ class MainSystem_m extends CI_Model
         $query = $this->db->get($table);
         return $query->row();
     }    
+    function getOneSchedule($table, $no)
+    {
+        $this->db->select('*');
+        $this->db->where('no',$no);
+        $query = $this->db->get($table);
+        return $query->row();
+    }    
     function getTableCount($table)
     {
         $this->db->select('*');
