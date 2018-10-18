@@ -65,7 +65,7 @@
 					<?php 
 						$attributes = array('name' => 'newSession', 'method' => 'post');
 						echo form_open(site_url('AdminSystem/btnAddNewSession'),$attributes); 
-					?>					
+					?>
 						<tr class="we200 tace" style="height:40px;">
 							<td class="cp3">
 								<SELECT name="count">
@@ -104,91 +104,102 @@
 						<td class="cp3">상태</td>
 						<td class="cp3">결제방식</td>
 					</tr>
-					<?php foreach($session as $row) :?>
-						<tr style="height:15px;"></tr>
-						<tr onclick="openMember(<?=$row['no']?>);">
-							<td class="cp3 we200 tace"><?=$row['name']?></td>						
-							<td class="cp3 we200 tace"><?=$row['class']?></td>
-							<td class="cp3 we200 tace"><?=$row['amount']?></td>
-							<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_1']))?></td>
-							<td class="cp3 we200 tace"><?=$row['status']?></td>
-							<td class="cp3 we200 tace"><?=$row['payment']?></td>
-						</tr>
-						<tr style="height:15px;"></tr>
-						<tr style="height: 1px; background-color: #eeeeee;"><td colspan="6"></td></tr>
-						
+
+					<?php foreach ($schedule as $sch_row) : ?>
+						<?php if ($sch_row['count'] == 1) : ?>
 						<tr>
-							<td colspan="6">
-								<div class="container-fluid bwhite1" id="<?=$row['no']?>" style="display: none;">
-									<div class="h030"></div>
-										<center>
-										<?php 
-											$attributes = array('name' => 'sessionMemberChange', 'method' => 'post');
-											echo form_open(site_url('AdminSystem/btnChangeSessionMember'),$attributes); 
-										?>					
-											<input type="hidden" name="no" value="<?=$row['no']?>">						
-											<table>
-												<tr>
-													<td width="100">이름</td>
-													<td><input type="text" name="name" value="<?=$row['name']?>" style="width:100%;"></td>
-												</tr>
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td>이메일</td>
-													<td><input type="text" name="email" value="<?=$row['email']?>" style="width:100%;"></td>
-												</tr>
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td>전화번호</td>
-													<td><input type="text" name="phone" value="<?=$row['phone']?>" style="width:100%;"></td>
-												</tr>	
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td>날짜</td>
-													<td><input type="text" name="date_1" value="<?=$row['date_1']?>" style="width:100%;"></td>
-												</tr>	
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td>MBG</td>
-													<td><input type="text" name="mbg" value="<?=$row['mbg']?>" style="width:100%;"></td>
-												</tr>	
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td>상태</td>
-													<td>
-														<?=$row['status']?>&nbsp;
-														<select name="status" style="width:60%;">
-															<option value="wait">wait</option>
-															<option value="1OK">1OK</option>
-															<option value="2WAIT">2WAIT</option>
-															<option value="2OK">2OK</option>
-															<option value="3WAIT">3WAIT</option>
-															<option value="3OK">3OK</option>
-														</select>
-													</td>
-												</tr>
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td colspan="2">
-														<select name="delete" style="width:100%;">
-															<option value="no">상태유지</option>
-															<option value="yes">제거</option>
-														</select>														
-													</td>
-												</tr>												
-												<tr style="height: 10px;"></tr>
-												<tr>
-													<td colspan="2">
-														<button class="btn-general bacred twhite" type="submit" style="width:100%;">수정하기</button>
-													</td>
-												</tr>
-											</table>
-										</form>
-										</center>
-									<div class="h030"></div>
-								</div>
+							<td colspan="6" class="bacred2 twhite tace pdg15">
+								<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
 							</td>
 						</tr>
+						<?php endif ?>					
+						<?php foreach($session as $row) :?>
+							<?php if ($row['date_1'] == $sch_row['sdate']) : ?>
+							<tr style="height:15px;"></tr>
+							<tr onclick="openMember(<?=$row['no']?>);">
+								<td class="cp3 we200 tace"><?=$row['name']?></td>						
+								<td class="cp3 we200 tace"><?=$row['class']?></td>
+								<td class="cp3 we200 tace"><?=$row['amount']?></td>
+								<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_1']))?></td>
+								<td class="cp3 we200 tace"><?=$row['status']?></td>
+								<td class="cp3 we200 tace"><?=$row['payment']?></td>
+							</tr>
+							<tr style="height:15px;"></tr>
+							<tr style="height: 1px; background-color: #eeeeee;"><td colspan="6"></td></tr>							
+							<tr>
+								<td colspan="6">
+									<div class="container-fluid bwhite1" id="<?=$row['no']?>" style="display: none;">
+										<div class="h030"></div>
+											<center>
+											<?php 
+												$attributes = array('name' => 'sessionMemberChange', 'method' => 'post');
+												echo form_open(site_url('AdminSystem/btnChangeSessionMember'),$attributes); 
+											?>					
+												<input type="hidden" name="no" value="<?=$row['no']?>">						
+												<table>
+													<tr>
+														<td width="100">이름</td>
+														<td><input type="text" name="name" value="<?=$row['name']?>" style="width:100%;"></td>
+													</tr>
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td>이메일</td>
+														<td><input type="text" name="email" value="<?=$row['email']?>" style="width:100%;"></td>
+													</tr>
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td>전화번호</td>
+														<td><input type="text" name="phone" value="<?=$row['phone']?>" style="width:100%;"></td>
+													</tr>	
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td>날짜</td>
+														<td><input type="text" name="date_1" value="<?=$row['date_1']?>" style="width:100%;"></td>
+													</tr>	
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td>MBG</td>
+														<td><input type="text" name="mbg" value="<?=$row['mbg']?>" style="width:100%;"></td>
+													</tr>	
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td>상태</td>
+														<td>
+															<?=$row['status']?>&nbsp;
+															<select name="status" style="width:60%;">
+																<option value="wait">wait</option>
+																<option value="1OK">1OK</option>
+																<option value="2WAIT">2WAIT</option>
+																<option value="2OK">2OK</option>
+																<option value="3WAIT">3WAIT</option>
+																<option value="3OK">3OK</option>
+															</select>
+														</td>
+													</tr>
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td colspan="2">
+															<select name="delete" style="width:100%;">
+																<option value="no">상태유지</option>
+																<option value="yes">제거</option>
+															</select>														
+														</td>
+													</tr>												
+													<tr style="height: 10px;"></tr>
+													<tr>
+														<td colspan="2">
+															<button class="btn-general bacred twhite" type="submit" style="width:100%;">수정하기</button>
+														</td>
+													</tr>
+												</table>
+											</form>
+											</center>
+										<div class="h030"></div>
+									</div>
+								</td>
+							</tr>
+							<?php endif ?>							
+						<?php endforeach ?>
 					<?php endforeach ?>
 				</table>				
 				<div class="h030"></div>		
