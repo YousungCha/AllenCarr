@@ -255,6 +255,18 @@ class MainSystem extends CI_Controller
 	/*
 	 * AJAX
 	 */
+	public function downloadFile()
+	{
+		if ($_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$fileName = $this->input->post('file');
+			if ($fileName == "easyway.pdf")
+			{
+				$sql = "update analysis set method_file_count=method_file_count+1 where no=1";
+				$query = $this->db->query($sql);
+			}
+		}
+	}
 
 	public function InsertSession()
 	{

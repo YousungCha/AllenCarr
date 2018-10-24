@@ -115,7 +115,15 @@ class TableBuilder extends CI_Controller
 			PRIMARY KEY(no)
 		)
 		";
-		$this->db->query($data5);        
+
+		$data6 =
+		"CREATE TABLE IF NOT EXISTS analysis (
+			no int(10) NOT NULL AUTO_INCREMENT,
+			method_file_count int(10) NOT NULL,
+			PRIMARY KEY(no)
+		)
+		";
+		$this->db->query($data6);        
 	}
 }
 

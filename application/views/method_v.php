@@ -21,7 +21,7 @@
 						본 PDF 문서에는 금연테라피의 특징, 작동 방식, 참여하는 방법, 금연 성공의 기준 및 실패 가이드라인 등이 정리되어 있습니다.
 					</p>
 					<div class="h050"></div>
-					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-coming" onclick="noticeDownload();"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
+					<button class="twhite pdg20 pdglr40 cp2 lt000 btn-download" onclick="fileDownload('easyway.pdf');"><b>DOWNLOAD</b> <font class="cp3 twhite1"><b>PDF</b></font></button>
 					<div class="h030"></div>
 				</div>
 				<div class="h030"></div>
@@ -114,6 +114,24 @@
 		</center>		
 	</div>
 	<script type="text/javascript">
+	function fileDownload(fileName)
+	{
+		$.ajax({
+			type : 'post',
+			url : '/MainSystem/downloadFile/',
+			data : {file:fileName},
+			dataType : 'html',	            
+			async : false,
+
+			success: function(endData) {
+
+			},
+			error: function(xhr, status, error){
+				
+			}
+		});		
+		window.open('/data/' + fileName);		
+	}
 	function noticeDownload()
 	{
 		alert("곧 파일이 업로드 될 예정입니다.");
