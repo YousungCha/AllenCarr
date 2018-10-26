@@ -180,6 +180,7 @@
 
 				<div class="h015"></div>
 
+				<?php if (isset($data->email)) : ?>
 				<?php if (!isset($ques)) : ?>
 				<div class="container-fluid bwhite pdg30">
 					<div class="h015"></div>
@@ -306,6 +307,7 @@
 					<p class="dp3 we700 tsilver">금연테라피용 질문지가 제출되었습니다.</p>
 					<div class="h015"></div>					
 				</div>
+				<?php endif ?>
 				<?php endif ?>
 			</div>			
 		</div>
