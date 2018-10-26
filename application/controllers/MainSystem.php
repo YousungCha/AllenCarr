@@ -85,6 +85,7 @@ class MainSystem extends CI_Controller
 				'schedule' => $this->MainSystem_m->getAllData('schedule'),
 				'mem' => $this->MainSystem_m->getOneData('member',$this->session->userdata('email')), 
 				'data' => $this->MainSystem_m->getOneData('session',$this->session->userdata('email')), 
+				'ques' => $this->MainSystem_m->getOneData('question',$this->session->userdata('email')), 
 			);
 			$this->load->view('header_v');		
 			$this->load->view('menu_v');
@@ -251,6 +252,42 @@ class MainSystem extends CI_Controller
 		{
 			redirect('MainSystem/MyPage');
 		}
+	}
+	public function btnApplyQuestion()
+	{
+		if ($this->session->userdata('logged_in') == true && $_SERVER["REQUEST_METHOD"] == "POST")
+		{
+			$data = array(
+				'name' => $this->input->post('name',true), 
+				'email' => $this->input->post('email',true), 
+				'address' => $this->input->post('address',true), 
+				'occupation' => $this->input->post('occupation',true), 
+				'phone' => $this->input->post('phone',true), 
+				'recommender' => $this->input->post('recommender',true), 
+				'date_1' => $this->input->post('date_1',true), 
+				'ques1' => $this->input->post('ques1',true), 
+				'ques2' => $this->input->post('ques2',true), 
+				'ques3' => $this->input->post('ques3',true), 
+				'ques4' => $this->input->post('ques4',true), 
+				'ques5' => $this->input->post('ques5',true), 
+				'ques6' => $this->input->post('ques6',true), 
+				'ques7' => $this->input->post('ques7',true), 
+				'ques8' => $this->input->post('ques8',true), 
+				'ques9' => $this->input->post('ques9',true), 
+				'ques10' => $this->input->post('ques10',true), 
+				'ques11' => $this->input->post('ques11',true), 
+				'ques12' => $this->input->post('ques12',true), 
+				'ques13' => $this->input->post('ques13',true), 
+			);
+			if ($this->MainSystem_m->setData('question',$data))
+			{
+				redirect('MainSystem/MyPage');
+			}			
+		}
+		else 
+		{
+			redirect('MainSystem/MyPage');
+		}		
 	}
 	/*
 	 * AJAX
