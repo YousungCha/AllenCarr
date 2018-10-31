@@ -103,7 +103,7 @@
 								<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
 								<font class="we200">
 								<?php 
-									$sql = "select no from session where date_1='".$sch_row['sdate']."' and status='1OK'";
+									$sql = "select no from session where date_1='".$sch_row['sdate']."' and status!='cancel'";
 									$result = $this->db->query($sql);
 									echo $result->num_rows();
 								 ?>
@@ -191,6 +191,7 @@
 																			<option value="2OK">2OK</option>
 																			<option value="3WAIT">3WAIT</option>
 																			<option value="3OK">3OK</option>
+																			<option value="cancel">cancel</option>
 																		</select>
 																	</td>
 																</tr>

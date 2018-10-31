@@ -91,6 +91,7 @@ class AdminSystem extends CI_Controller
 					'name' => $this->input->post('name'),
 					'phone' => $this->input->post('phone'),
 					'status' => $this->input->post('status'),
+					'date_1' => $this->input->post('date_1'),
 					'mbg' => $this->input->post('mbg'),
 				);
 				$this->MainSystem_m->findUpdate('session','no',$data['no'],$data);
