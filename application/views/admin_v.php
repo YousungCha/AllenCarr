@@ -286,7 +286,107 @@
 						</tr>
 						<?php endif ?>
 					<?php endforeach ?>
-				</table>						
+				</table>		
+
+				<div class="h030"></div>
+				<p class="dp2 we700 tsilver">신청자 관리 3차</p>
+				<div class="h030"></div>
+				<table width="100%">
+					<?php foreach ($schedule as $sch_row) : ?>
+						<?php if ($sch_row['count'] == 3 && $sch_row['status'] != "hidden") : ?>
+						<tr onclick="openDate(<?=$sch_row['no']?>)" style="border-bottom: 1px solid silver;">
+							<td colspan="6" class="bacred2 twhite tace pdg15">								
+								<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
+								<font class="we200">
+								<?php 
+									$sql = "select no from session where date_2='".$sch_row['sdate']."' and status='2OK'";
+									$result = $this->db->query($sql);
+									echo $result->num_rows();
+								 ?>
+								 /
+								 <?php 
+									$sql = "select no from session where date_2='".$sch_row['sdate']."' and status='wait'";
+									$result = $this->db->query($sql);
+									echo $result->num_rows();
+								 ?>								 
+								</font>
+								<font class="we200 cp4 lt000 torange">(<?=$sch_row['status']?>)</font>
+							</td>
+						</tr>
+						<?php endif ?>		
+
+						<?php if ($sch_row['count'] == 3) : ?>
+						<tr style="display: none;" id="_<?=$sch_row['no']?>">
+							<td>
+								<table width="100%">
+									<tr class="bacnavy twhite we200 tace" style="height:40px;">
+										<td class="cp3">이름</td>
+										<td class="cp3">종류</td>
+										<td class="cp3">1차 날짜</td>
+										<td class="cp3">2차 날짜</td>
+										<td class="cp3">3차 날짜</td>
+										<td class="cp3">상태</td>
+										<td class="cp3">결제방식</td>
+									</tr>									
+									<?php foreach($session as $row) :?>
+										<?php if ($row['date_2'] == $sch_row['sdate']) : ?>
+										<tr style="height:15px;"></tr>
+										<tr onclick="openMember(<?=$row['no']?>);">
+											<td class="cp3 we200 tace"><?=$row['name']?></td>						
+											<td class="cp3 we200 tace"><?=$row['class']?></td>
+											<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_1']))?></td>
+											<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_2']))?></td>
+											<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_3']))?></td>
+											<td class="cp3 we200 tace"><?=$row['status']?></td>
+											<td class="cp3 we200 tace"><?=$row['payment']?></td>
+										</tr>
+										<tr style="height:15px;"></tr>
+										<tr style="height: 1px; background-color: #eeeeee;"><td colspan="6"></td></tr>							
+										<?php endif ?>							
+									<?php endforeach ?>
+								</table>
+							</td>
+						</tr>
+						<?php endif ?>
+					<?php endforeach ?>
+				</table>				
+
+				<div class="h030"></div>
+				<p class="dp2 we700 tsilver">예약 확정자 (날짜 미정)</p>
+				<div class="h030"></div>
+				<table width="100%">
+
+					<tr>
+						<td>
+							<table width="100%">
+								<tr class="bacnavy twhite we200 tace" style="height:40px;">
+									<td class="cp3">이름</td>
+									<td class="cp3">종류</td>
+									<td class="cp3">1차 날짜</td>
+									<td class="cp3">2차 날짜</td>
+									<td class="cp3">상태</td>
+									<td class="cp3">결제방식</td>
+								</tr>									
+								<?php foreach($session as $row) :?>
+									<?php if ($row['date_1'] == "0000-00-00 00:00:00" && $row['status'] == "1OK") : ?>
+									<tr style="height:15px;"></tr>
+									<tr onclick="openMember(<?=$row['no']?>);">
+										<td class="cp3 we200 tace"><?=$row['name']?></td>						
+										<td class="cp3 we200 tace"><?=$row['class']?></td>
+										<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_1']))?></td>
+										<td class="cp3 we200 tace"><?=mdate("%Y-%m-%d %g%A",human_to_unix($row['date_2']))?></td>
+										<td class="cp3 we200 tace"><?=$row['status']?></td>
+										<td class="cp3 we200 tace"><?=$row['payment']?></td>
+									</tr>
+									<tr style="height:15px;"></tr>
+									<tr style="height: 1px; background-color: #eeeeee;"><td colspan="6"></td></tr>							
+									<?php endif ?>							
+								<?php endforeach ?>
+							</table>
+						</td>
+					</tr>
+
+				</table>									
 				<div class="h030"></div>		
 			</div>								
 			<div class="h015"></div>
