@@ -19,7 +19,7 @@ class AdminSystem extends CI_Controller
 
 	public function index()
 	{
-		if ($this->session->userdata('email') == "master@allencarr.co.kr")
+		if ($this->session->userdata('email') == "master@allencarr.co.kr" || $this->session->userdata('email') == "maactik@naver.com")
 		{
 			$data = array(
 				'schedule' => $this->MainSystem_m->getAllData('schedule'),
@@ -79,7 +79,7 @@ class AdminSystem extends CI_Controller
 	}	
 	public function btnChangeSessionMember()
 	{
-		if ($this->session->userdata('email') == "master@allencarr.co.kr" && $_SERVER["REQUEST_METHOD"] == "POST")
+		if (($this->session->userdata('email') == "master@allencarr.co.kr" ) && $_SERVER["REQUEST_METHOD"] == "POST")
 		{
 			$delete = $this->input->post('delete');
 			$no = $this->input->post('no');
