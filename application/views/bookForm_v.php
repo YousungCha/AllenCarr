@@ -109,6 +109,41 @@
 							<input type="hidden" name="price" value="<?=$price?>">
 
 						</tr>
+						<tr style="height: 25px;"></tr>
+						<tr>
+							<td colspan="2">
+								<textarea style="width:100%; height: 350px; font-family: 'default'; line-height: 1.8;">
+알렌카의 이지웨이 환불보증제도
+
+알렌카(Allen Carr)는 1983년 그의 금연법을 최초로 개발하였습니다. 이후 그의 금연법을 기반으로 한 클리닉이 전 세계58개국에 설립되었고, 38개의 언어로 세계 각국에서 금연 테라피를 진행하고 있습니다. 그는 현재 금연 업계를 선도하는 전문가로 널리 인정받고 있으며, 이 금연법(Allen Carr's Easyway to Stop Smoking)의 명성이 지속해서 성장하는 이유는 '금연이 된다'는 단순한 이유 때문입니다.
+
+잘 아시는 바와 같이 저희는 고객이 금연에 실패하면 테라피 비용을 전액 환불해주는 독보적인 금연전문기업입니다. 이것이 가능한 이유는 우리의 금연 성공률이 그만큼 높기 때문입니다. 3개월 환불 보증에 근거한 금연 성공률은 90%에 육박합니다.
+
+귀하가 진심으로 금연을 원하신다면, 우리의 금연법은 그 소망을 이루어드릴 뿐만 아니라, 상대적으로 쉽게 해드립니다. 테라피 중 드리는 지시사항을 따르면 비흡연자가 될 수 있으며, 금단증상을 느끼는 시기에도 전혀 고통 없이 지낼 수 있습니다. 무엇보다 중요한 점은 귀하가 흡연을 그리워하지 않게 된다는 점입니다.
+
+테라피에 참석하는 대부분 흡연자는 단 1회의 테라피로 행복한 비흡연자가 됩니다. 하지만 예외적인 상황에 한하여 1회 이상의 테라피가 필요할 때도 있습니다. 이때는 처음 지불한 비용에 모든 것이 포함되어 있으므로 추가 비용이 발생하지 않습니다.
+
+***환불 조건
+
+이 서류에 서명한 이후로 3개월이 지났음에도 불구하고 여전히 담배를 피우신다면, 귀하가 지불하신 금액은 아무런 질문 없이 환불처리 됩니다. 저희는 실패했다는 고객의 말씀을 신뢰하고 겸허한 자세로 인정합니다. 그러나 저희는 고객이 진심으로 담배를 끊고 싶다는 마음으로 이 테라피에 참석하시기를 바랍니다.
+
+이 환불조항은 아래와 같은 상황이 발생할 경우 효력을 잃습니다.
+
+1) 1차 테라피 참여 이후 보증기간(3개월)이 경과한 경우
+2) 어떤 테라피이든 무단 불참, 연기, 혹은 15분 이상 지각한 경우
+3) 테라피 1차에 참석한 이후 3개월 이내에 심화 테라피 2차, 테라피 3차에 각각 1회 이상 참석하지 않은 경우
+   (테라피 2차, 테라피 3차는 테라피 1차와 전혀 다른 내용이며, 각각 약 3시간 정도의 시간이 소요됨)
+
+금연한 지 3개월이 지난 뒤 다시 흡연한 경우, 테라피 1을 제외한 추가 테라피에는 50%의 비용으로 참석이 가능합니다. 그러나 테라피 1차에 참석한 지 1년이 지났다면, 해당 테라피에 참석할 것이 요구됩니다. 이 경우 참가비 전액을 지불해야 하며, 환불 보증 제도도 처음부터 다시 적용됩니다. 
+								</textarea>
+							</td>
+						</tr>
+						<tr style="height:15px;"></tr>
+						<tr>
+							<td colspan="2" style="text-align: right;">
+								<input type="checkbox" name="agree_mbg"><font class="we200"> 환불보증제도에 동의합니다.</font>
+							</td>
+						</tr>
 					</table>
 					<div class="h030"></div>
 					<button class="btn-general bacred2 pdg15 twhite cp1 we200" type="button" onclick="formSubmit();" style="margin-right: 15px; height: 55px; width: 100%">결제하기</button>
@@ -135,12 +170,15 @@
 			var email = $('input[name="email"]').val();
 			var price = $('input[name="price"]').val();
 			var quantity = $("#session_quantity option:selected").val();
+			var agree = $('input[name="agree_mbg"]:checked').val();
+			
 
 			// 폼 검증 후 이상없으면 결제 모듈 띄움
 			if (!name) { alert("이름을 입력하세요."); }
 			else if (!phone) alert("전화번호를 입력하세요.");
 			else if (!email) alert("이메일 주소를 입력하세요.");
 			else if (!paymentType) { alert("결제 방식을 선택해주세요"); }
+			else if (agree != "on") { alert("환불보증제도에 동의해주세요."); }
 			else 
 			{
 				if (paymentType == 1) iamPort(name, phone, email, quantity, price, queryString);	 
