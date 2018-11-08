@@ -299,13 +299,13 @@
 								<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
 								<font class="we200">
 								<?php 
-									$sql = "select no from session where date_2='".$sch_row['sdate']."' and status='2OK'";
+									$sql = "select no from session where date_3='".$sch_row['sdate']."' and status='2OK'";
 									$result = $this->db->query($sql);
 									echo $result->num_rows();
 								 ?>
 								 /
 								 <?php 
-									$sql = "select no from session where date_2='".$sch_row['sdate']."' and status='wait'";
+									$sql = "select no from session where date_3='".$sch_row['sdate']."' and status='wait'";
 									$result = $this->db->query($sql);
 									echo $result->num_rows();
 								 ?>								 
@@ -329,7 +329,7 @@
 										<td class="cp3">결제방식</td>
 									</tr>									
 									<?php foreach($session as $row) :?>
-										<?php if ($row['date_2'] == $sch_row['sdate']) : ?>
+										<?php if ($row['date_3'] == $sch_row['sdate']) : ?>
 										<tr style="height:15px;"></tr>
 										<tr onclick="openMember(<?=$row['no']?>);">
 											<td class="cp3 we200 tace"><?=$row['name']?></td>						
