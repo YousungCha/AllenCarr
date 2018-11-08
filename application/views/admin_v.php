@@ -299,7 +299,7 @@
 								<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
 								<font class="we200">
 								<?php 
-									$sql = "select no from session where date_3='".$sch_row['sdate']."' and status='2OK'";
+									$sql = "select no from session where date_3='".$sch_row['sdate']."' and status='3OK'";
 									$result = $this->db->query($sql);
 									echo $result->num_rows();
 								 ?>
