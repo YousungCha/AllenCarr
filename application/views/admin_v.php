@@ -392,7 +392,18 @@
 			<div class="h015"></div>
 
 			<div class="container-fluid bwhite pdg30">
-				<p class="dp2 we700 tsilver">메일링 리스트</p>
+				<p class="dp2 we700 tsilver">질문지 관리</p>
+				<p class="cp1 we200 ln18">
+				<?php foreach($question as $row) : ?>
+					<?php if ($row['date_1'] == "2018-11-10 13:00:00" || $row['name'] == "조지훈" || $row['name'] == "조현수") : ?>
+					<b><?=$row['name']?> | <?=$row['address']?> | <?=$row['occupation']?><br></b>
+					<?=$row['ques1']?> <?=$row['ques2']?> <?=$row['ques3']?> <?=$row['ques4']?><br>
+					<?=$row['ques5']?><?=$row['ques6']?><?=$row['ques7']?><?=$row['ques8']?><br>
+					<?=$row['ques9']?><?=$row['ques10']?><?=$row['ques11']?><?=$row['ques12']?><?=$row['ques13']?>
+					<br><Br>
+					<?php endif ?>
+				<?php endforeach ?>
+			</p>
 			</div>
 			<div class="h015"></div>
 

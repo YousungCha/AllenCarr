@@ -21,11 +21,13 @@ class AdminSystem extends CI_Controller
 	{
 		if ($this->session->userdata('email') == "master@allencarr.co.kr" || $this->session->userdata('email') == "maactik@naver.com")
 		{
+
 			$data = array(
 				'schedule' => $this->MainSystem_m->getAllData('schedule'),
 				'session' => $this->MainSystem_m->getAllData('session'),
 				'mail_list' => $this->MainSystem_m->getAllData('mail_list'),
 				'member' => $this->MainSystem_m->getAllData('member'),
+				'question' => $this->MainSystem_m->getAllData('question')
 			);
 			$this->load->view('header_v');		
 			$this->load->view('menu_v');
