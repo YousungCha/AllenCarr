@@ -394,15 +394,45 @@
 			<div class="container-fluid bwhite pdg30">
 				<p class="dp2 we700 tsilver">질문지 관리</p>
 				<p class="cp1 we200 ln18">
-				<?php foreach($question as $row) : ?>
-					<?php if ($row['date_1'] == "2018-11-10 13:00:00" || $row['name'] == "조지훈" || $row['name'] == "조현수") : ?>
-					<b><?=$row['name']?> | <?=$row['address']?> | <?=$row['occupation']?><br></b>
-					<?=$row['ques1']?> <?=$row['ques2']?> <?=$row['ques3']?> <?=$row['ques4']?><br>
-					<?=$row['ques5']?><?=$row['ques6']?><?=$row['ques7']?><?=$row['ques8']?><br>
-					<?=$row['ques9']?><?=$row['ques10']?><?=$row['ques11']?><?=$row['ques12']?><?=$row['ques13']?>
-					<br><Br>
-					<?php endif ?>
+
+				<table width="100%">
+				<?php foreach ($schedule as $sch_row) : ?>
+					<?php if ($sch_row['count'] == 1) : ?>
+					<tr onclick="openQuest(<?=$sch_row['no']?>)" style="border-bottom: 1px solid silver;">
+						<td colspan="6" class="bacnavy twhite tace pdg15">								
+							<?=date("Y-m-d (D)",human_to_unix($sch_row['sdate']))?> : 
+							<font class="we200">
+							<?php 
+								$sql = "select no from session where date_1='".$sch_row['sdate']."' and status!='cancel'";
+								$result = $this->db->query($sql);
+								echo $result->num_rows();
+							 ?>
+							 /
+							 <?php 
+								$sql = "select no from session where date_1='".$sch_row['sdate']."' and status='wait'";
+								$result = $this->db->query($sql);
+								echo $result->num_rows();
+							 ?>								 
+							</font>
+							<font class="we200 cp4 lt000 torange">(<?=$sch_row['status']?>)</font>
+						</td>
+					</tr>
+					<?php endif ?>	
+					<tr style="display: none;" id="__<?=$sch_row['no']?>">
+						<td>
+							<?php foreach($question as $row) : ?>
+								<?php if ($row['date_1'] == $sch_row['sdate']): ?>
+								<b><?=$row['name']?> | <?=$row['address']?> | <?=$row['occupation']?><br></b>
+								<?=$row['ques1']?> <?=$row['ques2']?> <?=$row['ques3']?> <?=$row['ques4']?><br>
+								<?=$row['ques5']?><?=$row['ques6']?><?=$row['ques7']?><?=$row['ques8']?><br>
+								<?=$row['ques9']?><?=$row['ques10']?><?=$row['ques11']?><?=$row['ques12']?><?=$row['ques13']?>
+								<br><Br>
+								<?php endif ?>
+							<?php endforeach ?>							
+						</td>
+					</tr>
 				<?php endforeach ?>
+				</table>						
 			</p>
 			</div>
 			<div class="h015"></div>
@@ -440,5 +470,15 @@
 			else {
 				$(data).slideUp(300);
 			}		
+		}
+		function openQuest(id)
+		{
+			data = "#__" + id;	
+			if ($(data).css('display') == 'none') {			
+				$(data).slideDown(300);
+			}	
+			else {
+				$(data).slideUp(300);
+			}	
 		}
 	</script>
