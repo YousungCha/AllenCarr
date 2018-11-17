@@ -424,7 +424,7 @@
 							<?php foreach($question as $row) : ?>
 								<?php if ($row['date_1'] == $sch_row['sdate']): ?>									
 									<tr style="height: 30px; border-bottom: 1px solid silver; border-top:1px solid silver;">
-										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">개인 정보 </td>
+										<td class="cp2 we500 twhite" style="width:110px; background-color: gray; padding:5px;">개인 정보 </td>
 										<td class="cp2 we100" style="padding:5px;"><b><?=$row['name']?>&nbsp;&nbsp;<font color=silver> | </font> <?=$row['address']?> <font color=silver> | </font> <?=$row['occupation']?></td>
 									</tr>									
 									<tr style="height: 30px; border-bottom: 1px solid silver;">
