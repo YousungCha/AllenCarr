@@ -420,15 +420,94 @@
 					<?php endif ?>	
 					<tr style="display: none;" id="__<?=$sch_row['no']?>">
 						<td>
+							<table>
 							<?php foreach($question as $row) : ?>
-								<?php if ($row['date_1'] == $sch_row['sdate']): ?>
-								<b><?=$row['name']?> | <?=$row['address']?> | <?=$row['occupation']?><br></b>
-								<?=$row['ques1']?> <?=$row['ques2']?> <?=$row['ques3']?> <?=$row['ques4']?><br>
-								<?=$row['ques5']?><?=$row['ques6']?><?=$row['ques7']?><?=$row['ques8']?><br>
-								<?=$row['ques9']?><?=$row['ques10']?><?=$row['ques11']?><?=$row['ques12']?><?=$row['ques13']?>
-								<br><Br>
+								<?php if ($row['date_1'] == $sch_row['sdate']): ?>									
+									<tr style="height: 30px; border-bottom: 1px solid silver; border-top:1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">개인 정보 </td>
+										<td class="cp2 we100" style="padding:5px;"><b><?=$row['name']?>&nbsp;&nbsp;<font color=silver> | </font> <?=$row['address']?> <font color=silver> | </font> <?=$row['occupation']?></td>
+									</tr>									
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">평균 흡연량</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques1']?>
+										</td>
+									</tr>
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">선호 브랜드</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques2']?>
+										</td>
+									</tr>	
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">첫담배의 느낌</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques3']?>
+										</td>
+									</tr>
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">흡연 기간</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques4']?>
+										</td>
+									</tr>
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">배우자 흡연 여부</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques5']?>
+										</td>
+									</tr>		
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">금연하려는 이유</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques6']?>
+										</td>
+									</tr>
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">흡연의 이점</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques7']?>
+										</td>
+									</tr>			
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">흡연을 즐기는가?</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques8']?>
+										</td>
+									</tr>		
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">타인의 강요 여부</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques9']?>
+										</td>
+									</tr>				
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">최대 금연 기간</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques10']?>
+										</td>
+									</tr>		
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">시도해본 금연</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques11']?>
+										</td>
+									</tr>																			<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">알렌카 참여경로</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques12']?>
+										</td>
+									</tr>			
+									<tr style="height: 30px; border-bottom: 1px solid silver;">
+										<td class="cp2 we500 twhite" style="background-color: gray; padding:5px;">그외 메시지</td>
+										<td class="cp2 we100" style="padding:5px;">
+											<?=$row['ques13']?>
+										</td>
+									</tr>																									
+									<tr style="height: 20px;"></tr>
 								<?php endif ?>
 							<?php endforeach ?>							
+							</table>
 						</td>
 					</tr>
 				<?php endforeach ?>
