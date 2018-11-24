@@ -32,7 +32,7 @@
 							<input type="hidden" name="email" value="<?=$mem->email?>">		
 							<select name="no" style="height: 35px; width: 100%; font-size: 14px;">
 							<?php foreach($schedule as $row) : ?>
-								<?php if ($row['count'] != '1') : ?>
+								<?php if ($row['count'] != '1' && $row['status'] == 'active') : ?>
 									<option value="<?=$row['no']?>"><?=$row['count']?>차 : <?=date("Y-m-d (D) gA",human_to_unix($row['sdate']))?></option>
 								<?php endif ?>
 							<?php endforeach ?>
