@@ -119,8 +119,9 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="pdg15 tace">
-						일반문의 <b>1599-5332</b>
+					<td class="pdg15 tace ln18">
+						일반문의 <b>1599-5332</b><br>
+						기업문의 <b>080-080-8883</b>
 					</td>
 				</tr>
 				<tr style="height: 10px;"></tr>

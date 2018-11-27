@@ -19,16 +19,15 @@ class MainSystem extends CI_Controller
 
     public function test()
     {
-			$date_1 = date("2018-12-10");			
-			$mbg = date("Y-m-d",strtotime($date_1." +3 months"));
-			echo $mbg;
-
-			//$mbg = $date_1;
-			//$date_1 = date("Y-m-d",$date_1);
-			//$mbg = date("Y-m-d",strtotime($data_1." +3 months"));
-			//echo $mbg;
-
-			//echo $date_1;
+			$fp = fopen('./data/email_list.txt','r');
+			//$fr = fread($fp, filesize('./data/email_list.txt'));
+			//fclose($fp);
+			//echo $fr;
+			while(!feof($fp))
+			{
+				$doc_data = fgets($fp);
+				echo $doc_data."<br>";				
+			}
     }
 	public function index()
 	{
