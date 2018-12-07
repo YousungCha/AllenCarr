@@ -8,7 +8,8 @@
       <p class="cp3 twhite we200 lt003 ln18">
       (주)와이에이치 I 대표이사 : 차유성 I 경기도 군포시 산본로 378, 907<br>
       사업자등록번호 : 123-86-36014 I 통신판매업신고 : 0214-경기군포-0073 I 개인정보책임자 : 김창환<br>
-      Tel : <font class="torange">1599-5332</font>&nbsp;&nbsp;&nbsp;&nbsp;E-mail : <a class="twhite2 lt000" href="mailto:master@allencarr.co.kr" >master@allencarr.co.kr</a>
+      문의(개인) : <font class="torange">1599-5332</font>&nbsp;&nbsp;&nbsp;&nbsp;E-mail : <a class="twhite2 lt000" href="mailto:master@allencarr.co.kr" >master@allencarr.co.kr</a><br>
+      문의(기업) : <font class="torange">080-080-8883</font>&nbsp;&nbsp;&nbsp;&nbsp;
       </p>	
       <div class="h015"></div>
       <p class="cp4 twhite we500 lt000 ln18">Copyright ©2018 Allen Carr's Easyway (International) Ltd
