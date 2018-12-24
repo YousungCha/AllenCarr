@@ -19,6 +19,8 @@ class MainSystem extends CI_Controller
 
     public function test()
     {
+    	$this->load->view('test');
+    	/*
 			$fp = fopen('./data/email_list.txt','r');
 			//$fr = fread($fp, filesize('./data/email_list.txt'));
 			//fclose($fp);
@@ -28,6 +30,7 @@ class MainSystem extends CI_Controller
 				$doc_data = fgets($fp);
 				echo $doc_data."<br>";				
 			}
+		*/
     }
 	public function index()
 	{
