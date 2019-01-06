@@ -46,6 +46,7 @@
 }
 
 .ln10 { line-height: 1.0; }
+.ln12 { line-height: 1.2; }
 .ln15 { line-height: 1.5; }
 .ln18 { line-height: 1.8; }
 .ln20 { line-height: 2.0; }
@@ -71,7 +72,8 @@
 .dp1 { font-size: 30px; }
 .dp2 { font-size: 26px; }
 .dp3 { font-size: 23px; }
-.dp4 { font-size: 17px; }
+.dp4 { font-size: 20px; }
+.dp5 { font-size: 18px; }
 .cp1 { font-size: 15px; }
 .cp2 { font-size: 14px; }
 .cp3 { font-size: 12px; }

@@ -19,7 +19,10 @@ class MainSystem extends CI_Controller
 
     public function test()
     {
+    	$this->load->view('header_v');    	
     	$this->load->view('test');
+    	//$this->load->view('footer_v');
+    
     	/*
 			$fp = fopen('./data/email_list.txt','r');
 			//$fr = fread($fp, filesize('./data/email_list.txt'));
