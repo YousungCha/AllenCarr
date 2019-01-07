@@ -90,6 +90,24 @@
 	</div>
 	-->
 
+	<div class="container pdg30" style="background-color: #141414; background-image: url('/images/back_4.jpg');  height:750px; background-size: cover;">		
+		
+		<div class="h040"></div>
+		<p class="tt3 we700 twhite lt007 ln12 pdglr30">
+			완벽한 비흡연자로<br>돌아가는 방법
+		</p>		
+		<div class="h010"></div>
+		<p class="dp1 we400 ln15 pdglr30 tsilver">180도 거꾸로 접근하는 금연법, <b class="">알렌카</b></p>	
+		<div class="h040"></div>		
+		<p class="pdglr30"><img src="/images/logo_w.jpg" width="120"></p>
+		<div class="h040"></div>
+		<p class="dp4 we200 pdglr30 twhite ln18">
+			담배는 <b>평생 참아야 하는 것</b>으로 체념하고 계셨나요?<br>
+			당신의 상상보다 놀라운 방법으로, 주변의 <b>평범한 비흡연자처럼</b> 돌아갈 수 있습니다.<br><br>
+			<b class="tacred">* 금연, 또 미루면 평생 미룰지도 모릅니다.</b>
+		</p>	
+	</div>	
+
 	<!-- POINT 01 : Why Smokers fail to stop smoking? -->
 	<div class="container pdg00">		
 		<div class="h100"></div>
@@ -104,40 +122,70 @@
 			당신이 금연에 <b>실패할 수밖에 없는 교묘한 함정</b>이 있습니다.<br>
 			다음에 해당되지 않으시나요?
 		</p>
-		<div class="h070"></div>
-
-		<div class="row pdg30" style="background-color: #f3f3f3;">
-			<div class="h015"></div>
+		<div class="h080"></div>
+		<div class="row pdg30" style="background-color: #fafafa; position: relative; ">
+			<center>
+				<div style="background-color: #141414; 
+							width: 100px; height: 100px; 
+							position: absolute; 
+							top:-50px; left:555px;
+							border-radius: 50%;">
+								<div class="h030"></div>
+								<p class="twhite we200 sb3 lt000 twhite">01</p>
+							</div>
+			</center>			
+			<div class="h080"></div>
 			<div class="col-md-4">
 				<img src="/images/f_1_color.jpg" width="100%">
 				<br>				
 			</div>
 			<div class="col-md-8">
-				<p class="dp1 we200"><font class="tsilver">01</font> 담배를 끊었더니 ... </p>
+				<p class="dp1 we200">담배를 끊었더니 ... </p>
 				<div class="h005"></div>
 				<p class="dp4 we200 ln18">
 					<b>술자리도, 회식도, 좋아하던 모임</b>도 이젠 즐겁지가 않습니다.<br>
 					사회생활도 위축되고 자신감도 많이 떨어졌어요.<br>
-					특히, <u style="text-decoration: none; border-bottom: 1px solid black">스트레스를 어떻게 해야할 지</u> 모르겠어요.
+					특히, <u style="text-decoration: none; border-bottom: 1px solid black">스트레스를 어떻게 해야할 지</u> 모르겠어요.					
+				</p>
+				<div class="h015"></div>
+				<p class="dp5 tacred we700 ln18">
+					* 금연시 사회 활동에서 크고 작은 문제들이 끊이질 않습니다.
 				</p>
 			</div>
-			<div class="h015"></div>
+			<div class="h030"></div>
 		</div>
-		<div class="row pdg30" style="background-color: #fafafa;">
-			<div class="h015"></div>
+
+		<div class="h100"></div>
+
+		<div class="row pdg30" style="background-color: #fafafa; position: relative;">
+			<center>
+				<div style="background-color: #141414; 
+							width: 100px; height: 100px; 
+							position: absolute; 
+							top:-50px; left:555px;
+							border-radius: 50%;">
+								<div class="h030"></div>
+								<p class="twhite we200 sb3 lt000 twhite">02</p>
+							</div>
+			</center>			
+			<div class="h080"></div>			
 			<div class="col-md-8">
-				<p class="dp1 we200 tari"><font class="tsilver">02</font> 담배를 끊었더니 ... </p>
+				<p class="dp1 we200 tari">담배를 끊었더니 ... </p>
 				<div class="h005"></div>
 				<p class="dp4 we200 ln18 tari">
 					삶이 재미있지가 않습니다. 뭘해도 <u style="text-decoration: none; border-bottom: 1px solid black">항상 2% 부족한 느낌</u>이에요.<br>
 					인생이 공허하고, 다른 <b>흡연자들을 보면 너무 부럽습니다.</b><br>
+				</p>
+				<div class="h015"></div>
+				<p class="dp5 tacred we700 ln18 tari">
+					* 삶의 즐거움이 사라져 무언가 희생한다는 느낌을 계속 받습니다.
 				</p>
 			</div>			
 			<div class="col-md-4">
 				<img src="/images/f_2_color.jpg" width="100%">
 				<br>				
 			</div>
-			<div class="h015"></div>			
+			<div class="h030"></div>			
 		</div>
 
 
@@ -195,7 +243,7 @@
 		<div class="h070"></div>
 
 		<center>
-			<table width="100%" style="background-color: #e7e7e7">
+			<table width="100%" style="background-color: #141414">
 				<tr>
 					<td>
 						<div class="h001"></div>
